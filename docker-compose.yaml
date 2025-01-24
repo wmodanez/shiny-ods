@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  shiny-dev:
+      build:
+        context: .
+        dockerfile: docker/dev/Dockerfile
+      container_name: shiny-dev
+      restart: always
+      user: 'root'
+      privileged: true
+      ports:
+          - "8080:8080"
+      volumes:
+          - ./ods:/home/ods
