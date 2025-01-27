@@ -12,4 +12,3 @@ RUN . /opt/venv/bin/activate && pip install -r requirements.txt
 EXPOSE 8080
 
 CMD . /opt/venv/bin/activate && exec python myapp.py
-
