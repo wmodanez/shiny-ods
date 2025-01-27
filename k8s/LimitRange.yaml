@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: imb-limit
+  namespace: colocation-imb
+spec:
+  limits:
+  - type: Container
+    max:
+      memory: 8Gi
+      cpu: 4
+    min:
+      memory: 256Mi
+      cpu: 250m
+    default:
+      memory: 512Mi
+      cpu: 500m
+    defaultRequest:
+      memory: 256Mi
+      cpu: 250m

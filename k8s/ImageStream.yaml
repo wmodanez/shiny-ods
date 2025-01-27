@@ -1,0 +1,11 @@
+kind: ImageStream
+apiVersion: image.openshift.io/v1
+metadata:
+  name: shiny-ods
+  namespace: colocation-imb
+spec:
+  lookupPolicy:
+    local: false
+  tags:
+    - name: latest
+

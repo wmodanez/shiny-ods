@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: imb-quota
+  namespace: colocation-imb
+spec:
+  hard:
+    requests.cpu: "4"
+    requests.memory: 12Gi
+    limits.cpu: "12"
+    limits.memory: 32Gi
+    pods: "10"
+    services: "10"

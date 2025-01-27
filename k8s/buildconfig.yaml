@@ -1,0 +1,36 @@
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  name: shiny-ods-is
+  namespace: colocation-imb
+---
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: shiny-ods-build
+  namespace: colocation-imb
+
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'shiny-ods-is:latest'  # Nome da imagem gerada que será armazenada no ImageStream
+  resources:
+    requests:
+      memory: 512Mi
+      cpu: 500m
+    limits:
+      memory: 4Gi
+      cpu: 2
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile  # Caminho correto para o Dockerfile
+  source:
+    type: Git
+    git:
+      uri: 'https://github.com/wmodanez/shiny-ods.git'  # URL do repositório Git
+      ref: develop  # Branch a ser usado para o build (pode ser master, develop, etc.)
+  runPolicy: Serial  # Define a execução do build de forma serial (um de cada vez)
+  successfulBuildsHistoryLimit: 5  # Limite de builds bem-sucedidos a serem mantidos
+  failedBuildsHistoryLimit: 5  # Limite de builds falhos a serem mantidos
