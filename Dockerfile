@@ -18,4 +18,5 @@ RUN . /opt/venv/bin/activate && pip install -r requirements.txt
 
 EXPOSE 8080
 
-RUN . /opt/venv/bin/activate && shiny run --reload app.py --host 0.0.0.0 --port 8080
+# Set the entrypoint to activate the virtual environment and run the shiny command
+ENTRYPOINT ["/bin/sh", "-c", ". /opt/venv/bin/activate && exec shiny run --reload app.py --host 0.0.0.0 --port 8080"]
