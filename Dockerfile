@@ -9,11 +9,12 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
+COPY ods/* /app/
+
 WORKDIR /app
 
-COPY ods/* ./app/
-# RUN python3 -m venv /opt/venv
-# RUN . /opt/venv/bin/activate && pip install --upgrade pip
-# RUN . /opt/venv/bin/activate && pip install -r requirements.txt
+RUN python3 -m venv /opt/venv
+RUN . /opt/venv/bin/activate && pip install --upgrade pip
+RUN . /opt/venv/bin/activate && pip install -r requirements.txt
 
 EXPOSE 3838
