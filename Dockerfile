@@ -9,7 +9,7 @@ FROM python:3.9-slim
 
 # RUN apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
-# COPY ods/* /app/
+COPY ods/* /app/
 
 WORKDIR /app
 
