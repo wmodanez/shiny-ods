@@ -5,9 +5,7 @@ metadata:
   namespace: colocation-imb
 spec:
   hard:
-    requests.cpu: "4"
-    requests.memory: 12Gi
-    limits.cpu: "12"
+    requests.cpu: 6
+    requests.memory: 16Gi
+    limits.cpu: 24
     limits.memory: 32Gi
-    pods: "10"
-    services: "10"

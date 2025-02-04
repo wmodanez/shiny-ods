@@ -8,13 +8,13 @@ spec:
   - type: Container
     max:
       memory: 8Gi
-      cpu: 4
+      cpu: 6
     min:
-      memory: 256Mi
-      cpu: 250m
+      memory: 512Mi
+      cpu: 500m
     default:
       memory: 512Mi
       cpu: 500m
     defaultRequest:
-      memory: 256Mi
-      cpu: 250m
+      memory: 512Mi
+      cpu: 500m
