@@ -1,9 +1,3 @@
-apiVersion: image.openshift.io/v1
-kind: ImageStream
-metadata:
-  name: shiny-ods-is
-  namespace: colocation-imb
----
 apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
@@ -30,7 +24,7 @@ spec:
     type: Git
     git:
       uri: 'https://github.com/wmodanez/shiny-ods.git'  # URL do repositório Git
-      ref: develop  # Branch a ser usado para o build (pode ser master, develop, etc.)
+      ref: openshift  # Branch a ser usado para o build (pode ser master, develop, etc.)
   runPolicy: Serial  # Define a execução do build de forma serial (um de cada vez)
   successfulBuildsHistoryLimit: 5  # Limite de builds bem-sucedidos a serem mantidos
   failedBuildsHistoryLimit: 5  # Limite de builds falhos a serem mantidos
