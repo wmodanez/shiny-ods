@@ -23,17 +23,17 @@ spec:
       - name: shiny-app
         image: quay.apps.dc1openshiftadm.cloud.go.gov.br/dc1openshifthom_colocation-imb/shiny-ods-is:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 3838
         resources:
           requests:
-            memory: 512Mi
-            cpu: 500m
+            memory: 2Gi
+            cpu: 1
           limits:
             memory: 4Gi
             cpu: 2
         volumeMounts:
         - name: shiny-app-storage
-          mountPath: /app
+          mountPath: .:/app
       volumes:
       - name: shiny-app-storage
         persistentVolumeClaim:
