@@ -4,17 +4,31 @@ from pathlib import Path
 from shiny import App, ui
 from shinyswatch import theme
 
-df_objetivo: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/objetivos.csv', sep=';')
-df_metas: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/metas.csv', sep=';')
-df_indicadores: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';')
+from functools import lru_cache
+
+@lru_cache(maxsize=1)
+def load_objetivos():
+    df_objetivo: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/objetivos.csv', sep=';')
+    return df_objetivo
+
+@lru_cache(maxsize=1)
+def load_metas():
+    df_metas: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/metas.csv', sep=';')
+    return df_metas
+
+@lru_cache(maxsize=1)
+def load_indicadores():
+    df_indicadores: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';')
+    return df_indicadores
 
 cards = [
     ui.card(
-        ui.tags.h3(row['ID_OBJETIVO']),
-        ui.tags.p(row['DESC_OBJETIVO']),
+        ui.card_header(ui.tags.h3(row['ID_OBJETIVO']),),
+        ui.card_body(ui.tags.p(row['DESC_OBJETIVO']),),
         id=f"card_objetivo{index}",
-        style="display: none;"
-    ) for index, row in df_objetivo.iterrows()
+        style='display: block; width: 100%; height: 60vh; margin-top: -15px' 
+            if index == 0 else 'display: none; width: 100%; height: 60vh; margin-top: -15px',
+    ) for index, row in load_objetivos().iterrows()
 ]
 
 app_ui = ui.page_fluid(
@@ -26,6 +40,7 @@ app_ui = ui.page_fluid(
             col_widths=[-1, 3, 2, 6]
         ),
         id='card_top_menu',
+        style='margin-top: 15px; margin-right: 15px;',
     ),
     ui.page_sidebar(
         ui.sidebar(      
@@ -46,10 +61,10 @@ app_ui = ui.page_fluid(
                                 document.getElementById('card_objetivo{index}').style.display = 'block';
                             """
                         ),
-                    ) for index, row in df_objetivo.iterrows()
+                    ) for index, row in load_objetivos().iterrows()
                 ],
             ),
-            ui.tags.a('Créditos', href='#', style='text-align: left;'),
+            ui.tags.a('Créditos', href='#', style='text-align: left;'),            
         open='desktop',
         id='sidebar',
         ),
