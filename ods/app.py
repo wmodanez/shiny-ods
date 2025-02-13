@@ -32,14 +32,13 @@ app_ui = ui.page_fluid(
                             height="100%",
                             style='cursor: pointer;',
                             id=f"objetivo{index}",
-                            # display='no-display',
-                            # spacing=0,
                         ),
                     ) for index, row in df_objetivo.iterrows()
                 ],
             ),
             ui.tags.a('Créditos', href='#', style='text-align: left;'),
-        open='always',
+        open='desktop',
+        id='sidebar',
         ),
         ui.card(
             ui.card_header(ui.tags.h3('Objetivos de Desenvolvimento Sustentável')),
@@ -51,8 +50,8 @@ app_ui = ui.page_fluid(
                             Agenda 2030 no Brasil.'),
                          ui.tags.p('Clique nos ícones ao lado para saber mais sobre cada um dos ODS.'),
                          ui.tags.a('Fonte: ONU Brasil', href='https://brasil.un.org/pt-br/sdgs', target='_blank'),),
-            id='card_principal', #style='display: none;',
-            full_screen=True,
+            id='card_principal',
+            style='width: 100%; height: 60vh; margin-top: -15px',
         ),
         ui.layout_columns(
             ui.output_ui('dynamic_card'),
@@ -72,7 +71,7 @@ app_ui = ui.page_fluid(
         ),
     ),
     title="Instituto Mauro Borges - ODS - Agenda 2030",
-    theme=theme.zephyr
+    theme=theme.materia,
 )
 
 www_dir = Path(__file__).parent / "www"
