@@ -23,7 +23,7 @@ def load_indicadores():
 
 cards = [
     ui.card(
-        ui.card_header(ui.tags.h3(row['ID_OBJETIVO']),),
+        ui.card_header(ui.tags.h3(row['RES_OBJETIVO'] if row['ID_OBJETIVO'] == 'Objetivo 0' else row['ID_OBJETIVO'] + ' - ' + row['RES_OBJETIVO'])),
         ui.card_body(ui.tags.p(row['DESC_OBJETIVO']),),
         id=f"card_objetivo{index}",
         style='display: block; width: 100%; height: 60vh; margin-top: -15px' 
