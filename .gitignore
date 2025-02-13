@@ -173,3 +173,6 @@ cython_debug/
 *.R
 kubectl
 oc.tar.gz
+/app
+Thumbs.db
+\.vscode
