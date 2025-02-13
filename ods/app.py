@@ -1,12 +1,21 @@
 import pandas as pd
 
 from pathlib import Path
-from shiny import App, ui, reactive
+from shiny import App, ui
 from shinyswatch import theme
 
 df_objetivo: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/objetivos.csv', sep=';')
 df_metas: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/metas.csv', sep=';')
 df_indicadores: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';')
+
+cards = [
+    ui.card(
+        ui.tags.h3(row['ID_OBJETIVO']),
+        ui.tags.p(row['DESC_OBJETIVO']),
+        id=f"card_objetivo{index}",
+        style="display: none;"
+    ) for index, row in df_objetivo.iterrows()
+]
 
 app_ui = ui.page_fluid(
     ui.card(
@@ -32,6 +41,10 @@ app_ui = ui.page_fluid(
                             height="100%",
                             style='cursor: pointer;',
                             id=f"objetivo{index}",
+                            onclick=f"""
+                                document.querySelectorAll('[id^="card_objetivo"]').forEach(card => card.style.display = 'none');
+                                document.getElementById('card_objetivo{index}').style.display = 'block';
+                            """
                         ),
                     ) for index, row in df_objetivo.iterrows()
                 ],
@@ -40,35 +53,7 @@ app_ui = ui.page_fluid(
         open='desktop',
         id='sidebar',
         ),
-        ui.card(
-            ui.card_header(ui.tags.h3('Objetivos de Desenvolvimento Sustentável')),
-            ui.card_body(ui.tags.p('Os Objetivos de Desenvolvimento Sustentável são \
-                            um apelo global à ação para acabar com a pobreza, proteger o meio ambiente \
-                            e o clima e garantir que as pessoas, em todos os lugares, possam \
-                            desfrutar de paz e de prosperidade. Estes são os objetivos para os \
-                            quais as Nações Unidas estão contribuindo a fim de que possamos atingir a \
-                            Agenda 2030 no Brasil.'),
-                         ui.tags.p('Clique nos ícones ao lado para saber mais sobre cada um dos ODS.'),
-                         ui.tags.a('Fonte: ONU Brasil', href='https://brasil.un.org/pt-br/sdgs', target='_blank'),),
-            id='card_principal',
-            style='width: 100%; height: 60vh; margin-top: -15px',
-        ),
-        ui.layout_columns(
-            ui.output_ui('dynamic_card'),
-            ui.card(
-                ui.card_header("Column 1 Header"),
-                ui.card_body("This is the body of column 1."),
-                ui.card_footer("Column 1 Footer"),
-                id='card1', style='display: none;',
-            ),
-            ui.card(
-                ui.card_header("Column 2 Header"),
-                ui.card_body("This is the body of column 2."),
-                ui.card_footer("Column 2 Footer"),
-                id='card2', style='display: none;',
-            ),
-            col_widths=[6, 6]
-        ),
+    *cards,
     ),
     title="Instituto Mauro Borges - ODS - Agenda 2030",
     theme=theme.materia,
