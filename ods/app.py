@@ -21,10 +21,26 @@ def load_indicadores():
     df_indicadores: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';')
     return df_indicadores
 
+def create_tabset_for_objetivo(objetivo_id):
+    metas = load_metas()
+    indicadores = load_indicadores()
+    tabs = []
+    for _, meta in metas[metas['ID_OBJETIVO'] == objetivo_id].iterrows():
+        meta_id = meta['ID_META']
+        tab_content = ui.div(
+            ui.p(meta['DESC_META']),
+            
+        )
+        tabs.append(ui.nav_panel(meta_id, tab_content))
+    return ui.navset_pill(*tabs)
+
 cards = [
     ui.card(
         ui.card_header(ui.tags.h3(row['RES_OBJETIVO'] if row['ID_OBJETIVO'] == 'Objetivo 0' else row['ID_OBJETIVO'] + ' - ' + row['RES_OBJETIVO'])),
-        ui.card_body(ui.tags.p(row['DESC_OBJETIVO']),),
+        ui.card_body(
+            ui.tags.p(row['DESC_OBJETIVO']),
+            create_tabset_for_objetivo(row['ID_OBJETIVO'])
+        ),
         id=f"card_objetivo{index}",
         style='display: block; width: 100%; height: 60vh; margin-top: -15px' 
             if index == 0 else 'display: none; width: 100%; height: 60vh; margin-top: -15px',
@@ -82,6 +98,5 @@ app_ui.head_content = ui.tags.head(
 
 def server(input, output, session):
     pass
-
 
 app = App(app_ui, server, static_assets=www_dir)
