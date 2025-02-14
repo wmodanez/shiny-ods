@@ -6,20 +6,24 @@ from shinyswatch import theme
 
 from functools import lru_cache
 
+
 @lru_cache(maxsize=1)
 def load_objetivos():
     df_objetivo: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/objetivos.csv', sep=';')
     return df_objetivo
+
 
 @lru_cache(maxsize=1)
 def load_metas():
     df_metas: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/metas.csv', sep=';')
     return df_metas
 
+
 @lru_cache(maxsize=1)
 def load_indicadores():
     df_indicadores: pd.DataFrame = pd.read_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';')
     return df_indicadores
+
 
 def create_tabset_for_objetivo(objetivo_id):
     metas = load_metas()
@@ -108,6 +112,7 @@ www_dir = Path(__file__).parent / "www"
 app_ui.head_content = ui.tags.head(
     ui.tags.link(rel="icon", href='favicon.ico', type="image/x-icon")
 )
+
 
 def server(input, output, session):
     pass
