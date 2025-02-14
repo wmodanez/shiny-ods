@@ -27,21 +27,23 @@ def create_tabset_for_objetivo(objetivo_id):
     tabs = []
     for _, meta in metas[metas['ID_OBJETIVO'] == objetivo_id].iterrows():
         meta_id = meta['ID_META']
-        tab_content = ui.div(
+        indicadores_produzidos = indicadores[(indicadores['ID_META'] == meta_id) & (indicadores['STATUS'] == 'Produzido')]
+        if not indicadores_produzidos.empty:
+            tab_content = ui.div(
             ui.p(meta['DESC_META']),
             ui.div(
                 ui.tags.h5('Indicadores'),
                 ui.navset_card_tab(
-                    *[
-                        ui.nav_panel(
-                            indicador['ID_INDICADOR'],
-                            ui.p(indicador['DESC_INDICADOR'])
-                        ) for _, indicador in indicadores[indicadores['ID_META'] == meta_id].iterrows()
-                    ]
+                *[
+                    ui.nav_panel(
+                    indicador['ID_INDICADOR'],
+                    ui.p(indicador['DESC_INDICADOR'])
+                    ) for _, indicador in indicadores_produzidos.iterrows()
+                ]
                 )
             ),
-        )   
-        tabs.append(ui.nav_panel(meta_id, tab_content))
+            )
+            tabs.append(ui.nav_panel(meta_id, tab_content))
     return ui.navset_pill(*tabs)
 
 cards = [
