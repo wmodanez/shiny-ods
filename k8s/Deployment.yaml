@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: shiny-app
+  name: shiny-ods
   namespace: colocation-imb
 spec:
   # strategy:
@@ -11,16 +11,17 @@ spec:
   #     maxSurge: 25%
   selector:
     matchLabels:
-      app: shiny-app
+      app: shiny-ods
   template:
     metadata:
       labels:
-        app: shiny-app
+        app: shiny-ods
+        deployment: shiny-ods
     spec:
       restartPolicy: Always
       serviceAccountName: imb-anyuid
       containers:
-      - name: shiny-app
+      - name: shiny-ods
         image: quay.apps.dc1openshiftadm.cloud.go.gov.br/dc1openshifthom_colocation-imb/shiny-ods-is:latest
         ports:
         - containerPort: 3838

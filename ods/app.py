@@ -36,7 +36,7 @@ def create_tabset_for_objetivo(objetivo_id):
     for _, meta in metas[metas['ID_OBJETIVO'] == objetivo_id].iterrows():
         meta_id = meta['ID_META']
         indicadores_produzidos = indicadores[
-            (indicadores['ID_META'] == meta_id) & (indicadores['STATUS'] == 'Produzido')
+            (indicadores['ID_META'] == meta_id) & (indicadores['RBC'] == True)
         ]
         if not indicadores_produzidos.empty:
             tab_content = ui.div(
