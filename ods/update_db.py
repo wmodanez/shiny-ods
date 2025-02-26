@@ -11,6 +11,19 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 
 
 def df_to_excel(df, ws, name_sheet, header=False, index=False, startrow=0, startcol=0):
+    """
+    Escreve um DataFrame df em uma planilha openpyxl ws.
+    Parâmetros:
+    df (DataFrame): O DataFrame a ser escrito na planilha.
+    ws (Workbook): O objeto de planilha openpyxl onde o DataFrame será escrito.
+    name_sheet (str): O nome da nova aba a ser criada na planilha.
+    header (bool, opcional): Se True, escreve os nomes das colunas do DataFrame. Padrão é False.
+    index (bool, opcional): Se True, escreve os índices do DataFrame. Padrão é False.
+    startrow (int, opcional): A linha inicial onde os dados serão escritos. Padrão é 0.
+    startcol (int, opcional): A coluna inicial onde os dados serão escritos. Padrão é 0.
+    Retorna:
+    Workbook: O objeto de planilha openpyxl com o DataFrame escrito.
+    """
     """Write DataFrame df to openpyxl worksheet ws"""
 
     rows = dataframe_to_rows(df, header=header, index=index)
@@ -24,6 +37,20 @@ def df_to_excel(df, ws, name_sheet, header=False, index=False, startrow=0, start
 
 
 def get_sidra_data(indicador):
+    """
+    Obtém dados da API SIDRA para o indicador fornecido.
+    Parâmetros:
+    indicador (str): URL do indicador para o qual os dados devem ser obtidos.
+    Retorna:
+    dict: Dados obtidos da API SIDRA se a solicitação for bem-sucedida.
+    None: Se a solicitação falhar após o número máximo de tentativas.
+    Exceções:
+    Exceção genérica capturada e tratada com tentativas de reconexão.
+    Notas:
+    - A função tenta obter dados da API SIDRA até um máximo de 5 tentativas.
+    - Em caso de falha, espera 5 segundos antes de tentar novamente.
+    - A codificação da resposta é definida como 'UTF-8'.
+    """
     """Get data from SIDRA API for the given indicator"""
     # url = f'{indicador}/json/data?formato=json'
 
@@ -104,10 +131,6 @@ list_indicadores = {
         },
         'Meta3.7': {
             'Indicador 3.7.2': '/t/8174/n1/all/n3/all/v/9433,11687/p/all/c58/all/d/v11687%201'
-        },
-        'Meta3.8': {
-            'Indicador 3.8.2': '/t/6699/n1/all/n2/all/v/9735,9736/p/all/c1871/all/d/v9735%201,v9736%201',
-            'Indicador 3.8.2_sexo': '/t/6590/n1/all/v/9735,9736/p/all/c1871/all/c1872/all/d/v9735%201,v9736%201'
         },
         'Meta3.9': {
             'Indicador 3.9.2': '/t/8191/n1/all/n3/all/v/9737,11725/p/last%2017/c2/all/c58/all/d/v9737%201',
@@ -418,111 +441,118 @@ list_indicadores = {
 }
 
 # Lista de colunas
-list_colunas: list = {'Nível Territorial (Código)': 'CODG_NIV_TER', 'Nível Territorial': 'DESC_NIV_TER',
-                 'Brasil e Unidade da Federação (Código)': 'CODG_UND_FED',
-                 'Brasil e Unidade da Federação': 'DESC_UND_FED',
-                 'Unidade da Federação e Brasil (Código)': 'CODG_UND_FED',
-                 'Unidade da Federação e Brasil': 'DESC_UND_FED',
-                 'Unidade da Federação e Total (Código)': 'CODG_UND_FED',
-                 'Unidade da Federação e Total': 'DESC_UND_FED',
-                 'Unidade de Medida (Código)': 'CODG_UND_MED',
-                 'Unidade de Medida': 'DESC_UND_MED',
-                 'Brasil (Código)': 'CODG_UND_FED',
-                 'Brasil': 'DESC_UND_FED',
-                      'Variável (Código)': 'CODG_VAR',
-                      'Variável': 'DESC_VAR',
-                      'Valor': 'VLR_VAR',
-                      'Ano (Código)': 'CODG_ANO',
-                      'Ano': 'DESC_ANO',
-                      'Grupo de idade': 'DESC_IDADE',
-                      'Sexo (Código)': 'CODG_SEXO',
-                      'Sexo': 'DESC_SEXO',
-                      'Sexo da pessoa de referência (Código)': 'CODG_SEXO',
-                      'Sexo da pessoa de referência': 'DESC_SEXO',
-                      'Grupo de idade (Código)': 'CODG_IDADE',
-                      'Situação de segurança alimentar existente no domicílio (Código)': 'CODG_SIT_SEG_ALI_DOM',
-                      'Situação de segurança alimentar existente no domicílio': 'DESC_SIT_SEG_ALI_DOM',
-                      'Cor ou raça (Código)': 'CODG_RACA', 'Cor ou raça': 'DESC_RACA',
-                      'Tipo de doença (Código)': 'CODG_TIPO_DOENCA',
-                      'Tipo de doença': 'DESC_TIPO_DOENCA',
-                      'Biênio (Código)': 'CODG_BIENIO', 'Biênio': 'DESC_BIENIO',
-                      'Definição do gasto com com saúde (Código)': 'CODG_DEF_GAST_SAUDE',
-                      'Definição do gasto com com saúde': 'DESC_DEF_GAST_SAUDE',
-                      'Grupos de idade e nível de ensino (Código)': 'COD_GRU_IDADE_NIV_ENS',
-                      'Grupos de idade e nível de ensino': 'DESC_GRU_IDADE_NIV_ENS',
-                      'Situação do domicílio (Código)': 'CODG_SIT_DOM',
-                      'Situação do domicílio': 'DESC_SIT_DOM',
-                      'Brasil e Grande Região (Código)': 'CODG_REGIAO',
-                      'Brasil e Grande Região': 'DESC_REGIAO',
-                      'Classes de percentual das pessoas em ordem crescente de rendimento domiciliar per capita (Código)': 'CODG_CLAS_PERC_REND_DOM_PER_CAP',
-                      'Classes de percentual das pessoas em ordem crescente de rendimento domiciliar per capita': 'DESC_CLAS_PERC_REND_DOM_PER_CAP',
-                      'Infraestrutura das escolas (Código)': 'CODG_INF_ESC',
-                      'Infraestrutura das escolas': 'DESC_INF_ESC',
-                      'Grupamento de atividade no trabalho principal (Código)': 'CODG_GRUP_ATIV_TRAB',
-                      'Grupamento de atividade no trabalho principal': 'DESC_GRUP_ATIV_TRAB',
-                      'Atividade do trabalho principal (Código)': 'CODG_ATV_TRAB',
-                      'Atividade do trabalho principal': 'DESC_ATV_TRAB',
-                      'Existência de deficiência (Código)': 'CODG_DEF',
-                      'Existência de deficiência': 'DESC_DEF',
-                      'Grupamento ocupacional no trabalho principal - PNADC (Código)': 'CODG_GRUP_OCUP_TRAB_PNAD',
-                      'Grupamento ocupacional no trabalho principal - PNADC': 'DESC_GRUP_OCUP_TRAB_PNAD',
-                      'Tipo de Movimentação (Código)': 'CODG_TIP_MOV',
-                      'Tipo de Movimentação': 'DESC_TIP_MOV',
-                      'Tipo de meio de transporte (Código)': 'CODG_TIP_MEIO_TRANSP',
-                      'Tipo de meio de transporte': 'DESC_TIP_MEIO_TRANSP',
-                      'Atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados (Código)': 'CODG_ATV_IND_SET_IND',
-                      'Atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados': 'DESC_ATV_IND_SET_IND',
-                      'Tipo de cobertura da telefonia móvel (Código)': 'CODG_TIP_COB_TEF_MOV',
-                      'Tipo de cobertura da telefonia móvel': 'DESC_TIP_COB_TEF_MOV',
-                      'Meses do ano (Código)': 'CODG_MES_ANO',
-                      'Meses do ano': 'DESC_MES_ANO',
-                      'Trimestres do ano (Código)': 'CODG_TRI_ANO',
-                      'Trimestres do ano': 'DESC_TRI_ANO',
-                      'Sexênio (Código)': 'CODG_SEXENIO',
-                      'Sexênio': 'DESC_SEXENIO',
-                      'Tipo de patrimônio (Código)': 'CODG_TIP_PATR',
-                      'Tipo de patrimônio': 'DESC_TIP_PATR',
-                      'Nível de governo (Código)': 'CODG_NIV_GOV',
-                      'Nível de governo': 'DESC_NIV_GOV',
-                      'Disposição final (Código)': 'CODG_DISP_FINAL',
-                      'Disposição final': 'DESC_DISP_FINAL',
-                      'Triênio (Código)': 'CODG_TRIENIO',
-                      'Triênio': 'DESC_TRIENIO',
-                      'Faixas de pessoal ocupado (Código)': 'CODG_FAI_PESS_OCUP',
-                      'Faixas de pessoal ocupado': 'DESC_FAI_PESS_OCUP',
-                      'Fonte de emissão de gases de efeito estufa (Código)': 'CODG_FONT_EMIS_GAS_EFEITO_EST',
-                      'Fonte de emissão de gases de efeito estufa': 'DESC_FONT_EMIS_GAS_EFEITO_EST',
-                      'Bioma e Brasil (Código)': 'CODG_BIOMA',
-                      'Bioma e Brasil': 'DESC_BIOMA',
-                      'Classificação de montanha (Kapos) (Código)': 'CODG_KAPOS',
-                      'Classificação de montanha (Kapos)': 'DESC_KAPOS',
-                      'Nível de instrução (Código)': 'CODG_NIV_INSTR',
-                      'Nível de instrução': 'DESC_NIV_INSTR',
-                      'Etapa de ensino (Código)': 'CODG_ETAPA_ENS',
-                      'Etapa de ensino': 'DESC_ETAPA_ENS',
-                      'Rendimento mensal domiciliar per capita (Código)': 'CODG_REND_MENSAL_DOM_PER_CAP',
-                      'Rendimento mensal domiciliar per capita': 'DESC_REND_MENSAL_DOM_PER_CAP',
-                      'Nível na instituição pública (Código)': 'CODG_NIV_INST_PUBL',
-                      'Nível na instituição pública': 'DESC_NIV_INST_PUBL',
-                      'Velocidade de ligação (Código)': 'CODG_VEL_LIGACAO',
-                      'Velocidade de ligação': 'DESC_VEL_LIGACAO',
-                      'Região Hidrográfica e Brasil (Código)': 'CODG_REG_HIDR',
-                      'Região Hidrográfica e Brasil': 'DESC_REG_HIDR',
-                      'Setor de atividade (Código)': 'CODG_SET_ATIV',
-                      'Setor de atividade': 'DESC_SET_ATIV',
-                      'Ecossistema relacionado à água (Código)': 'CODG_ECO_REL_AGUA',
-                      'Ecossistema relacionado à água': 'DESC_ECO_REL_AGUA',
-                      'Tipo de dinâmica do ecossistema relacionada à agua (Código)': 'CODG_TIP_DIN_ECO_REL_AGUA',
-                      'Tipo de dinâmica do ecossistema relacionada à agua': 'DESC_TIP_DIN_ECO_REL_AGUA',
-                      'Tipo de desembolso bruto de ajuda oficial (Código)': 'CODG_TIP_DESB_BRUTO_AJUDA_OFICIAL',
-                      'Tipo de desembolso bruto de ajuda oficial': 'DESC_TIP_DESB_BRUTO_AJUDA_OFICIAL'}
+list_colunas: list = {
+    'Nível Territorial (Código)': 'CODG_NIV_TER',
+    'Nível Territorial': 'DESC_NIV_TER',
+    'Brasil e Unidade da Federação (Código)': 'CODG_UND_FED',
+    'Brasil e Unidade da Federação': 'DESC_UND_FED',
+    'Unidade da Federação e Brasil (Código)': 'CODG_UND_FED',
+    'Unidade da Federação e Brasil': 'DESC_UND_FED',
+    'Unidade da Federação e Total (Código)': 'CODG_UND_FED',
+    'Unidade da Federação e Total': 'DESC_UND_FED',
+    'Unidade de Medida (Código)': 'CODG_UND_MED',
+    'Unidade de Medida': 'DESC_UND_MED',
+    'Brasil (Código)': 'CODG_UND_FED',
+    'Brasil': 'DESC_UND_FED',
+    'Variável (Código)': 'CODG_VAR',
+    'Variável': 'DESC_VAR',
+    'Valor': 'VLR_VAR',
+    'Ano (Código)': 'CODG_ANO',
+    'Ano': 'DESC_ANO',
+    'Grupo de idade': 'DESC_IDADE',
+    'Sexo (Código)': 'CODG_SEXO',
+    'Sexo': 'DESC_SEXO',
+    'Sexo da pessoa de referência (Código)': 'CODG_SEXO',
+    'Sexo da pessoa de referência': 'DESC_SEXO',
+    'Grupo de idade (Código)': 'CODG_IDADE',
+    'Situação de segurança alimentar existente no domicílio (Código)': 'CODG_SIT_SEG_ALI_DOM',
+    'Situação de segurança alimentar existente no domicílio': 'DESC_SIT_SEG_ALI_DOM',
+    'Cor ou raça (Código)': 'CODG_RACA',
+    'Cor ou raça': 'DESC_RACA',
+    'Tipo de doença (Código)': 'CODG_TIPO_DOENCA',
+    'Tipo de doença': 'DESC_TIPO_DOENCA',
+    'Biênio (Código)': 'CODG_BIENIO',
+    'Biênio': 'DESC_BIENIO',
+    'Definição do gasto com com saúde (Código)': 'CODG_DEF_GAST_SAUDE',
+    'Definição do gasto com com saúde': 'DESC_DEF_GAST_SAUDE',
+    'Grupos de idade e nível de ensino (Código)': 'COD_GRU_IDADE_NIV_ENS',
+    'Grupos de idade e nível de ensino': 'DESC_GRU_IDADE_NIV_ENS',
+    'Situação do domicílio (Código)': 'CODG_SIT_DOM',
+    'Situação do domicílio': 'DESC_SIT_DOM',
+    'Brasil e Grande Região (Código)': 'CODG_REGIAO',
+    'Brasil e Grande Região': 'DESC_REGIAO',
+    'Classes de percentual das pessoas em ordem crescente de rendimento domiciliar per capita (Código)': 'CODG_CLAS_PERC_REND_DOM_PER_CAP',
+    'Classes de percentual das pessoas em ordem crescente de rendimento domiciliar per capita': 'DESC_CLAS_PERC_REND_DOM_PER_CAP',
+    'Infraestrutura das escolas (Código)': 'CODG_INF_ESC',
+    'Infraestrutura das escolas': 'DESC_INF_ESC',
+    'Grupamento de atividade no trabalho principal (Código)': 'CODG_GRUP_ATIV_TRAB',
+    'Grupamento de atividade no trabalho principal': 'DESC_GRUP_ATIV_TRAB',
+    'Atividade do trabalho principal (Código)': 'CODG_ATV_TRAB',
+    'Atividade do trabalho principal': 'DESC_ATV_TRAB',
+    'Existência de deficiência (Código)': 'CODG_DEF',
+    'Existência de deficiência': 'DESC_DEF',
+    'Grupamento ocupacional no trabalho principal - PNADC (Código)': 'CODG_GRUP_OCUP_TRAB_PNAD',
+    'Grupamento ocupacional no trabalho principal - PNADC': 'DESC_GRUP_OCUP_TRAB_PNAD',
+    'Tipo de Movimentação (Código)': 'CODG_TIP_MOV',
+    'Tipo de Movimentação': 'DESC_TIP_MOV',
+    'Tipo de meio de transporte (Código)': 'CODG_TIP_MEIO_TRANSP',
+    'Tipo de meio de transporte': 'DESC_TIP_MEIO_TRANSP',
+    'Atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados (Código)': 'CODG_ATV_IND_SET_IND',
+    'Atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados': 'DESC_ATV_IND_SET_IND',
+    'Tipo de cobertura da telefonia móvel (Código)': 'CODG_TIP_COB_TEF_MOV',
+    'Tipo de cobertura da telefonia móvel': 'DESC_TIP_COB_TEF_MOV',
+    'Meses do ano (Código)': 'CODG_MES_ANO',
+    'Meses do ano': 'DESC_MES_ANO',
+    'Trimestres do ano (Código)': 'CODG_TRI_ANO',
+    'Trimestres do ano': 'DESC_TRI_ANO',
+    'Sexênio (Código)': 'CODG_SEXENIO',
+    'Sexênio': 'DESC_SEXENIO',
+    'Tipo de patrimônio (Código)': 'CODG_TIP_PATR',
+    'Tipo de patrimônio': 'DESC_TIP_PATR',
+    'Nível de governo (Código)': 'CODG_NIV_GOV',
+    'Nível de governo': 'DESC_NIV_GOV',
+    'Disposição final (Código)': 'CODG_DISP_FINAL',
+    'Disposição final': 'DESC_DISP_FINAL',
+    'Triênio (Código)': 'CODG_TRIENIO',
+    'Triênio': 'DESC_TRIENIO',
+    'Faixas de pessoal ocupado (Código)': 'CODG_FAI_PESS_OCUP',
+    'Faixas de pessoal ocupado': 'DESC_FAI_PESS_OCUP',
+    'Fonte de emissão de gases de efeito estufa (Código)': 'CODG_FONT_EMIS_GAS_EFEITO_EST',
+    'Fonte de emissão de gases de efeito estufa': 'DESC_FONT_EMIS_GAS_EFEITO_EST',
+    'Bioma e Brasil (Código)': 'CODG_BIOMA',
+    'Bioma e Brasil': 'DESC_BIOMA',
+    'Classificação de montanha (Kapos) (Código)': 'CODG_KAPOS',
+    'Classificação de montanha (Kapos)': 'DESC_KAPOS',
+    'Nível de instrução (Código)': 'CODG_NIV_INSTR',
+    'Nível de instrução': 'DESC_NIV_INSTR',
+    'Etapa de ensino (Código)': 'CODG_ETAPA_ENS',
+    'Etapa de ensino': 'DESC_ETAPA_ENS',
+    'Rendimento mensal domiciliar per capita (Código)': 'CODG_REND_MENSAL_DOM_PER_CAP',
+    'Rendimento mensal domiciliar per capita': 'DESC_REND_MENSAL_DOM_PER_CAP',
+    'Nível na instituição pública (Código)': 'CODG_NIV_INST_PUBL',
+    'Nível na instituição pública': 'DESC_NIV_INST_PUBL',
+    'Velocidade de ligação (Código)': 'CODG_VEL_LIGACAO',
+    'Velocidade de ligação': 'DESC_VEL_LIGACAO',
+    'Região Hidrográfica e Brasil (Código)': 'CODG_REG_HIDR',
+    'Região Hidrográfica e Brasil': 'DESC_REG_HIDR',
+    'Setor de atividade (Código)': 'CODG_SET_ATIV',
+    'Setor de atividade': 'DESC_SET_ATIV',
+    'Ecossistema relacionado à água (Código)': 'CODG_ECO_REL_AGUA',
+    'Ecossistema relacionado à água': 'DESC_ECO_REL_AGUA',
+    'Tipo de dinâmica do ecossistema relacionada à agua (Código)': 'CODG_TIP_DIN_ECO_REL_AGUA',
+    'Tipo de dinâmica do ecossistema relacionada à agua': 'DESC_TIP_DIN_ECO_REL_AGUA',
+    'Tipo de desembolso bruto de ajuda oficial (Código)': 'CODG_TIP_DESB_BRUTO_AJUDA_OFICIAL',
+    'Tipo de desembolso bruto de ajuda oficial': 'DESC_TIP_DESB_BRUTO_AJUDA_OFICIAL'
+}
 
 LIST_COL_PADRAO: list = {'CODG_UND_MED', 'CODG_UND_FED', 'CODG_VAR', 'VLR_VAR', 'CODG_ANO'}
 
 df_und_med = pd.DataFrame(columns=['CODG_UND_MED', 'DESC_UND_MED'])
 df_variavel = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
+df_filtro = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
 
 for objetivo in list_indicadores.keys():
+    bo_objetivo = False
     workbook = openpyxl.Workbook()
     workbook.remove(workbook.active)
     for meta in list_indicadores[objetivo].keys():
@@ -535,7 +565,7 @@ for objetivo in list_indicadores.keys():
                 df_temp = df_temp.rename(columns=list_colunas)
                 df_temp.insert(0, 'ID_INDICADOR', f'Indicador {indicador.split("Indicador")[1]}')
                 df_und_med = pd.concat([df_und_med, df_temp[['CODG_UND_MED', 'DESC_UND_MED']]])
-                df_variavel = pd.concat([df_variavel, df_temp[['CODG_VAR', 'DESC_VAR']]])
+                df_filtro = pd.concat([df_filtro, df_temp[['CODG_VAR', 'DESC_VAR']]])
                 try:
                     df_temp = df_temp.drop(columns=['CODG_NIV_TER', 'DESC_NIV_TER', 'DESC_UND_MED', 'DESC_VAR', 'DESC_ANO'])
                 except KeyError as e:
@@ -544,13 +574,19 @@ for objetivo in list_indicadores.keys():
                 if len(list_var) > 1:
                     ch = 'a'
                     count_var = ord(ch)
+                    wb_variavel = openpyxl.Workbook()
+                    wb_variavel.remove(wb_variavel.active)
                     for cod_var in list_var:
-                        workbook = df_to_excel(df_temp[df_temp['CODG_VAR'] == cod_var], workbook,
+                        wb_variavel = df_to_excel(df_temp[df_temp['CODG_VAR'] == cod_var], wb_variavel,
                                                indicador + f'.{chr(count_var)}',
                                                header=True)
                         count_var += 1
+                    variavel_xlx = str(Path(__file__).parent) + f'/db/resultados/Variaveis_{indicador.split("Indicador ")[1]}.xlsx'
+                    wb_variavel.save(variavel_xlx)
+                    
                 else:
                     workbook = df_to_excel(df_temp, workbook, indicador, header=True)
+                    bo_objetivo = True
                 try:
                     df_other_columns = df_temp.drop(columns=LIST_COL_PADRAO)
                 except KeyError as e:
@@ -561,8 +597,13 @@ for objetivo in list_indicadores.keys():
                             df_other_columns['TIPO_CAMPO'] = coluna
             except json.decoder.JSONDecodeError as e:
                 print(f'Erro ao processar o arquivo {indicador}.csv: {e}')
-            else:
-                print(f'Planilha {indicador}.csv criada.')
-                objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo}.xlsx'
-        workbook.save(objetivo_xlx)
+        
+        if bo_objetivo:
+            print(f'Planilha {indicador}.csv criada.')
+            objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo}.xlsx'
+            workbook.save(objetivo_xlx)
+            
+        df_und_med.to_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv', index=False)
+        # df_filtro.columns = ['id_filt', 'desc_filt']
+        df_filtro.to_csv(str(Path(__file__).parent) + f'/db/filtro.csv', index=False)
     print(f'{objetivo} finalizado!')
