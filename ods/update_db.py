@@ -1,12 +1,11 @@
 import json.decoder
-import pandas as pd
-import requests
 import time
-
+from functools import lru_cache
 from pathlib import Path
 
-
 import openpyxl
+import pandas as pd
+import requests
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 
@@ -32,7 +31,7 @@ def df_to_excel(df, ws, name_sheet, header=False, index=False, startrow=0, start
 
     for r_idx, row in enumerate(rows, startrow + 1):
         for c_idx, value in enumerate(row, startcol + 1):
-             ws.active.cell(row=r_idx, column=c_idx).value = value
+            ws.active.cell(row=r_idx, column=c_idx).value = value
     return ws
 
 
@@ -64,16 +63,26 @@ def get_sidra_data(indicador):
             if response.status_code == 200:
                 data = response.json()
                 return data
-            
+
         except Exception as e:
             retry_count += 1
             if retry_count == max_retries:
-                print(f'Erro de conexão após {max_retries+1} tentativas para o indicador {indicador}: {e}')
+                print(f'Erro de conexão após {max_retries + 1} tentativas para o indicador {indicador}: {e}')
             else:
                 print(f'Tentativa {retry_count} falhou. Tentando novamente em 5 segundos...')
                 time.sleep(5)
     return None
-        
+
+
+@lru_cache(maxsize=1)
+def load_indicadores():
+    df_indicadores: pd.DataFrame = pd.read_csv(
+        Path(__file__).parent / 'db/indicadores.csv', sep=';'
+    )
+    df_indicadores = df_indicadores[df_indicadores['RBC'] == True]
+    return df_indicadores
+
+
 URL_BASE = 'https://apisidra.ibge.gov.br/values'
 
 list_indicadores = {
@@ -552,7 +561,6 @@ df_variavel = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
 df_filtro = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
 
 for objetivo in list_indicadores.keys():
-    bo_objetivo = False
     workbook = openpyxl.Workbook()
     workbook.remove(workbook.active)
     for meta in list_indicadores[objetivo].keys():
@@ -567,26 +575,21 @@ for objetivo in list_indicadores.keys():
                 df_und_med = pd.concat([df_und_med, df_temp[['CODG_UND_MED', 'DESC_UND_MED']]])
                 df_filtro = pd.concat([df_filtro, df_temp[['CODG_VAR', 'DESC_VAR']]])
                 try:
-                    df_temp = df_temp.drop(columns=['CODG_NIV_TER', 'DESC_NIV_TER', 'DESC_UND_MED', 'DESC_VAR', 'DESC_ANO'])
+                    df_temp = df_temp.drop(
+                        columns=['CODG_NIV_TER', 'DESC_NIV_TER', 'DESC_UND_MED', 'DESC_VAR', 'DESC_ANO'])
                 except KeyError as e:
                     print(f'Erro ao remover colunas do indicador: {indicador}')
                 list_var: list = list(df_temp['CODG_VAR'].value_counts().to_dict().keys())
                 if len(list_var) > 1:
-                    ch = 'a'
-                    count_var = ord(ch)
-                    wb_variavel = openpyxl.Workbook()
-                    wb_variavel.remove(wb_variavel.active)
+                    print(indicador)
+                    df_combined = pd.DataFrame()
                     for cod_var in list_var:
-                        wb_variavel = df_to_excel(df_temp[df_temp['CODG_VAR'] == cod_var], wb_variavel,
-                                               indicador + f'.{chr(count_var)}',
-                                               header=True)
-                        count_var += 1
-                    variavel_xlx = str(Path(__file__).parent) + f'/db/resultados/Variaveis_{indicador.split("Indicador ")[1]}.xlsx'
-                    wb_variavel.save(variavel_xlx)
-                    
+                        df_temp_var = df_temp[df_temp['CODG_VAR'] == cod_var].copy()
+                        df_temp_var['SUB_INDICADOR'] = cod_var
+                        df_combined = pd.concat([df_combined, df_temp_var], ignore_index=True)
+                    workbook = df_to_excel(df_combined, workbook, indicador, header=True)
                 else:
                     workbook = df_to_excel(df_temp, workbook, indicador, header=True)
-                    bo_objetivo = True
                 try:
                     df_other_columns = df_temp.drop(columns=LIST_COL_PADRAO)
                 except KeyError as e:
@@ -597,12 +600,11 @@ for objetivo in list_indicadores.keys():
                             df_other_columns['TIPO_CAMPO'] = coluna
             except json.decoder.JSONDecodeError as e:
                 print(f'Erro ao processar o arquivo {indicador}.csv: {e}')
-        
-        if bo_objetivo:
-            print(f'Planilha {indicador}.csv criada.')
-            objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo}.xlsx'
-            workbook.save(objetivo_xlx)
-            
+
+        print(f'Planilha {indicador}.csv criada.')
+        objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo}.xlsx'
+        workbook.save(objetivo_xlx)
+
         df_und_med.to_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv', index=False)
         # df_filtro.columns = ['id_filt', 'desc_filt']
         df_filtro.to_csv(str(Path(__file__).parent) + f'/db/filtro.csv', index=False)
