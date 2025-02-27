@@ -1,292 +1,292 @@
-ï»¿Ordem;ID_INDICADOR;DESC_INDICADOR;ID_META;STATUS;RBC
-1;Indicador P1.1.1 ;ProporÃ§Ã£o da populaÃ§Ã£o vivendo abaixo da linha de pobreza internacional, por sexo, idade, condiÃ§Ã£o perante o trabalho e localizaÃ§Ã£o geogrÃ¡fica (urbano/rural) e etnia;Meta 1.1 ;Em anÃ¡lise/construÃ§Ã£o;0
-2;Indicador 1.1.1 ;ProporÃ§Ã£o da populaÃ§Ã£o vivendo abaixo da linha de pobreza internacional, por sexo, idade, condiÃ§Ã£o perante o trabalho e localizaÃ§Ã£o geogrÃ¡fica (urbano/rural);Meta 1.1 ;Produzido;1
-3;Indicador 1.2.1 ;ProporÃ§Ã£o da populaÃ§Ã£o vivendo abaixo da linha de pobreza nacional, por sexo, idade, condiÃ§Ã£o perante o trabalho e localizaÃ§Ã£o geogrÃ¡fica (urbano/rural);Meta 1.2 ;Produzido;1
-4;Indicador 1.2.2 ;ProporÃ§Ã£o de homens, mulheres e crianÃ§as de todas as idades vivendo na pobreza em todas as dimensÃµes de acordo com as definiÃ§Ãµes nacionais;Meta 1.2 ;Produzido;1
-5;Indicador 1.3.1 ;ProporÃ§Ã£o da populaÃ§Ã£o abrangida por regimes de proteÃ§Ã£o social, por sexo e para os seguintes grupos populacionais: crianÃ§as, populaÃ§Ã£o desempregada, populaÃ§Ã£o idosa, populaÃ§Ã£o com deficiÃªncia, mulheres grÃ¡vidas, crianÃ§as recÃ©m-nascidas, pessoas que sofreram acidentes de trabalho, populaÃ§Ã£o em risco de pobreza e outros grupos populacionais vulnerÃ¡veis;Meta 1.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-6;Indicador 1.4.1 ;ProporÃ§Ã£o da populaÃ§Ã£o que vive em domicÃ­lios com acesso a serviÃ§os bÃ¡sicos;Meta 1.4 ;Em anÃ¡lise/construÃ§Ã£o;0
-7;Indicador 1.4.2 ;ProporÃ§Ã£o da populaÃ§Ã£o adulta total com direitos de posse da terra garantidos, com documentaÃ§Ã£o legalmente reconhecida e que percebe os seus direitos Ã  terra como seguros, por sexo e por tipo de posse;Meta 1.4 ;Em anÃ¡lise/construÃ§Ã£o;0
-8;Indicador 1.5.1 ;NÃºmero de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuÃ­do a desastres por 100 mil habitantes;Meta 1.5 ;Produzido;1
-9;Indicador 1.5.2 ;Perdas econÃ´micas diretas atribuÃ­das a desastres em relaÃ§Ã£o ao Produto Interno Bruto (PIB) global;Meta 1.5 ;Produzido;1
-10;Indicador 1.5.3 ;NÃºmero de paÃ­ses que adotaram e implementaram estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres em linha com o Quadro de Sendai para a ReduÃ§Ã£o de Risco de Desastres 2015-2030;Meta 1.5 ;Produzido;1
-11;Indicador 1.5.4 ;ProporÃ§Ã£o de governos locais que adotam e implementam estratÃ©gias locais de reduÃ§Ã£o de risco de desastres em linha com as estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres;Meta 1.5 ;Produzido;1
-12;Indicador 1.a.1 ;SubsÃ­dios totais de assistÃªncia oficial ao desenvolvimento, de todos os doadores que se concentram na reduÃ§Ã£o da pobreza, como uma parte da renda nacional bruta do paÃ­s destinatÃ¡rio;Meta 1.a ;Em anÃ¡lise/construÃ§Ã£o;0
-13;Indicador 1.a.2 ;ProporÃ§Ã£o do total das despesas pÃºblicas com serviÃ§os essenciais (educaÃ§Ã£o, saÃºde e proteÃ§Ã£o social);Meta 1.a ;Em anÃ¡lise/construÃ§Ã£o;0
-14;Indicador 1.b.1 ;Gastos sociais pÃºblicos para os menos favorecidos;Meta 1.b ;Em anÃ¡lise/construÃ§Ã£o;0
-15;Indicador 2.1.1 ;PrevalÃªncia de subalimentaÃ§Ã£o;Meta 2.1 ;Produzido;0
-16;Indicador 2.1.2 ;PrevalÃªncia de inseguranÃ§a alimentar moderada ou grave, baseada em escala de inseguranÃ§a alimentar;Meta 2.1 ;Produzido;0
-17;Indicador 2.2.1 ;PrevalÃªncia de atrasos no crescimento nas crianÃ§as com menos de 5 anos de idade;Meta 2.2 ;Produzido;0
-18;Indicador 2.2.2 ;PrevalÃªncia de malnutriÃ§Ã£o nas crianÃ§as com menos de 5 anos de idade, por tipo de malnutriÃ§Ã£o (baixo peso e excesso de peso);Meta 2.2 ;Produzido;0
-19;Indicador 2.2.3 ;PrevalÃªncia de anemia em mulheres de 15 a 49 anos, segundo estado de gravidez;Meta 2.2 ;Sem dados;0
-20;Indicador 2.3.1 ;Volume de produÃ§Ã£o por unidade de trabalho por dimensÃ£o da empresa agrÃ­cola/pastoril/florestal;Meta 2.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-21;Indicador 2.3.2 ;Renda mÃ©dia dos pequenos produtores de alimentos, por sexo e condiÃ§Ã£o de indÃ­gena;Meta 2.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-22;Indicador 2.4.1 ;ProporÃ§Ã£o da Ã¡rea agrÃ­cola sob agricultura produtiva e sustentÃ¡vel;Meta 2.4 ;Sem dados;0
-23;Indicador 2.5.1 ;NÃºmero de recursos genÃ©ticos vegetais e animais para a alimentaÃ§Ã£o e agricultura, protegidos a mÃ©dio ou longo prazo em instalaÃ§Ãµes de conservaÃ§Ã£o;Meta 2.5 ;Produzido;0
-24;Indicador 2.5.2 ;ProporÃ§Ã£o de raÃ§as locais classificadas como em risco de extinÃ§Ã£o;Meta 2.5 ;Sem dados;0
-25;Indicador 2.a.1 ;Ãndice de orientaÃ§Ã£o agrÃ­cola para a despesa pÃºblica;Meta 2.a ;Produzido;0
-26;Indicador 2.a.2 ;Total de fluxos oficiais (ajuda pÃºblica ao desenvolvimento e outros fluxos oficiais) para o setor agrÃ­cola;Meta 2.a ;Produzido;0
-27;Indicador 2.b.1 ;SubsÃ­dios Ã s exportaÃ§Ãµes agrÃ­colas;Meta 2.b ;Produzido;0
-28;Indicador 2.c.1 ;Indicador de anomalias dos preÃ§os de alimentaÃ§Ã£o;Meta 2.c ;Em anÃ¡lise/construÃ§Ã£o;0
-30;Indicador 3.1.1 ;RazÃ£o de mortalidade materna;Meta 3.1 ;Produzido;1
-31;Indicador 3.1.2 ;ProporÃ§Ã£o de nascimentos assistidos por pessoal de saÃºde qualificado;Meta 3.1 ;Produzido;1
-32;Indicador 3.2.1 ;Taxa de mortalidade em menores de 5 anos;Meta 3.2 ;Produzido;1
-33;Indicador 3.2.2 ;Taxa de mortalidade neonatal;Meta 3.2 ;Produzido;1
-34;Indicador 3.3.1 ;NÃºmero de novas infecÃ§Ãµes por HIV por 1.000 habitantes, por sexo, idade e populaÃ§Ãµes especÃ­ficas;Meta 3.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-35;Indicador 3.3.2 ;IncidÃªncia de tuberculose por 100.000 habitantes;Meta 3.3 ;Produzido;1
-36;Indicador 3.3.3 ;Taxa de incidÃªncia da malÃ¡ria por 1.000 habitantes;Meta 3.3 ;Produzido;1
-37;Indicador 3.3.4 ;Taxa de incidÃªncia da hepatite B por 100 mil habitantes;Meta 3.3 ;Produzido;1
-38;Indicador 3.3.5 ;NÃºmero de pessoas que necessitam de intervenÃ§Ãµes contra doenÃ§as tropicais negligenciadas (DTN);Meta 3.3 ;Produzido;1
-39;Indicador 3.4.1 ;Taxa de mortalidade por doenÃ§as do aparelho circulatÃ³rio, tumores malignos, diabetes mellitus e doenÃ§as crÃ´nicas respiratÃ³rias;Meta 3.4 ;Produzido;1
-40;Indicador 3.4.2 ;Taxa de mortalidade por suicÃ­dio;Meta 3.4 ;Produzido;1
-41;Indicador 3.5.1 ;Cobertura das intervenÃ§Ãµes (farmacolÃ³gicas, psicossociais, de reabilitaÃ§Ã£o e de pÃ³s-tratamento) para o tratamento do abuso de substÃ¢ncias;Meta 3.5 ;Em anÃ¡lise/construÃ§Ã£o;0
-42;Indicador 3.5.2 ;Consumo de Ã¡lcool em litros de Ã¡lcool puro per capita (com 15 anos ou mais) por ano;Meta 3.5 ;Produzido;0
-43;Indicador 3.6.1 ;Taxa de mortalidade por acidentes de trÃ¢nsito;Meta 3.6 ;Produzido;1
-44;Indicador 3.7.1 ;ProporÃ§Ã£o de mulheres em idade reprodutiva (15 a 49 anos) que utilizam mÃ©todos modernos de planejamento familiar;Meta 3.7 ;Em anÃ¡lise/construÃ§Ã£o;0
-45;Indicador 3.7.2 ;NÃºmero de nascidos vivos de mÃ£es adolescentes (grupos etÃ¡rios 10-14 e 15-19) por 1.000 mulheres destes grupos etÃ¡rios;Meta 3.7 ;Produzido;1
-46;Indicador 3.8.1 ;Cobertura da AtenÃ§Ã£o PrimÃ¡ria Ã  SaÃºde;Meta 3.8 ;Em anÃ¡lise/construÃ§Ã£o;0
-47;Indicador 3.8.2 ;ProporÃ§Ã£o de pessoas em famÃ­lias com grandes gastos em saÃºde em relaÃ§Ã£o ao total de despesas familiares;Meta 3.8 ;Produzido;0
-48;Indicador 3.9.1 ;Taxa de mortalidade por poluiÃ§Ã£o ambiental (externa e domÃ©stica) do ar;Meta 3.9 ;Em anÃ¡lise/construÃ§Ã£o;0
-49;Indicador 3.9.2 ;Taxa de mortalidade atribuÃ­da a fontes de Ã¡gua inseguras, saneamento inseguro e falta de higiene;Meta 3.9 ;Produzido;1
-50;Indicador 3.9.3 ;Taxa de mortalidade atribuÃ­da a intoxicaÃ§Ã£o nÃ£o intencional;Meta 3.9 ;Produzido;0
-51;Indicador 3.a.1 ;PrevalÃªncia do consumo atual de tabaco na populaÃ§Ã£o de 15 anos ou mais;Meta 3.a ;Produzido;1
-52;Indicador 3.b.1 ;Taxa de cobertura vacinal da populaÃ§Ã£o em relaÃ§Ã£o Ã s vacinas incluÃ­das no Programa Nacional de VacinaÃ§Ã£o;Meta 3.b ;Em anÃ¡lise/construÃ§Ã£o;0
-53;Indicador 3.b.2 ;Ajuda oficial ao desenvolvimento total lÃ­quida para a investigaÃ§Ã£o mÃ©dica e para os setores bÃ¡sicos de saÃºde;Meta 3.b ;Em anÃ¡lise/construÃ§Ã£o;0
-54;Indicador 3.b.3 ;ProporÃ§Ã£o de estabelecimentos de saÃºde que dispÃµem de um conjunto bÃ¡sico de medicamentos essenciais e relevantes disponÃ­veis e a custo acessÃ­vel numa base sustentÃ¡vel;Meta 3.b ;Em anÃ¡lise/construÃ§Ã£o;0
-55;Indicador 3.c.1 ;NÃºmero de profissionais de saÃºde por habitante;Meta 3.c ;Em anÃ¡lise/construÃ§Ã£o;0
-56;Indicador 3.d.1 ;Capacidade para o Regulamento SanitÃ¡rio Internacional (RSI) e preparaÃ§Ã£o para emergÃªncias de saÃºde;Meta 3.d ;Em anÃ¡lise/construÃ§Ã£o;0
-57;Indicador 3.d.2 ;Porcentagem de infecÃ§Ãµes da corrente sanguÃ­nea, devido a organismos resistentes a antimicrobianos selecionados;Meta 3.d ;Em anÃ¡lise/construÃ§Ã£o;0
-58;Indicador 4.1.1 ;"ProporÃ§Ã£o de crianÃ§as e jovens: (a) nos segundo e terceiro anos do ensino fundamental; (b) no final dos anos iniciais do ensino fundamental; e c) no final dos anos finais do ensino fundamental, que atingiram um nÃ­vel mÃ­nimo de proficiÃªncia em (i) leitura e (ii) matemÃ¡tica, por sexo";Meta 4.1 ;Em anÃ¡lise/construÃ§Ã£o;0
-59;Indicador 4.1.2 ;Taxa de conclusÃ£o do ensino fundamental e ensino mÃ©dio;Meta 4.1 ;Produzido;1
-60;Indicador 4.2.1 ;ProporÃ§Ã£o de crianÃ§as com idade entre 24-59 meses que estÃ£o com desenvolvimento adequado da saÃºde, aprendizagem e bem-estar psicossocial, por sexo;Meta 4.2 ;Produzido;1
-61;Indicador 4.2.1.2;ProporÃ§Ã£o das pessoas de 5 anos de idade que frequentam escola de acordo com a situaÃ§Ã£o do domicÃ­lio;Meta 4.2 ;Produzido;1
-62;Indicador 4.2.1.3;ProporÃ§Ã£o das pessoas de 5 anos de idade que frequentam escola em relaÃ§Ã£o ao sexo;Meta 4.2 ;Produzido;1
-63;Indicador 4.2.1.4;ProporÃ§Ã£o das pessoas de 5 anos de idade que frequentam escola, em relaÃ§Ã£o ao percentual das pessoas em ordem crescente de rendimento domiciliar per capita;Meta 4.2 ;Produzido;1
-64;Indicador 4.2.2 ;Taxa de participaÃ§Ã£o no ensino organizado (um ano antes da idade oficial de ingresso no ensino fundamental), por sexo;Meta 4.2 ;Produzido;1
-65;Indicador 4.3.1;Taxa de participaÃ§Ã£o de jovens e adultos na educaÃ§Ã£o formal e nÃ£o formal, nos Ãºltimos 12 meses, por sexo;Meta 4.3;Sem dados;0
-66;Indicador 4.4.1;ProporÃ§Ã£o de jovens e adultos com habilidades em tecnologias de informaÃ§Ã£o e comunicaÃ§Ã£o (TIC), por tipo de habilidade;Meta 4.4;Sem dados;0
-67;Indicador 4.5.1 ;Ãndices de paridade (mulher/homem, rural/urbano, 1Âº/5Âº quintis de renda e outros como populaÃ§Ã£o com deficiÃªncia, populaÃ§Ãµes indÃ­genas e populaÃ§Ãµes afetadas por conflitos, Ã  medida que os dados estejam disponÃ­veis) para todos os indicadores nesta lista que possam ser desagregados;Meta 4.5 ;Produzido;1
-68;Indicador 4.6.1 ;Percentual da populaÃ§Ã£o de determinado grupo etÃ¡rio que atingiu pelo menos o nÃ­vel mÃ­nimo de proficiÃªncia em (a) leitura e escrita e (b) matemÃ¡tica, por sexo;Meta 4.6 ;Sem dados;0
-69;Indicador 4.7.1 ;"Grau em que a (i) a educaÃ§Ã£o para a cidadania global e (ii) a educaÃ§Ã£o para o desenvolvimento sustentÃ¡vel sÃ£o integradas nas (a) polÃ­ticas nacionais de educaÃ§Ã£o; (b) currÃ­culos escolares; (c) formaÃ§Ã£o de professores; e (d) avaliaÃ§Ã£o de estudantes";Meta 4.7 ;Em anÃ¡lise/construÃ§Ã£o;0
-70;Indicador 4.a.1 ;"ProporÃ§Ã£o de escolas com acesso a: (a) eletricidade; (b) internet para fins pedagÃ³gicos; (c) computadores para fins pedagÃ³gicos; (d) infraestrutura e materiais adaptados para alunos com deficiÃªncia; (e) Ã¡gua potÃ¡vel; (f) instalaÃ§Ãµes sanitÃ¡rias separadas por sexo; e (g) instalaÃ§Ãµes bÃ¡sicas para lavagem das mÃ£os (de acordo com as definiÃ§Ãµes dos indicadores WASH)";Meta 4.a ;Produzido;1
-71;Indicador 4.b.1 ;Volume dos fluxos de ajuda oficial ao desenvolvimento para bolsas de estudo por Ã¡rea e tipo de estudo;Meta 4.b ;NÃ£o se aplica ao Brasil;0
-72;Indicador 4.c.1 ;ProporÃ§Ã£o de professores que receberam a qualificaÃ§Ã£o mÃ­nima exigida, por nÃ­vel de ensino;Meta 4.c ;Produzido;1
-73;Indicador 5.1.1 ;ExistÃªncia ou nÃ£o de arcabouÃ§o legal em vigor para promover, reforÃ§ar e monitorar a igualdade e a nÃ£o-discriminaÃ§Ã£o com base no sexo;Meta 5.1 ;Em anÃ¡lise/construÃ§Ã£o;0
-74;Indicador 5.2.1 ;ProporÃ§Ã£o de mulheres e meninas de 15 anos de idade ou mais que sofreram violÃªncia fÃ­sica, sexual ou psicolÃ³gica, por parte de um parceiro Ã­ntimo atual ou anterior, nos Ãºltimos 12 meses, por forma de violÃªncia e por idade;Meta 5.2 ;Sem dados;0
-75;Indicador 5.2.2 ;ProporÃ§Ã£o de mulheres e meninas de 15 anos ou mais que sofreram violÃªncia sexual por outras pessoas nÃ£o parceiras Ã­ntimas, nos Ãºltimos 12 meses, por idade e local de ocorrÃªncia;Meta 5.2 ;Sem dados;0
-76;Indicador 5.3.1 ;ProporÃ§Ã£o de mulheres com idade de 20 a 24 anos que casaram ou viveram em uniÃ£o de fato antes dos 15 anos e antes dos 18 anos de idade;Meta 5.3 ;Sem dados;0
-77;Indicador 5.3.2 ;ProporÃ§Ã£o de meninas e mulheres com idade entre 15 e 49 anos que foram submetidas a mutilaÃ§Ã£o genital feminina, por grupo etÃ¡rio;Meta 5.3 ;NÃ£o se aplica ao Brasil;0
-78;Indicador 5.4.1 ;ProporÃ§Ã£o de tempo gasto em trabalho domÃ©stico nÃ£o remunerado e cuidados, por sexo, idade e localizaÃ§Ã£o;Meta 5.4 ;Produzido;1
-79;Indicador 5.4.1.2;Percentual de tempo gasto em trabalho domÃ©stico nÃ£o remunerado e cuidados por sexo e raÃ§a;Meta 5.4 ;Produzido;1
-80;Indicador 5.4.1.3;Percentual de tempo gasto em trabalho domÃ©stico nÃ£o remunerado e cuidados;Meta 5.4 ;Produzido;1
-81;Indicador 5.5.1 ;ProporÃ§Ã£o de assentos ocupados por mulheres em (a) parlamentos nacionais e (b) governos locais;Meta 5.5 ;Produzido;1
-82;Indicador 5.5.1.1;;Meta 5.5 ;Produzido;0
-83;Indicador 5.5.1.2;;Meta 5.5 ;Produzido;0
-84;Indicador 5.5.1.3;;Meta 5.5 ;Produzido;0
-85;Indicador 5.5.2 ;ProporÃ§Ã£o de mulheres em posiÃ§Ãµes gerenciais;Meta 5.5 ;Produzido;0
-86;Indicador 5.5.2 .1;;Meta 5.5 ;Produzido;0
-87;Indicador 5.5.2 .2;;Meta 5.5 ;Produzido;0
-88;Indicador 5.6.1 ;ProporÃ§Ã£o de mulheres com idade entre 15 e 49 anos que tomam decisÃµes informadas sobre suas relaÃ§Ãµes sexuais, uso de contraceptivos e cuidados com saÃºde reprodutiva;Meta 5.6 ;Em anÃ¡lise/construÃ§Ã£o;0
-89;Indicador 5.6.2 ;NÃºmero de paÃ­ses com legislaÃ§Ã£o e regulamentaÃ§Ã£o que garantam o acesso pleno e igualitÃ¡rio de mulheres e homens, com 15 anos ou mais de idade, aos cuidados, informaÃ§Ã£o e educaÃ§Ã£o em saÃºde sexual e reprodutiva;Meta 5.6 ;Sem dados;0
-90;Indicador 5.a.1 ;"(a) ProporÃ§Ã£o da populaÃ§Ã£o agrÃ­cola total com propriedade ou direitos assegurados sobre terras agrÃ­colas, por sexo; e (b) proporÃ§Ã£o de mulheres entre proprietÃ¡rios e detentores de direitos sobre terras agrÃ­colas, por tipo de posse";Meta 5.a ;Sem dados;0
-91;Indicador 5.a.2 ;ProporÃ§Ã£o de paÃ­ses onde as estruturas legais (incluindo o direito consuetudinÃ¡rio) garantem Ã s mulheres direitos iguais Ã  propriedade e / ou controle da terra;Meta 5.a ;Sem dados;0
-92;Indicador 5.b.1 ;ProporÃ§Ã£o de pessoas que possuem telefone celular mÃ³vel, por sexo;Meta 5.b ;Produzido;0
-93;Indicador 5.b.1 .1;;Meta 5.b ;Produzido;0
-94;Indicador 5.b.1 .2;;Meta 5.b ;Produzido;0
-95;Indicador 5.c.1 ;ProporÃ§Ã£o de paÃ­ses com sistemas para monitorar e fazer alocaÃ§Ãµes pÃºblicas para a igualdade de gÃªnero e o empoderamento das mulheres;Meta 5.c ;Em anÃ¡lise/construÃ§Ã£o;0
-96;Indicador 6.1.1 ;ProporÃ§Ã£o da populaÃ§Ã£o que utiliza serviÃ§os de Ã¡gua potÃ¡vel gerenciados de forma segura;Meta 6.1 ;Produzido;1
-97;Indicador 6.1.1.1;;Meta 6.1 ;Produzido;0
-98;Indicador 6.1.1.2;;Meta 6.1 ;Produzido;0
-99;Indicador 6.1.1.3;;Meta 6.1 ;Produzido;0
-100;Indicador 6.1.1.4;;Meta 6.1 ;Produzido;0
-101;Indicador 6.2.1 ;ProporÃ§Ã£o da populaÃ§Ã£o que utiliza (a) serviÃ§os de saneamento gerenciados de forma segura e (b) instalaÃ§Ãµes para lavagem das mÃ£os com Ã¡gua e sabÃ£o;Meta 6.2 ;Produzido;1
-102;Indicador 6.3.1 ;ProporÃ§Ã£o do fluxo de Ã¡guas residuais domÃ©stica e industrial tratadas de forma segura;Meta 6.3 ;Produzido;0
-103;Indicador 6.3.2 ;ProporÃ§Ã£o de corpos hÃ­dricos com boa qualidade ambiental;Meta 6.3 ;Produzido;0
-104;Indicador 6.4.1 ;AlteraÃ§Ã£o da eficiÃªncia no uso da Ã¡gua ao longo do tempo;Meta 6.4 ;Produzido;1
-105;Indicador 6.4.2 ;NÃ­vel de stress hÃ­drico: proporÃ§Ã£o das retiradas de Ã¡gua doce em relaÃ§Ã£o ao total dos recursos de Ã¡gua doce disponÃ­veis;Meta 6.4 ;Produzido;0
-106;Indicador 6.5.1 ;Grau de implementaÃ§Ã£o da gestÃ£o integrada de recursos hÃ­dricos (0-100);Meta 6.5 ;Produzido;0
-107;Indicador 6.5.2 ;ProporÃ§Ã£o das Ã¡reas de bacias hidrogrÃ¡ficas transfronteiriÃ§as abrangidas por um acordo operacional para cooperaÃ§Ã£o hÃ­drica;Meta 6.5 ;Produzido;0
-108;Indicador 6.6.1 ;AlteraÃ§Ã£o na extensÃ£o dos ecossistemas relacionados a Ã¡gua ao longo do tempo;Meta 6.6 ;Produzido;1
-109;Indicador 6.a.1 ;Montante de ajuda oficial ao desenvolvimento na Ã¡rea da Ã¡gua e saneamento, inserida num plano governamental de despesa;Meta 6.a ;Produzido;0
-110;Indicador 6.b.1 ;ParticipaÃ§Ã£o das comunidades locais na gestÃ£o de Ã¡gua e saneamento;Meta 6.b ;Produzido;0
-111;Indicador 7.1.1 ;Percentagem da populaÃ§Ã£o com acesso Ã  eletricidade;Meta 7.1 ;Produzido;1
-112;Indicador 7.1.2 ;Percentagem da populaÃ§Ã£o com acesso primÃ¡rio a combustÃ­veis e tecnologias limpos;Meta 7.1 ;Produzido;1
-113;Indicador 7.2.1 ;ParticipaÃ§Ã£o das energias renovÃ¡veis na Oferta Interna de Energia (OIE);Meta 7.2 ;Produzido;0
-114;Indicador 7.3.1 ;Intensidade energÃ©tica medida em termos de energia primÃ¡ria e de PIB;Meta 7.3 ;Produzido;0
-115;Indicador 7.a.1 ;Fluxos financeiros internacionais para paÃ­ses em desenvolvimento para apoio Ã  pesquisa e desenvolvimento de energias limpas e Ã  produÃ§Ã£o de energia renovÃ¡vel, incluindo sistemas hÃ­bridos;Meta 7.a ;Sem dados;0
-116;Indicador 7.b.1 ;Capacidade instalada de geraÃ§Ã£o de energia renovÃ¡vel nos paÃ­ses em desenvolvimento (em watts per capita);Meta 7.b ;Produzido;0
-117;Indicador 8.1.1 ;Taxa de crescimento real do PIB per capita;Meta 8.1 ;Produzido;0
-118;Indicador 8.2.1 ;Taxa de variaÃ§Ã£o anual do PIB real por pessoa ocupada;Meta 8.2 ;Produzido;0
-119;Indicador 8.3.1 ;Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia, por sexo, setor de atividade do trabalho principal e existÃªncia de deficiÃªncia;Meta 8.3 ;Produzido;1
-120;Indicador 8.3.1.2;Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia, por atividade principal de trabalho;Meta 8.3 ;Produzido;1
-121;Indicador 8.3.1.3;Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia, por existÃªncia de deficiÃªncia;Meta 8.3 ;Produzido;1
-122;Indicador 8.4.1 ;Pegada material, pegada material per capita e pegada material em percentagem do PIB;Meta 8.4 ;Sem dados;0
-123;Indicador 8.4.2 ;Consumo interno de materiais, consumo interno de materiais per capita e consumo interno de materiais por unidade do PIB;Meta 8.4 ;Sem dados;0
-124;Indicador 8.5.1 ;Rendimento mÃ©dio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por sexo, grupo de idade, grupamento ocupacional do trabalho principal e existÃªncia de deficiÃªncia;Meta 8.5 ;Produzido;1
-125;Indicador 8.5.1.2;Rendimento mÃ©dio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por grupo de idade;Meta 8.5 ;Produzido;1
-126;Indicador 8.5.1.3;Rendimento mÃ©dio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por grupamento ocupacional no trabalho principal;Meta 8.5 ;Produzido;1
-127;Indicador 8.5.1.4;Rendimento mÃ©dio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referÃªncia com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por existÃªncia de deficiÃªncia;Meta 8.5 ;Produzido;1
-128;Indicador 8.5.2 ;Taxa de desocupaÃ§Ã£o, por sexo, grupo de idade e existÃªncia de deficiÃªncia;Meta 8.5 ;Produzido;1
-129;Indicador 8.5.2.2;Taxa de desocupaÃ§Ã£o, na semana de referÃªncia, das pessoas de 15 anos ou mais de idade, por sexo;Meta 8.5 ;Produzido;1
-130;Indicador 8.5.2.3;Taxa de desocupaÃ§Ã£o, na semana de referÃªncia, das pessoas de 15 anos ou mais de idade, por grupo de idade;Meta 8.5 ;Produzido;1
-131;Indicador 8.6.1 ;Percentual de pessoas de 15 a 24 anos nÃ£o ocupadas, nÃ£o estudantes e que nÃ£o estÃ£o em treinamento para um trabalho;Meta 8.6 ;Produzido;1
-132;Indicador 8.7.1 ;ProporÃ§Ã£o e nÃºmero de crianÃ§as de 5-17 anos envolvidos no trabalho infantil, por sexo e idade;Meta 8.7 ;Produzido;0
-133;Indicador 8.8.1 ;Taxas de frequencia de lesÃµes ocupacionais fatais e nÃ£o fatais, por sexo e situaÃ§Ã£o de migraÃ§Ã£o;Meta 8.8 ;Em anÃ¡lise/construÃ§Ã£o;0
-134;Indicador 8.8.2 ;NÃ­vel de conformidade nacional dos direitos trabalhistas (liberdade de associaÃ§Ã£o e negociaÃ§Ã£o coletiva) com base em fontes textuais da OrganizaÃ§Ã£o Internacional do Trabalho (OIT) e legislaÃ§Ã£o nacional, por sexo e situaÃ§Ã£o de migraÃ§Ã£o;Meta 8.8 ;Em anÃ¡lise/construÃ§Ã£o;0
-135;Indicador 8.9.1 ;Turismo em percentagem do PIB e taxa de variaÃ§Ã£o;Meta 8.9 ;Sem dados;0
-136;Indicador 8.10.1 ;(a) NÃºmero de agÃªncias bancÃ¡rias por 100.000 adultos e (b) nÃºmero de postos de multibanco (ATM) por 100.000 adultos;Meta 8.10 ;Produzido;0
-137;Indicador 8.10.2 ;ProporÃ§Ã£o de adultos (15 ou mais anos) com uma conta num banco ou em outra instituiÃ§Ã£o financeira ou com um serviÃ§o mÃ³vel de dinheiro;Meta 8.10 ;Produzido;0
-138;Indicador 8.10.2.1;;Meta 8.10 ;Produzido;0
-139;Indicador 8.a.1 ;Compromissos e desembolsos no Ã¢mbito da Iniciativa de Ajuda ao ComÃ©rcio;Meta 8.a ;Em anÃ¡lise/construÃ§Ã£o;0
-140;Indicador 8.b.1 ;ExistÃªncia de uma estratÃ©gia nacional desenvolvida e operacionalizada para o emprego dos jovens, como estratÃ©gia distinta ou como parte de uma estratÃ©gia nacional para o emprego;Meta 8.b ;Em anÃ¡lise/construÃ§Ã£o;0
-141;Indicador 9.1.1 ;ProporÃ§Ã£o de populaÃ§Ã£o residente em Ã¡reas rurais que vive num raio de 2 km de acesso a uma estrada transitÃ¡vel em todas as estaÃ§Ãµes do ano;Meta 9.1 ;Sem dados;0
-142;Indicador 9.1.2 ;Passageiros e cargas transportados por modalidade de transporte;Meta 9.1 ;Produzido;0
-143;Indicador 9.2.1 ;Valor adicionado da indÃºstria em proporÃ§Ã£o do PIB e per capita;Meta 9.2 ;Produzido;1
-144;Indicador 9.2.2 ;Emprego na indÃºstria em proporÃ§Ã£o do emprego total;Meta 9.2 ;Produzido;1
-145;Indicador 9.3.1 ;"ProporÃ§Ã£o do valor adicionado das empresas de ""pequena escala"" no total do valor adicionado da indÃºstria";Meta 9.3 ;Produzido;0
-146;Indicador 9.3.2 ;ProporÃ§Ã£o de microempresas com emprÃ©stimos contraÃ­dos ou linhas de crÃ©dito;Meta 9.3 ;Produzido;0
-147;Indicador 9.4.1 ;EmissÃ£o de CO2 pelo PIB;Meta 9.4 ;Produzido;0
-148;Indicador 9.5.1 ;DispÃªndio em P&D em proporÃ§Ã£o do PIB;Meta 9.5 ;Produzido;0
-149;Indicador 9.5.2 ;Pesquisadores (em equivalÃªncia de tempo integral) por milhÃ£o de habitantes;Meta 9.5 ;Produzido;0
-150;Indicador 9.a.1 ;Total de apoio internacional oficial (ajuda oficial ao desenvolvimento e outros fluxos oficiais) Ã  infraestrutura;Meta 9.a ;Sem dados;0
-151;Indicador 9.b.1 ;ProporÃ§Ã£o do valor adicionado nas indÃºstrias de mÃ©dia e alta intensidade tecnolÃ³gica no valor adicionado total;Meta 9.b ;Produzido;1
-152;Indicador 9.c.1 ;ProporÃ§Ã£o da populaÃ§Ã£o coberta por rede mÃ³vel, por tipo de tecnologia;Meta 9.c ;Produzido;0
-153;Indicador 10.1.1 ;Taxa de crescimento das despesas domiciliares ou rendimento per capita entre os 40% com os menores rendimentos da populaÃ§Ã£o e a populaÃ§Ã£o total;Meta 10.1 ;Produzido;0
-154;Indicador 10.2.1 ;ProporÃ§Ã£o da pessoas vivendo abaixo de 50% da mediana da renda, por sexo, idade e pessoas com deficiÃªncia;Meta 10.2 ;Produzido;0
-155;Indicador 10.2.2;;Meta 10.2 ;Produzido;0
-156;Indicador 10.3.1 ;ProporÃ§Ã£o da populaÃ§Ã£o que reportou ter-se sentido pessoalmente discriminada ou assediada nos Ãºltimos 12 meses por motivos de discriminaÃ§Ã£o proibidos no Ã¢mbito da legislaÃ§Ã£o internacional dos direitos humanos;Meta 10.3 ;Sem dados;0
-157;Indicador 10.4.1 ;ProporÃ§Ã£o das remuneraÃ§Ãµes no PIB, incluindo salÃ¡rios e as transferÃªncias de proteÃ§Ã£o social;Meta 10.4 ;Produzido;0
-158;Indicador 10.4.2 ;Impacto redistributivo da polÃ­tica fiscal;Meta 10.4 ;Em anÃ¡lise/construÃ§Ã£o;0
-159;Indicador 10.5.1 ;Indicadores de Solidez Financeira;Meta 10.5 ;Produzido;0
-160;Indicador 10.5.1a ;Ãndice de PatrimÃ´nio de ReferÃªncia NÃ­vel I sobre Ativos Totais Ajustados (B1B2);Meta 10.5 ;Produzido;0
-161;Indicador 10.5.1b ;Ãndice de PatrimÃ´nio de ReferÃªncia NÃ­vel I;Meta 10.5 ;Produzido;0
-162;Indicador 10.5.1c ;Ãndice de InadimplÃªncia lÃ­quida de provisÃµes sobre capital;Meta 10.5 ;Produzido;0
-163;Indicador 10.5.1d ;Ãndice de InadimplÃªncia da carteira de crÃ©dito;Meta 10.5 ;Produzido;0
-164;Indicador 10.5.1e ;Retorno sobre ativos (B1B2);Meta 10.5 ;Produzido;0
-165;Indicador 10.5.1f ;Ativos lÃ­quidos sobre passivos de curto prazo;Meta 10.5 ;Produzido;0
-166;Indicador 10.5.1g ;PosiÃ§Ã£o aberta lÃ­quida em moeda estrangeira sobre capital;Meta 10.5 ;Produzido;0
-167;Indicador 10.6.1 ;ProporÃ§Ã£o de membros e direito de voto dos paÃ­ses em desenvolvimento em organizaÃ§Ãµes internacionais;Meta 10.6 ;Sem dados;0
-168;Indicador 10.7.1 ;Custo de recrutamento suportado pelo empregado em proporÃ§Ã£o do rendimento mensal auferido no paÃ­s de destino;Meta 10.7 ;Sem dados;0
-169;Indicador 10.7.2 ;NÃºmero de paÃ­ses com polÃ­ticas migratÃ³rias que facilitam a mobilidade das pessoas de forma ordenada, segura, regular e responsÃ¡vel;Meta 10.7 ;Sem dados;0
-170;Indicador 10.7.3 ;NÃºmero de pessoas que morreram ou desapareceram no processo de migraÃ§Ã£o internacional;Meta 10.7 ;Sem dados;0
-171;Indicador 10.7.4 ;ProporÃ§Ã£o da populaÃ§Ã£o de refugiados, por paÃ­s de origem;Meta 10.7 ;Em anÃ¡lise/construÃ§Ã£o;0
-172;Indicador 10.a.1 ;ProporÃ§Ã£o de linhas tarifÃ¡rias com tarifa zero aplicadas Ã s importaÃ§Ãµes provenientes dos paÃ­ses menos desenvolvidos e dos paÃ­ses em desenvolvimento;Meta 10.a ;Em anÃ¡lise/construÃ§Ã£o;0
-173;Indicador 10.b.1 ;Total de fluxos de recursos para o desenvolvimento, por beneficiÃ¡rio e paÃ­s doador, e tipo de fluxo (ex. ajuda pÃºblica ao desenvolvimento, investimento direto estrangeiro e outros fluxos);Meta 10.b ;Em anÃ¡lise/construÃ§Ã£o;0
-174;Indicador 10.c.1 ;Custos das remessas em proporÃ§Ã£o do valor remetido;Meta 10.c ;Em anÃ¡lise/construÃ§Ã£o;0
-175;Indicador 11.1.1 ;ProporÃ§Ã£o de populaÃ§Ã£o urbana vivendo em assentamentos precÃ¡rios, assentamentos informais ou domicÃ­lios inadequados;Meta 11.1 ;Produzido;0
-176;Indicador 11.2.1 ;ProporÃ§Ã£o de populaÃ§Ã£o que tem acesso adequado a transporte pÃºblico, por sexo, idade e pessoas com deficiÃªncia;Meta 11.2 ;Sem dados;0
-177;Indicador 11.3.1 ;RazÃ£o da taxa de consumo do solo pela taxa de crescimento da populaÃ§Ã£o;Meta 11.3 ;Sem dados;0
-178;Indicador 11.3.2 ;ProporÃ§Ã£o de cidades com uma estrutura de participaÃ§Ã£o direta da sociedade civil no planejamento e gestÃ£o urbana que opera de forma regular e democrÃ¡tica;Meta 11.3 ;Produzido;1
-179;Indicador 11.4.1 ;Total da despesa (pÃºblica e privada) per capita gasta na preservaÃ§Ã£o, proteÃ§Ã£o e conservaÃ§Ã£o de todo o patrimÃ´nio cultural e natural, por tipo de patrimÃ´nio (cultural, natural, misto e por designaÃ§Ã£o do Centro do PatrimÃ´nio Mundial), nÃ­vel de governo (nacional, regional e local), tipo de despesa (despesas correntes/de investimento) e tipo de financiamento privado (doaÃ§Ãµes em espÃ©cie, setor privado sem fins lucrativos e patrocÃ­nios);Meta 11.4 ;Produzido;0
-180;Indicador 11.5.1 ;NÃºmero de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuÃ­do a desastres por 100 mil habitantes;Meta 11.5 ;Produzido;1
-181;Indicador 11.5.2 ;Perdas econÃ´micas diretas em relaÃ§Ã£o ao PIB, incluindo danos causados por desastres em infraestruturas crÃ­ticas e na interrupÃ§Ã£o de serviÃ§os bÃ¡sicos;Meta 11.5 ;Produzido;0
-182;Indicador 11.6.1 ;ProporÃ§Ã£o de resÃ­duos sÃ³lidos urbanos coletados e gerenciados em instalaÃ§Ãµes controladas pelo total de resÃ­duos urbanos gerados, por cidades;Meta 11.6 ;Produzido;0
-183;Indicador 11.6.1.1;;;;
-184;Indicador 11.6.2 ;NÃ­vel mÃ©dio anual de partÃ­culas inalÃ¡veis (ex: com diÃ¢metro inferior a 2,5 Âµm e 10 Âµm) nas cidades (populaÃ§Ã£o ponderada);Meta 11.6 ;Sem dados;0
-185;Indicador 11.7.1 ;ProporÃ§Ã£o da Ã¡rea construÃ­da cidades que Ã© espaÃ§o pÃºblico aberto para uso de todos, por sexo, idade e pessoas com deficiÃªncia;Meta 11.7 ;Sem dados;0
-186;Indicador 11.7.2 ;ProporÃ§Ã£o da populaÃ§Ã£o vÃ­tima de assÃ©dio fÃ­sico ou sexual, por sexo, grupo etÃ¡rio, pessoas com deficiÃªncia e local da ocorrÃªncia, nos Ãºltimos 12 meses;Meta 11.7 ;Sem dados;0
-187;Indicador 11.a.1 ;"NÃºmero de paÃ­ses que possuem polÃ­ticas urbanas nacionais ou planos de desenvolvimento regional que (a) respondem Ã  dinÃ¢mica populacional; (b) garantem um desenvolvimento territorial equilibrado; e (c) possuem responsabilidade fiscal";Meta 11.a ;Produzido;0
-188;Indicador 11.b.1 ;NÃºmero de paÃ­ses que adotam e implementam estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres em linha com o Marco de Sendai para a ReduÃ§Ã£o de Risco de Desastres 2015-2030;Meta 11.b ;Produzido;0
-189;Indicador 11.b.2 ;ProporÃ§Ã£o de governos locais que adotam e implementam estratÃ©gias locais de reduÃ§Ã£o de risco de desastres em linha com as estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres;Meta 11.b ;Produzido;1
-190;Indicador 11.c;Apoiar os paÃ­ses menos desenvolvidos, inclusive por meio de assistÃªncia tÃ©cnica e financeira, para construÃ§Ãµes sustentÃ¡veis e resilientes, utilizando materiais locais;Meta 11.c ;;0
-191;Indicador 12.1.1 ;NÃºmero de paÃ­ses que incorporam o consumo e a produÃ§Ã£o sustentÃ¡veis em planos de aÃ§Ã£o nacionais ou como uma prioridade ou uma meta nas polÃ­ticas nacionais;Meta 12.1 ;Produzido;0
-192;Indicador 12.2.1 ;Pegada material, pegada material per capita e pegada material em percentagem do PIB;Meta 12.2 ;Sem dados;0
-193;Indicador 12.2.2 ;Consumo interno de materiais, consumo interno de materiais per capita e consumo interno de materiais por unidade do PIB;Meta 12.2 ;Sem dados;0
-194;Indicador 12.3.1 ;(a) Ãndice de perdas alimentares e (b) Ãndice de desperdÃ­cio alimentar;Meta 12.3 ;Sem dados;0
-195;Indicador 12.4.1 ;NÃºmero de Partes em acordos multilaterais internacionais sobre resÃ­duos perigosos e outros produtos quÃ­micos, no domÃ­nio do ambiente, que cumpram os seus compromissos e obrigaÃ§Ãµes na transmissÃ£o de informaÃ§Ãµes, conforme exigido por cada acordo relevante;Meta 12.4 ;Produzido;0
-196;Indicador 12.4.2 ;Quantidade de resÃ­duos perigosos gerados per capita e proporÃ§Ã£o de resÃ­duos perigosos tratados, por tipo de tratamento;Meta 12.4 ;Sem dados;0
-197;Indicador 12.5.1 ;Taxa de reciclagem nacional por toneladas de material reciclado;Meta 12.5 ;Produzido;0
-198;Indicador 12.6.1 ;NÃºmero de empresas que publicam relatÃ³rios de sustentabilidade;Meta 12.6 ;Produzido;0
-199;Indicador 12.7.1 ;Grau de implementaÃ§Ã£o de polÃ­ticas e planos de aÃ§Ã£o para compras pÃºblicas sustentÃ¡veis;Meta 12.7 ;Em anÃ¡lise/construÃ§Ã£o;0
-200;Indicador 12.8.1 ;"Grau em que a (i) a educaÃ§Ã£o para a cidadania global e (ii) a educaÃ§Ã£o para o desenvolvimento sustentÃ¡vel sÃ£o integradas nas (a) polÃ­ticas nacionais de educaÃ§Ã£o; (b) currÃ­culos escolares; (c) formaÃ§Ã£o de professores; e (d) avaliaÃ§Ã£o de estudantes";Meta 12.8 ;Sem dados;0
-201;Indicador 12.a.1 ;Capacidade instalada de geraÃ§Ã£o de energia renovÃ¡vel nos paÃ­ses em desenvolvimento (em watts per capita);Meta 12.a ;Produzido;0
-202;Indicador 12.b.1 ;AplicaÃ§Ã£o de instrumentos contÃ¡beis padronizados para monitorar os aspectos econÃ´micos e ambientais da sustentabilidade do turismo;Meta 12.b ;Sem dados;0
-203;Indicador 12.c.1 ;Montante de subsÃ­dios aos combustÃ­veis fÃ³sseis por unidade do PIB (produÃ§Ã£o e consumo);Meta 12.c ;Sem dados;0
-204;Indicador 13.1.1 ;NÃºmero de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuÃ­do a desastres por 100 mil habitantes;Meta 13.1 ;Produzido;1
-205;Indicador 13.1.2 ;NÃºmero de paÃ­ses que adotam e implementam estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres em linha com o Quadro de Sendai para a ReduÃ§Ã£o de Risco de Desastres 2015-2030;Meta 13.1 ;Produzido;0
-206;Indicador 13.1.3 ;ProporÃ§Ã£o de governos locais que adotam e implementam estratÃ©gias locais de reduÃ§Ã£o de risco de desastres em linha com as estratÃ©gias nacionais de reduÃ§Ã£o de risco de desastres;Meta 13.1 ;Produzido;1
-207;Indicador 13.2.1 ;NÃºmero de paÃ­ses com ContribuiÃ§Ãµes Nacionalmente Determinadas, estratÃ©gias de longo prazo, planos nacionais de adaptaÃ§Ã£o, estratÃ©gias como reportadas nas comunicaÃ§Ãµes nacionais e de adaptaÃ§Ã£o;Meta 13.2 ;Produzido;0
-208;Indicador 13.2.2;EmissÃµes de gases do efeito estufa diretos, por fonte de emissÃ£o de gases de efeito estufa;Meta 13.2 ;Produzido;1
-209;Indicador 13.2.2 ;EmissÃµes totais de gases de efeito estufa por ano;Meta 13.2 ;Produzido;0
-210;Indicador 13.3.1 ;"Grau em que a (i) a educaÃ§Ã£o para a cidadania global e (ii) a educaÃ§Ã£o para o desenvolvimento sustentÃ¡vel sÃ£o integradas nas (a) polÃ­ticas nacionais de educaÃ§Ã£o; (b) currÃ­culos escolares; (c) formaÃ§Ã£o de professores; e (d) avaliaÃ§Ã£o de estudantes";Meta 13.3 ;Sem dados;0
-211;Indicador 13.a.1 ;Quantidades fornecidas e mobilizadas em dÃ³lares dos Estados Unidos por ano em relaÃ§Ã£o Ã  meta continuada de mobilizaÃ§Ã£o coletiva existente do compromisso de US$100 bilhÃµes atÃ© 2025;Meta 13.a ;NÃ£o se aplica ao Brasil;0
-212;Indicador 13.b.1 ;NÃºmero de paÃ­ses menos desenvolvidos e pequenos Estados insulares em desenvolvimento com ContribuiÃ§Ãµes Nacionalmente Determinadas, estratÃ©gias de longo prazo, planos nacionais de adaptaÃ§Ã£o, estratÃ©gias como reportadas nas comunicaÃ§Ãµes nacionais e de adaptaÃ§Ã£o;Meta 13.b ;NÃ£o se aplica ao Brasil;0
-213;Indicador 14.1.1 ;"a) Ãndice de eutrofizaÃ§Ã£o costeira; e (b) densidade de detritos plÃ¡sticos";Meta 14.1 ;Sem dados;0
-214;Indicador 14.2.1 ;NÃºmero de paÃ­ses que utilizam abordagens baseadas em ecossistemas para gerenciar Ã¡reas marinhas;Meta 14.2 ;Sem dados;0
-215;Indicador 14.3.1 ;Acidez mÃ©dia marinha (pH) medida num conjunto representativo de estaÃ§Ãµes de coleta;Meta 14.3 ;Sem dados;0
-216;Indicador 14.4.1 ;ProporÃ§Ã£o da populaÃ§Ã£o de peixes (fish stocks) dentro de nÃ­veis biologicamente sustentÃ¡veis;Meta 14.4 ;Sem dados;0
-217;Indicador 14.5.1 ;Cobertura de Ã¡reas marinhas protegidas em relaÃ§Ã£o Ã s Ã¡reas marinhas;Meta 14.5 ;Produzido;0
-218;Indicador 14.6.1 ;Progresso dos paÃ­ses, relativamente ao grau de implementaÃ§Ã£o dos instrumentos internacionais visando o combate da pesca ilegal, nÃ£o registrada (declarada) e nÃ£o regulamentada (IUU fishing);Meta 14.6 ;Produzido;0
-219;Indicador 14.7.1 ;Pesca sustentÃ¡vel como uma proporÃ§Ã£o do Produto Interno Bruto (PIB) de pequenos Estados insulares em desenvolvimento, (Small Islands Developing States), de paÃ­ses menos desenvolvidos e todos os paÃ­ses;Meta 14.7 ;Sem dados;0
-220;Indicador 14.a.1 ;ProporÃ§Ã£o do total do orÃ§amento de pesquisas alocado para pesquisas na Ã¡rea da tecnologia marinha;Meta 14.a ;Em anÃ¡lise/construÃ§Ã£o;0
-221;Indicador 14.b.1 ;Progresso dos paÃ­ses relativamente ao grau de aplicaÃ§Ã£o de uma estrutura (enquadramento) legal/ regulamentar/polÃ­tico e institucional que reconheÃ§a e proteja os direitos de acesso dos pescadores de pequena escala;Meta 14.b ;Produzido;0
-222;Indicador 14.c.1 ;NÃºmero de paÃ­ses com progressos na ratificaÃ§Ã£o, aceitaÃ§Ã£o e implementaÃ§Ã£o, atravÃ©s de quadros legais, polÃ­ticos e institucionais, de instrumentos relacionados com o oceano que implementam o direito internacional, tal como refletido na ConvenÃ§Ã£o das NaÃ§Ãµes Unidas sobre o Direito do Mar, para a conservaÃ§Ã£o e uso sustentÃ¡vel dos oceanos e seus recursos;Meta 14.c ;Em anÃ¡lise/construÃ§Ã£o;0
-223;Indicador 15.1.1 ;Ãrea florestal como proporÃ§Ã£o da Ã¡rea total do territÃ³rio;Meta 15.1 ;Produzido;0
-224;Indicador 15.1.2 ;ProporÃ§Ã£o de sÃ­tios importantes para a biodiversidade terrestre e de Ã¡gua doce cobertos por Ã¡reas protegidas, por tipo de ecossistema;Meta 15.1 ;Produzido;0
-225;Indicador C15.1.c ;Cobertura das Ã¡reas terrestres protegidas em relaÃ§Ã£o Ã  Ã¡rea terrestre total;Meta 15.1 ;Produzido;0
-226;Indicador 15.2.1 ;Progressos na gestÃ£o florestal sustentÃ¡vel;Meta 15.2 ;Produzido;0
-227;Indicador 15.3.1 ;ProporÃ§Ã£o do territÃ³rio com solos degradados;Meta 15.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-228;Indicador 15.4.1 ;Cobertura de Ã¡reas protegidas de sitios importantes para a biodiversidade das montanhas;Meta 15.4 ;Produzido;0
-229;Indicador 15.4.2 ;Ãndice de cobertura vegetal nas regiÃµes de montanha;Meta 15.4 ;Produzido;0
-230;Indicador 15.5.1 ;Ãndice das listas vermelhas;Meta 15.5 ;Em anÃ¡lise/construÃ§Ã£o;0
-231;Indicador 15.6.1 ;NÃºmero de paÃ­ses que adotaram quadros legislativos, administrativos e polÃ­ticos para assegurar a partilha justa e equitativa de benefÃ­cios;Meta 15.6 ;Produzido;0
-232;Indicador 15.7.1 ;ProporÃ§Ã£o da vida silvestre comercializada que foi objeto de caÃ§a furtiva ou de trÃ¡fico ilÃ­cito;Meta 15.7 ;Sem dados;0
-233;Indicador 15.8.1 ;ProporÃ§Ã£o de paÃ­ses que adotam legislaÃ§Ã£o nacional relevante e recursos adequados para a prevenÃ§Ã£o ou o controle de espÃ©cies exÃ³ticas invasoras;Meta 15.8 ;Em anÃ¡lise/construÃ§Ã£o;0
-234;Indicador 15.9.1 ;"(a) NÃºmero de paÃ­ses que estabeleceram metas nacionais em conformidade com a Meta 2 de Aichi do Plano EstratÃ©gico para a Biodiversidade 2011â€“2020 ou metas similares em suas estratÃ©gias e planos de aÃ§Ã£o nacionais para a biodiversidade e o progresso relatado no alcance dessas metas; e (b) integraÃ§Ã£o da biodiversidade nas contas nacionais e sistemas de relatoria, definidos como implementaÃ§Ã£o do Sistema de Contas EconÃ´micas Ambientais";Meta 15.9 ;Produzido;0
-235;Indicador 15.a.1 ;"(a) AssistÃªncia oficial ao desenvolvimento em conservaÃ§Ã£o e uso sustentÃ¡vel da biodiversidade; e (b) Receita gerada e financiamento mobilizado a partir de instrumentos econÃ´micos relevantes para a biodiversidade";Meta 15.a ;Em anÃ¡lise/construÃ§Ã£o;0
-236;Indicador 15.b.1 ;"(a) AssistÃªncia Oficial ao Desenvolvimento em conservaÃ§Ã£o e uso sustentÃ¡vel da biodiversidade; e (b) Receita gerada e financiamento mobilizado a partir de instrumentos econÃ´micos relevantes para a biodiversidade";Meta 15.b ;Em anÃ¡lise/construÃ§Ã£o;0
-237;Indicador 15.c.1 ;ProporÃ§Ã£o da vida silvestre comercializada que foi objeto de caÃ§a furtiva ou de trÃ¡fico ilÃ­cito;Meta 15.c ;Sem dados;0
-238;Indicador 16.1.1 ;NÃºmero de vÃ­timas de homicÃ­dios intencionais por 100 mil habitantes, por ano;Meta 16.1 ;Produzido;1
-239;Indicador 16.1.1.2;NÃºmero de vÃ­timas de homicÃ­dios intencionais por 100 mil habitantes, por grupo de idade;Meta 16.1 ;Produzido;1
-240;Indicador 16.1.1.3;NÃºmero de vÃ­timas de homicÃ­dios intencionais por 100 mil habitantes, por sexo e grupo de idade;Meta 16.1 ;Produzido;1
-241;Indicador 16.1.1.4;NÃºmero de vÃ­timas de homicÃ­dios intencionais por 100 mil habitantes, por sexo;Meta 16.1 ;Produzido;1
-242;Indicador 16.1.2 ;Ã“bitos relacionados com conflitos por 100.000 habitantes, por sexo, idade e causa;Meta 16.1 ;NÃ£o se aplica ao Brasil;0
-243;Indicador 16.1.3 ;Pessoas de 18 anos ou mais de idade que sofreram violÃªncia nos Ãºltimos 12 meses, por sexo e situaÃ§Ã£o de domicÃ­lio;Meta 16.1 ;Produzido;1
-244;Indicador 16.1.3.1;Pessoas de 18 anos ou mais de idade que sofreram violÃªncia nos Ãºltimos 12 meses, por grupo de idade e situaÃ§Ã£o de domicÃ­lio;Meta 16.1 ;Produzido;1
-245;Indicador 16.1.3.2;Pessoas de 18 anos ou mais de idade que sofreram violÃªncia nos Ãºltimos 12 meses, por nÃ­vel de instruÃ§Ã£o e situaÃ§Ã£o de domicÃ­lio;Meta 16.1 ;Produzido;1
-246;Indicador 16.1.3.3;Pessoas de 18 anos ou mais de idade que sofreram violÃªncia nos Ãºltimos 12 meses, por cor ou raÃ§a e situaÃ§Ã£o de domicÃ­lio;Meta 16.1 ;Produzido;1
-247;Indicador 16.1.3.4;Pessoas de 18 anos ou mais de idade que sofreram violÃªncia nos Ãºltimos 12 meses, por rendimento mensal domiciliar per capita e situaÃ§Ã£o de domicÃ­lio;Meta 16.1 ;Produzido;1
-248;Indicador 16.1.4 ;ProporÃ§Ã£o da populaÃ§Ã£o que se sente segura quando caminha sozinha na Ã¡rea onde vive;Meta 16.1 ;Produzido;0
-249;Indicador 16.2.1 ;ProporÃ§Ã£o de crianÃ§as com idade entre 1 e 17 anos que sofreram qualquer puniÃ§Ã£o fÃ­sica e/ou e/ou agressÃ£o psicolÃ³gica por parte de cuidadores no Ãºltimo mÃªs;Meta 16.2 ;Sem dados;0
-250;Indicador 16.2.2 ;NÃºmero de vÃ­timas de trÃ¡fico de pessoas por 100.000 habitantes, por sexo, idade e forma de exploraÃ§Ã£o;Meta 16.2 ;Sem dados;0
-251;Indicador 16.2.3 ;ProporÃ§Ã£o de mulheres e homens jovens com idade entre 18 e 29 anos que foram vÃ­timas de violÃªncia sexual atÃ© a idade de 18 anos;Meta 16.2 ;Em anÃ¡lise/construÃ§Ã£o;0
-252;Indicador 16.3.1 ;ProporÃ§Ã£o de vÃ­timas de violÃªncia nos Ãºltimos 12 meses que reportaram Ã s autoridades competentes ou a outros organismos de resoluÃ§Ã£o de conflitos oficialmente reconhecidos;Meta 16.3 ;Produzido;0
-253;Indicador 16.3.2 ;ProporÃ§Ã£o de presos sem sentenÃ§a em relaÃ§Ã£o Ã  populaÃ§Ã£o prisional em geral;Meta 16.3 ;Produzido;0
-254;Indicador 16.3.3 ;ProporÃ§Ã£o da populaÃ§Ã£o que teve alguma disputa nos Ãºltimos dois anos, e que acessou um mecanismo formal ou informal de resoluÃ§Ã£o de disputas, por tipo de mecanismo;Meta 16.3 ;Sem dados;0
-255;Indicador 16.4.1 ;Valor total de entradas e saÃ­das de fluxos financeiros ilÃ­citos (em dÃ³lares americanos correntes);Meta 16.4 ;Sem dados;0
-256;Indicador 16.4.2 ;ProporÃ§Ã£o de armas apreendidas, encontradas ou entregues, cuja origem ou contexto ilÃ­cito tenha sido detectado ou estabelecido por uma autoridade competente, em linha com instrumentos internacionais;Meta 16.4 ;Sem dados;0
-257;Indicador 16.5.1 ;ProporÃ§Ã£o de pessoas que tiveram pelo menos um contato com um funcionÃ¡rio pÃºblico e que pagaram um suborno ou a quem foi pedido um suborno por funcionÃ¡rios pÃºblicos, nos Ãºltimos 12 meses;Meta 16.5 ;Sem dados;0
-258;Indicador 16.5.2 ;ProporÃ§Ã£o de empresas que tiveram pelo menos um contato com um funcionÃ¡rio pÃºblico e que pagaram um suborno ou a quem foi pedido um suborno por funcionÃ¡rios pÃºblicos, nos Ãºltimos 12 meses;Meta 16.5 ;Sem dados;0
-259;Indicador 16.6.1 ;Despesas pÃºblicas primÃ¡rias como proporÃ§Ã£o do orÃ§amento original aprovado, por setor (ou por cÃ³digos de orÃ§amento ou similares);Meta 16.6 ;Produzido;0
-260;Indicador 16.6.2 ;ProporÃ§Ã£o da populaÃ§Ã£o satisfeita com a Ãºltima experiÃªncia com serviÃ§os pÃºblicos;Meta 16.6 ;Sem dados;0
-261;Indicador 16.7.1 ;ProporÃ§Ãµes de cargos (por sexo, idade, pessoas com deficiÃªncia e grupos populacionais) em instituiÃ§Ãµes pÃºblicas (legislativo nacional e locais, administraÃ§Ã£o pÃºblica e tribunais) em relaÃ§Ã£o Ã s distribuiÃ§Ãµes nacionais;Meta 16.7 ;Produzido;0
-262;Indicador 16.7.2 ;ProporÃ§Ã£o da populaÃ§Ã£o que considera que os processos de tomada de decisÃ£o sÃ£o inclusivos e adequados, por sexo, idade, deficiÃªncia e grupo populacional;Meta 16.7 ;Sem dados;0
-263;Indicador 16.8.1 ;ProporÃ§Ã£o de membros e direito de voto dos paÃ­ses em desenvolvimento em organizaÃ§Ãµes internacionais;Meta 16.8 ;NÃ£o se aplica ao Brasil;0
-264;Indicador 16.9.1 ;ProporÃ§Ã£o de crianÃ§as com menos de 5 anos cujos nascimentos foram registrados por uma autoridade civil, por idade;Meta 16.9 ;Produzido;1
-265;Indicador 16.10.1 ;NÃºmero de casos verificados de homicÃ­dio, sequestro, desaparecimento forÃ§ado, detenÃ§Ã£o arbitrÃ¡ria e tortura de jornalistas, pessoal de mÃ­dia, sindicalistas e defensores dos direitos humanos nos Ãºltimos 12 meses;Meta 16.10 ;Sem dados;0
-266;Indicador 16.10.2 ;NÃºmero de paÃ­ses que adotam e implementam garantias constitucionais, estatutÃ¡rias e/ou polÃ­ticas para acesso pÃºblico Ã  informaÃ§Ã£o;Meta 16.10 ;Produzido;0
-267;Indicador 16.a.1 ;ExistÃªncia de instituiÃ§Ãµes nacionais independentes de direitos humanos, de acordo com os PrincÃ­pios de Paris;Meta 16.a ;Em anÃ¡lise/construÃ§Ã£o;0
-268;Indicador 16.b.1 ;ProporÃ§Ã£o da populaÃ§Ã£o que reportou ter-se sentido pessoalmente discriminada ou assediada nos Ãºltimos 12 meses por motivos de discriminaÃ§Ã£o proibidos no Ã¢mbito da legislaÃ§Ã£o internacional dos direitos humanos;Meta 16.b ;Sem dados;0
-269;Indicador 17.1.1 ;Total das receitas do Governo em percentagem do PIB, por fonte;Meta 17.1 ;Produzido;0
-270;Indicador 17.1.2 ;Percentagem do orÃ§amento do Governo financiada por impostos cobrados internamente;Meta 17.1 ;Produzido;0
-271;Indicador 17.2.1 ;AssistÃªncia oficial ao desenvolvimento lÃ­quida, total e para os paÃ­ses menos desenvolvidos, como proporÃ§Ã£o do Rendimento Nacional Bruto (RNB) dos doadores do ComitÃª de Ajuda ao Desenvolvimento da OrganizaÃ§Ã£o para a CooperaÃ§Ã£o e Desenvolvimento EconÃ´mico (OCDE);Meta 17.2 ;NÃ£o se aplica ao Brasil;0
-272;Indicador 17.3.1 ;Recursos financeiros adicionais mobilizados para paÃ­ses em desenvolvimento de mÃºltiplas fontes;Meta 17.3 ;Em anÃ¡lise/construÃ§Ã£o;0
-273;Indicador 17.3.2 ;Volume de remessas (em dÃ³lares dos Estados Unidos) como proporÃ§Ã£o do PIB total;Meta 17.3 ;Produzido;0
-274;Indicador 17.4.1 ;ServiÃ§o da dÃ­vida como proporÃ§Ã£o das exportaÃ§Ãµes de bens e serviÃ§os;Meta 17.4 ;Produzido;0
-275;Indicador 17.5.1 ;NÃºmero de paÃ­ses que adotam e implementam regimes de promoÃ§Ã£o de investimentos para os paÃ­ses em desenvolvimento, incluindo os paÃ­ses menos desenvolvidos;Meta 17.5 ;Em anÃ¡lise/construÃ§Ã£o;0
-276;Indicador 17.6.1 ;SubscriÃ§Ãµes de Internet por banda larga de rede fixa por 100 habitantes, por velocidade de ligaÃ§Ã£o;Meta 17.6 ;Produzido;0
-277;Indicador 17.7.1 ;Montante total de financiamento para paÃ­ses em desenvolvimento para promover o desenvolvimento, transferÃªncia, disseminaÃ§Ã£o e difusÃ£o de tecnologias ambientalmente seguras e racionais;Meta 17.7 ;Em anÃ¡lise/construÃ§Ã£o;0
-278;Indicador 17.8.1 ;ProporÃ§Ã£o de indivÃ­duos que utilizam a Internet;Meta 17.8 ;Produzido;0
-279;Indicador 17.9.1 ;Valor, em dÃ³lares, da assistÃªncia tÃ©cnica e financeira (incluindo cooperaÃ§Ã£o Norte-Sul, Sul-Sul e triangular) destinada a paÃ­ses em desenvolvimento;Meta 17.9 ;Em anÃ¡lise/construÃ§Ã£o;0
-280;Indicador 17.10.1 ;MÃ©dia ponderada das tarifas aduaneiras Ã  escala mundial;Meta 17.10 ;NÃ£o se aplica ao Brasil;0
-281;Indicador 17.11.1 ;ParticipaÃ§Ã£o das exportaÃ§Ãµes provenientes dos paÃ­ses em vias de desenvolvimento e dos paÃ­ses menos desenvolvidos nas exportaÃ§Ãµes globais;Meta 17.11 ;NÃ£o se aplica ao Brasil;0
-282;Indicador 17.12.1 ;MÃ©dia ponderada de tarifas aduaneiras aplicadas aos paÃ­ses em desenvolvimento, paÃ­ses menos desenvolvidos e pequenos Estados insulares em desenvolvimento;Meta 17.12 ;NÃ£o se aplica ao Brasil;0
-283;Indicador 17.13.1 ;Painel de indicadores macroeconÃ´micos;Meta 17.13 ;Em anÃ¡lise/construÃ§Ã£o;0
-284;Indicador 17.14.1 ;NÃºmero de paÃ­ses com mecanismos em vigor para reforÃ§ar a coerÃªncia polÃ­tica do desenvolvimento sustentÃ¡vel;Meta 17.14 ;Sem dados;0
-285;Indicador 17.15.1 ;ExtensÃ£o do recurso a quadros de resultados e instrumentos de planejamento delineados pelos beneficiÃ¡rios [country ownership], por parte dos paÃ­ses fornecedores de cooperaÃ§Ã£o para o desenvolvimento;Meta 17.15 ;Em anÃ¡lise/construÃ§Ã£o;0
-286;Indicador 17.16.1 ;NÃºmero de paÃ­ses que reportam progressos na eficÃ¡cia dos quadros de monitoramento de mÃºltiplos atores que apoiam o cumprimento dos objetivos de desenvolvimento sustentÃ¡vel;Meta 17.16 ;Em anÃ¡lise/construÃ§Ã£o;0
-287;Indicador 17.17.1 ;Montante de dÃ³lares nos Estados Unidos destinados a parcerias pÃºblico-privadas para infraestrutura;Meta 17.17 ;Em anÃ¡lise/construÃ§Ã£o;0
-288;Indicador 17.18.1 ;Indicador de capacidade estatÃ­stica para monitoramento dos Objetivos do Desenvolvimento SustentÃ¡vel;Meta 17.18 ;Em anÃ¡lise/construÃ§Ã£o;0
-289;Indicador 17.18.2 ;NÃºmero de paÃ­ses que possuem legislaÃ§Ã£o estatÃ­stica nacional que cumpre os PrincÃ­pios Fundamentais das EstatÃ­sticas Oficiais;Meta 17.18 ;Em anÃ¡lise/construÃ§Ã£o;0
-290;Indicador 17.18.3 ;NÃºmero de paÃ­ses com um plano estatÃ­stico nacional totalmente financiado e em execuÃ§Ã£o, por fonte de financiamento;Meta 17.18 ;Em anÃ¡lise/construÃ§Ã£o;0
-291;Indicador 17.19.1 ;Valor em dÃ³lares de todos os recursos disponibilizados para fortalecer a capacidade estatÃ­stica nos paÃ­ses em desenvolvimento;Meta 17.19 ;Em anÃ¡lise/construÃ§Ã£o;0
-292;Indicador 17.19.2 ;"ProporÃ§Ã£o de paÃ­ses que (a) realizaram pelo menos um Recenseamento da PopulaÃ§Ã£o e da HabitaÃ§Ã£o nos Ãºltimos 10 anos; e (b) atingiram 100% de registros de nascimento e 80% de registros de Ã³bitos";Meta 17.19 ;Em anÃ¡lise/construÃ§Ã£o;0
+ID_INDICADOR	DESC_INDICADOR	ID_META	STATUS	RBC	VARIAVEIS
+Indicador P1.1.1 	Proporção da população vivendo abaixo da linha de pobreza internacional, por sexo, idade, condição perante o trabalho e localização geográfica (urbano/rural) e etnia	Meta 1.1 	Em análise/construção	0	0
+Indicador 1.1.1 	Proporção da população vivendo abaixo da linha de pobreza internacional, por sexo, idade, condição perante o trabalho e localização geográfica (urbano/rural)	Meta 1.1 	Produzido	1	0
+Indicador 1.2.1 	Proporção da população vivendo abaixo da linha de pobreza nacional, por sexo, idade, condição perante o trabalho e localização geográfica (urbano/rural)	Meta 1.2 	Produzido	1	0
+Indicador 1.2.2 	Proporção de homens, mulheres e crianças de todas as idades vivendo na pobreza em todas as dimensões de acordo com as definições nacionais	Meta 1.2 	Produzido	1	0
+Indicador 1.3.1 	Proporção da população abrangida por regimes de proteção social, por sexo e para os seguintes grupos populacionais: crianças, população desempregada, população idosa, população com deficiência, mulheres grávidas, crianças recém-nascidas, pessoas que sofreram acidentes de trabalho, população em risco de pobreza e outros grupos populacionais vulneráveis	Meta 1.3 	Em análise/construção	0	0
+Indicador 1.4.1 	Proporção da população que vive em domicílios com acesso a serviços básicos	Meta 1.4 	Em análise/construção	0	0
+Indicador 1.4.2 	Proporção da população adulta total com direitos de posse da terra garantidos, com documentação legalmente reconhecida e que percebe os seus direitos à terra como seguros, por sexo e por tipo de posse	Meta 1.4 	Em análise/construção	0	0
+Indicador 1.5.1 	Número de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuído a desastres por 100 mil habitantes	Meta 1.5 	Produzido	1	0
+Indicador 1.5.2 	Perdas econômicas diretas atribuídas a desastres em relação ao Produto Interno Bruto (PIB) global	Meta 1.5 	Produzido	1	0
+Indicador 1.5.3 	Número de países que adotaram e implementaram estratégias nacionais de redução de risco de desastres em linha com o Quadro de Sendai para a Redução de Risco de Desastres 2015-2030	Meta 1.5 	Produzido	1	0
+Indicador 1.5.4 	Proporção de governos locais que adotam e implementam estratégias locais de redução de risco de desastres em linha com as estratégias nacionais de redução de risco de desastres	Meta 1.5 	Produzido	1	0
+Indicador 1.a.1 	Subsídios totais de assistência oficial ao desenvolvimento, de todos os doadores que se concentram na redução da pobreza, como uma parte da renda nacional bruta do país destinatário	Meta 1.a 	Em análise/construção	0	0
+Indicador 1.a.2 	Proporção do total das despesas públicas com serviços essenciais (educação, saúde e proteção social)	Meta 1.a 	Em análise/construção	0	0
+Indicador 1.b.1 	Gastos sociais públicos para os menos favorecidos	Meta 1.b 	Em análise/construção	0	0
+Indicador 2.1.1 	Prevalência de subalimentação	Meta 2.1 	Produzido	0	0
+Indicador 2.1.2 	Prevalência de insegurança alimentar moderada ou grave, baseada em escala de insegurança alimentar	Meta 2.1 	Produzido	0	0
+Indicador 2.2.1 	Prevalência de atrasos no crescimento nas crianças com menos de 5 anos de idade	Meta 2.2 	Produzido	0	0
+Indicador 2.2.2 	Prevalência de malnutrição nas crianças com menos de 5 anos de idade, por tipo de malnutrição (baixo peso e excesso de peso)	Meta 2.2 	Produzido	0	0
+Indicador 2.2.3 	Prevalência de anemia em mulheres de 15 a 49 anos, segundo estado de gravidez	Meta 2.2 	Sem dados	0	0
+Indicador 2.3.1 	Volume de produção por unidade de trabalho por dimensão da empresa agrícola/pastoril/florestal	Meta 2.3 	Em análise/construção	0	0
+Indicador 2.3.2 	Renda média dos pequenos produtores de alimentos, por sexo e condição de indígena	Meta 2.3 	Em análise/construção	0	0
+Indicador 2.4.1 	Proporção da área agrícola sob agricultura produtiva e sustentável	Meta 2.4 	Sem dados	0	0
+Indicador 2.5.1 	Número de recursos genéticos vegetais e animais para a alimentação e agricultura, protegidos a médio ou longo prazo em instalações de conservação	Meta 2.5 	Produzido	0	0
+Indicador 2.5.2 	Proporção de raças locais classificadas como em risco de extinção	Meta 2.5 	Sem dados	0	0
+Indicador 2.a.1 	Índice de orientação agrícola para a despesa pública	Meta 2.a 	Produzido	0	0
+Indicador 2.a.2 	Total de fluxos oficiais (ajuda pública ao desenvolvimento e outros fluxos oficiais) para o setor agrícola	Meta 2.a 	Produzido	0	0
+Indicador 2.b.1 	Subsídios às exportações agrícolas	Meta 2.b 	Produzido	0	0
+Indicador 2.c.1 	Indicador de anomalias dos preços de alimentação	Meta 2.c 	Em análise/construção	0	0
+Indicador 3.1.1 	Razão de mortalidade materna	Meta 3.1 	Produzido	1	0
+Indicador 3.1.2 	Proporção de nascimentos assistidos por pessoal de saúde qualificado	Meta 3.1 	Produzido	1	0
+Indicador 3.2.1 	Taxa de mortalidade em menores de 5 anos	Meta 3.2 	Produzido	1	0
+Indicador 3.2.2 	Taxa de mortalidade neonatal	Meta 3.2 	Produzido	1	0
+Indicador 3.3.1 	Número de novas infecções por HIV por 1.000 habitantes, por sexo, idade e populações específicas	Meta 3.3 	Em análise/construção	0	0
+Indicador 3.3.2 	Incidência de tuberculose por 100.000 habitantes	Meta 3.3 	Produzido	1	0
+Indicador 3.3.3 	Taxa de incidência da malária por 1.000 habitantes	Meta 3.3 	Produzido	1	0
+Indicador 3.3.4 	Taxa de incidência da hepatite B por 100 mil habitantes	Meta 3.3 	Produzido	1	0
+Indicador 3.3.5 	Número de pessoas que necessitam de intervenções contra doenças tropicais negligenciadas (DTN)	Meta 3.3 	Produzido	1	0
+Indicador 3.4.1 	Taxa de mortalidade por doenças do aparelho circulatório, tumores malignos, diabetes mellitus e doenças crônicas respiratórias	Meta 3.4 	Produzido	1	0
+Indicador 3.4.2 	Taxa de mortalidade por suicídio	Meta 3.4 	Produzido	1	0
+Indicador 3.5.1 	Cobertura das intervenções (farmacológicas, psicossociais, de reabilitação e de pós-tratamento) para o tratamento do abuso de substâncias	Meta 3.5 	Em análise/construção	0	0
+Indicador 3.5.2 	Consumo de álcool em litros de álcool puro per capita (com 15 anos ou mais) por ano	Meta 3.5 	Produzido	0	0
+Indicador 3.6.1 	Taxa de mortalidade por acidentes de trânsito	Meta 3.6 	Produzido	1	0
+Indicador 3.7.1 	Proporção de mulheres em idade reprodutiva (15 a 49 anos) que utilizam métodos modernos de planejamento familiar	Meta 3.7 	Em análise/construção	0	0
+Indicador 3.7.2 	Número de nascidos vivos de mães adolescentes (grupos etários 10-14 e 15-19) por 1.000 mulheres destes grupos etários	Meta 3.7 	Produzido	1	0
+Indicador 3.8.1 	Cobertura da Atenção Primária à Saúde	Meta 3.8 	Em análise/construção	0	0
+Indicador 3.8.2 	Proporção de pessoas em famílias com grandes gastos em saúde em relação ao total de despesas familiares	Meta 3.8 	Produzido	0	0
+Indicador 3.9.1 	Taxa de mortalidade por poluição ambiental (externa e doméstica) do ar	Meta 3.9 	Em análise/construção	0	0
+Indicador 3.9.2 	Taxa de mortalidade atribuída a fontes de água inseguras, saneamento inseguro e falta de higiene	Meta 3.9 	Produzido	1	0
+Indicador 3.9.3 	Taxa de mortalidade atribuída a intoxicação não intencional	Meta 3.9 	Produzido	0	0
+Indicador 3.a.1 	Prevalência do consumo atual de tabaco na população de 15 anos ou mais	Meta 3.a 	Produzido	1	0
+Indicador 3.b.1 	Taxa de cobertura vacinal da população em relação às vacinas incluídas no Programa Nacional de Vacinação	Meta 3.b 	Em análise/construção	0	0
+Indicador 3.b.2 	Ajuda oficial ao desenvolvimento total líquida para a investigação médica e para os setores básicos de saúde	Meta 3.b 	Em análise/construção	0	0
+Indicador 3.b.3 	Proporção de estabelecimentos de saúde que dispõem de um conjunto básico de medicamentos essenciais e relevantes disponíveis e a custo acessível numa base sustentável	Meta 3.b 	Em análise/construção	0	0
+Indicador 3.c.1 	Número de profissionais de saúde por habitante	Meta 3.c 	Em análise/construção	0	0
+Indicador 3.d.1 	Capacidade para o Regulamento Sanitário Internacional (RSI) e preparação para emergências de saúde	Meta 3.d 	Em análise/construção	0	0
+Indicador 3.d.2 	Porcentagem de infecções da corrente sanguínea, devido a organismos resistentes a antimicrobianos selecionados	Meta 3.d 	Em análise/construção	0	0
+Indicador 4.1.1 	"Proporção de crianças e jovens: (a) nos segundo e terceiro anos do ensino fundamental; (b) no final dos anos iniciais do ensino fundamental; e c) no final dos anos finais do ensino fundamental, que atingiram um nível mínimo de proficiência em (i) leitura e (ii) matemática, por sexo"	Meta 4.1 	Em análise/construção	0	0
+Indicador 4.1.2 	Taxa de conclusão do ensino fundamental e ensino médio	Meta 4.1 	Produzido	1	0
+Indicador 4.2.1 	Proporção de crianças com idade entre 24-59 meses que estão com desenvolvimento adequado da saúde, aprendizagem e bem-estar psicossocial, por sexo	Meta 4.2 	Produzido	1	0
+Indicador 4.2.1.2	Proporção das pessoas de 5 anos de idade que frequentam escola de acordo com a situação do domicílio	Meta 4.2 	Produzido	1	0
+Indicador 4.2.1.3	Proporção das pessoas de 5 anos de idade que frequentam escola em relação ao sexo	Meta 4.2 	Produzido	1	0
+Indicador 4.2.1.4	Proporção das pessoas de 5 anos de idade que frequentam escola, em relação ao percentual das pessoas em ordem crescente de rendimento domiciliar per capita	Meta 4.2 	Produzido	1	0
+Indicador 4.2.2 	Taxa de participação no ensino organizado (um ano antes da idade oficial de ingresso no ensino fundamental), por sexo	Meta 4.2 	Produzido	1	0
+Indicador 4.3.1	Taxa de participação de jovens e adultos na educação formal e não formal, nos últimos 12 meses, por sexo	Meta 4.3	Sem dados	0	0
+Indicador 4.4.1	Proporção de jovens e adultos com habilidades em tecnologias de informação e comunicação (TIC), por tipo de habilidade	Meta 4.4	Sem dados	0	0
+Indicador 4.5.1 	Índices de paridade (mulher/homem, rural/urbano, 1º/5º quintis de renda e outros como população com deficiência, populações indígenas e populações afetadas por conflitos, à medida que os dados estejam disponíveis) para todos os indicadores nesta lista que possam ser desagregados	Meta 4.5 	Produzido	1	0
+Indicador 4.6.1 	Percentual da população de determinado grupo etário que atingiu pelo menos o nível mínimo de proficiência em (a) leitura e escrita e (b) matemática, por sexo	Meta 4.6 	Sem dados	0	0
+Indicador 4.7.1 	"Grau em que a (i) a educação para a cidadania global e (ii) a educação para o desenvolvimento sustentável são integradas nas (a) políticas nacionais de educação; (b) currículos escolares; (c) formação de professores; e (d) avaliação de estudantes"	Meta 4.7 	Em análise/construção	0	0
+Indicador 4.a.1 	"Proporção de escolas com acesso a: (a) eletricidade; (b) internet para fins pedagógicos; (c) computadores para fins pedagógicos; (d) infraestrutura e materiais adaptados para alunos com deficiência; (e) água potável; (f) instalações sanitárias separadas por sexo; e (g) instalações básicas para lavagem das mãos (de acordo com as definições dos indicadores WASH)"	Meta 4.a 	Produzido	1	0
+Indicador 4.b.1 	Volume dos fluxos de ajuda oficial ao desenvolvimento para bolsas de estudo por área e tipo de estudo	Meta 4.b 	Não se aplica ao Brasil	0	0
+Indicador 4.c.1 	Proporção de professores que receberam a qualificação mínima exigida, por nível de ensino	Meta 4.c 	Produzido	1	0
+Indicador 5.1.1 	Existência ou não de arcabouço legal em vigor para promover, reforçar e monitorar a igualdade e a não-discriminação com base no sexo	Meta 5.1 	Em análise/construção	0	0
+Indicador 5.2.1 	Proporção de mulheres e meninas de 15 anos de idade ou mais que sofreram violência física, sexual ou psicológica, por parte de um parceiro íntimo atual ou anterior, nos últimos 12 meses, por forma de violência e por idade	Meta 5.2 	Sem dados	0	0
+Indicador 5.2.2 	Proporção de mulheres e meninas de 15 anos ou mais que sofreram violência sexual por outras pessoas não parceiras íntimas, nos últimos 12 meses, por idade e local de ocorrência	Meta 5.2 	Sem dados	0	0
+Indicador 5.3.1 	Proporção de mulheres com idade de 20 a 24 anos que casaram ou viveram em união de fato antes dos 15 anos e antes dos 18 anos de idade	Meta 5.3 	Sem dados	0	0
+Indicador 5.3.2 	Proporção de meninas e mulheres com idade entre 15 e 49 anos que foram submetidas a mutilação genital feminina, por grupo etário	Meta 5.3 	Não se aplica ao Brasil	0	0
+Indicador 5.4.1 	Proporção de tempo gasto em trabalho doméstico não remunerado e cuidados, por sexo, idade e localização	Meta 5.4 	Produzido	1	0
+Indicador 5.4.1.2	Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados por sexo e raça	Meta 5.4 	Produzido	1	0
+Indicador 5.4.1.3	Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados	Meta 5.4 	Produzido	1	0
+Indicador 5.5.1 	Proporção de assentos ocupados por mulheres em (a) parlamentos nacionais e (b) governos locais	Meta 5.5 	Produzido	1	0
+Indicador 5.5.1.1		Meta 5.5 	Produzido	0	0
+Indicador 5.5.1.2		Meta 5.5 	Produzido	0	0
+Indicador 5.5.1.3		Meta 5.5 	Produzido	0	0
+Indicador 5.5.2 	Proporção de mulheres em posições gerenciais	Meta 5.5 	Produzido	0	0
+Indicador 5.5.2 .1		Meta 5.5 	Produzido	0	0
+Indicador 5.5.2 .2		Meta 5.5 	Produzido	0	0
+Indicador 5.6.1 	Proporção de mulheres com idade entre 15 e 49 anos que tomam decisões informadas sobre suas relações sexuais, uso de contraceptivos e cuidados com saúde reprodutiva	Meta 5.6 	Em análise/construção	0	0
+Indicador 5.6.2 	Número de países com legislação e regulamentação que garantam o acesso pleno e igualitário de mulheres e homens, com 15 anos ou mais de idade, aos cuidados, informação e educação em saúde sexual e reprodutiva	Meta 5.6 	Sem dados	0	0
+Indicador 5.a.1 	"(a) Proporção da população agrícola total com propriedade ou direitos assegurados sobre terras agrícolas, por sexo; e (b) proporção de mulheres entre proprietários e detentores de direitos sobre terras agrícolas, por tipo de posse"	Meta 5.a 	Sem dados	0	0
+Indicador 5.a.2 	Proporção de países onde as estruturas legais (incluindo o direito consuetudinário) garantem às mulheres direitos iguais à propriedade e / ou controle da terra	Meta 5.a 	Sem dados	0	0
+Indicador 5.b.1 	Proporção de pessoas que possuem telefone celular móvel, por sexo	Meta 5.b 	Produzido	0	0
+Indicador 5.b.1 .1		Meta 5.b 	Produzido	0	0
+Indicador 5.b.1 .2		Meta 5.b 	Produzido	0	0
+Indicador 5.c.1 	Proporção de países com sistemas para monitorar e fazer alocações públicas para a igualdade de gênero e o empoderamento das mulheres	Meta 5.c 	Em análise/construção	0	0
+Indicador 6.1.1 	Proporção da população que utiliza serviços de água potável gerenciados de forma segura	Meta 6.1 	Produzido	1	0
+Indicador 6.1.1.1		Meta 6.1 	Produzido	0	0
+Indicador 6.1.1.2		Meta 6.1 	Produzido	0	0
+Indicador 6.1.1.3		Meta 6.1 	Produzido	0	0
+Indicador 6.1.1.4		Meta 6.1 	Produzido	0	0
+Indicador 6.2.1 	Proporção da população que utiliza (a) serviços de saneamento gerenciados de forma segura e (b) instalações para lavagem das mãos com água e sabão	Meta 6.2 	Produzido	1	0
+Indicador 6.3.1 	Proporção do fluxo de águas residuais doméstica e industrial tratadas de forma segura	Meta 6.3 	Produzido	0	0
+Indicador 6.3.2 	Proporção de corpos hídricos com boa qualidade ambiental	Meta 6.3 	Produzido	0	0
+Indicador 6.4.1 	Alteração da eficiência no uso da água ao longo do tempo	Meta 6.4 	Produzido	1	0
+Indicador 6.4.2 	Nível de stress hídrico: proporção das retiradas de água doce em relação ao total dos recursos de água doce disponíveis	Meta 6.4 	Produzido	0	0
+Indicador 6.5.1 	Grau de implementação da gestão integrada de recursos hídricos (0-100)	Meta 6.5 	Produzido	0	0
+Indicador 6.5.2 	Proporção das áreas de bacias hidrográficas transfronteiriças abrangidas por um acordo operacional para cooperação hídrica	Meta 6.5 	Produzido	0	0
+Indicador 6.6.1 	Alteração na extensão dos ecossistemas relacionados a água ao longo do tempo	Meta 6.6 	Produzido	1	0
+Indicador 6.a.1 	Montante de ajuda oficial ao desenvolvimento na área da água e saneamento, inserida num plano governamental de despesa	Meta 6.a 	Produzido	0	0
+Indicador 6.b.1 	Participação das comunidades locais na gestão de água e saneamento	Meta 6.b 	Produzido	0	0
+Indicador 7.1.1 	Percentagem da população com acesso à eletricidade	Meta 7.1 	Produzido	1	0
+Indicador 7.1.2 	Percentagem da população com acesso primário a combustíveis e tecnologias limpos	Meta 7.1 	Produzido	1	0
+Indicador 7.2.1 	Participação das energias renováveis na Oferta Interna de Energia (OIE)	Meta 7.2 	Produzido	0	0
+Indicador 7.3.1 	Intensidade energética medida em termos de energia primária e de PIB	Meta 7.3 	Produzido	0	0
+Indicador 7.a.1 	Fluxos financeiros internacionais para países em desenvolvimento para apoio à pesquisa e desenvolvimento de energias limpas e à produção de energia renovável, incluindo sistemas híbridos	Meta 7.a 	Sem dados	0	0
+Indicador 7.b.1 	Capacidade instalada de geração de energia renovável nos países em desenvolvimento (em watts per capita)	Meta 7.b 	Produzido	0	0
+Indicador 8.1.1 	Taxa de crescimento real do PIB per capita	Meta 8.1 	Produzido	0	0
+Indicador 8.2.1 	Taxa de variação anual do PIB real por pessoa ocupada	Meta 8.2 	Produzido	0	0
+Indicador 8.3.1 	Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência, por sexo, setor de atividade do trabalho principal e existência de deficiência	Meta 8.3 	Produzido	1	0
+Indicador 8.3.1.2	Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência, por atividade principal de trabalho	Meta 8.3 	Produzido	1	0
+Indicador 8.3.1.3	Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência, por existência de deficiência	Meta 8.3 	Produzido	1	0
+Indicador 8.4.1 	Pegada material, pegada material per capita e pegada material em percentagem do PIB	Meta 8.4 	Sem dados	0	0
+Indicador 8.4.2 	Consumo interno de materiais, consumo interno de materiais per capita e consumo interno de materiais por unidade do PIB	Meta 8.4 	Sem dados	0	0
+Indicador 8.5.1 	Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por sexo, grupo de idade, grupamento ocupacional do trabalho principal e existência de deficiência	Meta 8.5 	Produzido	1	0
+Indicador 8.5.1.2	Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por grupo de idade	Meta 8.5 	Produzido	1	0
+Indicador 8.5.1.3	Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por grupamento ocupacional no trabalho principal	Meta 8.5 	Produzido	1	0
+Indicador 8.5.1.4	Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por existência de deficiência	Meta 8.5 	Produzido	1	0
+Indicador 8.5.2 	Taxa de desocupação, por sexo, grupo de idade e existência de deficiência	Meta 8.5 	Produzido	1	0
+Indicador 8.5.2.2	Taxa de desocupação, na semana de referência, das pessoas de 15 anos ou mais de idade, por sexo	Meta 8.5 	Produzido	1	0
+Indicador 8.5.2.3	Taxa de desocupação, na semana de referência, das pessoas de 15 anos ou mais de idade, por grupo de idade	Meta 8.5 	Produzido	1	0
+Indicador 8.6.1 	Percentual de pessoas de 15 a 24 anos não ocupadas, não estudantes e que não estão em treinamento para um trabalho	Meta 8.6 	Produzido	1	0
+Indicador 8.7.1 	Proporção e número de crianças de 5-17 anos envolvidos no trabalho infantil, por sexo e idade	Meta 8.7 	Produzido	0	0
+Indicador 8.8.1 	Taxas de frequencia de lesões ocupacionais fatais e não fatais, por sexo e situação de migração	Meta 8.8 	Em análise/construção	0	0
+Indicador 8.8.2 	Nível de conformidade nacional dos direitos trabalhistas (liberdade de associação e negociação coletiva) com base em fontes textuais da Organização Internacional do Trabalho (OIT) e legislação nacional, por sexo e situação de migração	Meta 8.8 	Em análise/construção	0	0
+Indicador 8.9.1 	Turismo em percentagem do PIB e taxa de variação	Meta 8.9 	Sem dados	0	0
+Indicador 8.10.1 	(a) Número de agências bancárias por 100.000 adultos e (b) número de postos de multibanco (ATM) por 100.000 adultos	Meta 8.10 	Produzido	0	0
+Indicador 8.10.2 	Proporção de adultos (15 ou mais anos) com uma conta num banco ou em outra instituição financeira ou com um serviço móvel de dinheiro	Meta 8.10 	Produzido	0	0
+Indicador 8.10.2.1		Meta 8.10 	Produzido	0	0
+Indicador 8.a.1 	Compromissos e desembolsos no âmbito da Iniciativa de Ajuda ao Comércio	Meta 8.a 	Em análise/construção	0	0
+Indicador 8.b.1 	Existência de uma estratégia nacional desenvolvida e operacionalizada para o emprego dos jovens, como estratégia distinta ou como parte de uma estratégia nacional para o emprego	Meta 8.b 	Em análise/construção	0	0
+Indicador 9.1.1 	Proporção de população residente em áreas rurais que vive num raio de 2 km de acesso a uma estrada transitável em todas as estações do ano	Meta 9.1 	Sem dados	0	0
+Indicador 9.1.2 	Passageiros e cargas transportados por modalidade de transporte	Meta 9.1 	Produzido	0	0
+Indicador 9.2.1 	Valor adicionado da indústria em proporção do PIB e per capita	Meta 9.2 	Produzido	1	0
+Indicador 9.2.2 	Emprego na indústria em proporção do emprego total	Meta 9.2 	Produzido	1	0
+Indicador 9.3.1 	"Proporção do valor adicionado das empresas de ""pequena escala"" no total do valor adicionado da indústria"	Meta 9.3 	Produzido	0	0
+Indicador 9.3.2 	Proporção de microempresas com empréstimos contraídos ou linhas de crédito	Meta 9.3 	Produzido	0	0
+Indicador 9.4.1 	Emissão de CO2 pelo PIB	Meta 9.4 	Produzido	0	0
+Indicador 9.5.1 	Dispêndio em P&D em proporção do PIB	Meta 9.5 	Produzido	0	0
+Indicador 9.5.2 	Pesquisadores (em equivalência de tempo integral) por milhão de habitantes	Meta 9.5 	Produzido	0	0
+Indicador 9.a.1 	Total de apoio internacional oficial (ajuda oficial ao desenvolvimento e outros fluxos oficiais) à infraestrutura	Meta 9.a 	Sem dados	0	0
+Indicador 9.b.1 	Proporção do valor adicionado nas indústrias de média e alta intensidade tecnológica no valor adicionado total	Meta 9.b 	Produzido	1	0
+Indicador 9.c.1 	Proporção da população coberta por rede móvel, por tipo de tecnologia	Meta 9.c 	Produzido	0	0
+Indicador 10.1.1 	Taxa de crescimento das despesas domiciliares ou rendimento per capita entre os 40% com os menores rendimentos da população e a população total	Meta 10.1 	Produzido	0	0
+Indicador 10.2.1 	Proporção da pessoas vivendo abaixo de 50% da mediana da renda, por sexo, idade e pessoas com deficiência	Meta 10.2 	Produzido	0	0
+Indicador 10.2.2		Meta 10.2 	Produzido	0	0
+Indicador 10.3.1 	Proporção da população que reportou ter-se sentido pessoalmente discriminada ou assediada nos últimos 12 meses por motivos de discriminação proibidos no âmbito da legislação internacional dos direitos humanos	Meta 10.3 	Sem dados	0	0
+Indicador 10.4.1 	Proporção das remunerações no PIB, incluindo salários e as transferências de proteção social	Meta 10.4 	Produzido	0	0
+Indicador 10.4.2 	Impacto redistributivo da política fiscal	Meta 10.4 	Em análise/construção	0	0
+Indicador 10.5.1 	Indicadores de Solidez Financeira	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1a 	Índice de Patrimônio de Referência Nível I sobre Ativos Totais Ajustados (B1B2)	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1b 	Índice de Patrimônio de Referência Nível I	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1c 	Índice de Inadimplência líquida de provisões sobre capital	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1d 	Índice de Inadimplência da carteira de crédito	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1e 	Retorno sobre ativos (B1B2)	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1f 	Ativos líquidos sobre passivos de curto prazo	Meta 10.5 	Produzido	0	0
+Indicador 10.5.1g 	Posição aberta líquida em moeda estrangeira sobre capital	Meta 10.5 	Produzido	0	0
+Indicador 10.6.1 	Proporção de membros e direito de voto dos países em desenvolvimento em organizações internacionais	Meta 10.6 	Sem dados	0	0
+Indicador 10.7.1 	Custo de recrutamento suportado pelo empregado em proporção do rendimento mensal auferido no país de destino	Meta 10.7 	Sem dados	0	0
+Indicador 10.7.2 	Número de países com políticas migratórias que facilitam a mobilidade das pessoas de forma ordenada, segura, regular e responsável	Meta 10.7 	Sem dados	0	0
+Indicador 10.7.3 	Número de pessoas que morreram ou desapareceram no processo de migração internacional	Meta 10.7 	Sem dados	0	0
+Indicador 10.7.4 	Proporção da população de refugiados, por país de origem	Meta 10.7 	Em análise/construção	0	0
+Indicador 10.a.1 	Proporção de linhas tarifárias com tarifa zero aplicadas às importações provenientes dos países menos desenvolvidos e dos países em desenvolvimento	Meta 10.a 	Em análise/construção	0	0
+Indicador 10.b.1 	Total de fluxos de recursos para o desenvolvimento, por beneficiário e país doador, e tipo de fluxo (ex. ajuda pública ao desenvolvimento, investimento direto estrangeiro e outros fluxos)	Meta 10.b 	Em análise/construção	0	0
+Indicador 10.c.1 	Custos das remessas em proporção do valor remetido	Meta 10.c 	Em análise/construção	0	0
+Indicador 11.1.1 	Proporção de população urbana vivendo em assentamentos precários, assentamentos informais ou domicílios inadequados	Meta 11.1 	Produzido	0	0
+Indicador 11.2.1 	Proporção de população que tem acesso adequado a transporte público, por sexo, idade e pessoas com deficiência	Meta 11.2 	Sem dados	0	0
+Indicador 11.3.1 	Razão da taxa de consumo do solo pela taxa de crescimento da população	Meta 11.3 	Sem dados	0	0
+Indicador 11.3.2 	Proporção de cidades com uma estrutura de participação direta da sociedade civil no planejamento e gestão urbana que opera de forma regular e democrática	Meta 11.3 	Produzido	1	0
+Indicador 11.4.1 	Total da despesa (pública e privada) per capita gasta na preservação, proteção e conservação de todo o patrimônio cultural e natural, por tipo de patrimônio (cultural, natural, misto e por designação do Centro do Patrimônio Mundial), nível de governo (nacional, regional e local), tipo de despesa (despesas correntes/de investimento) e tipo de financiamento privado (doações em espécie, setor privado sem fins lucrativos e patrocínios)	Meta 11.4 	Produzido	0	0
+Indicador 11.5.1 	Número de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuído a desastres por 100 mil habitantes	Meta 11.5 	Produzido	1	0
+Indicador 11.5.2 	Perdas econômicas diretas em relação ao PIB, incluindo danos causados por desastres em infraestruturas críticas e na interrupção de serviços básicos	Meta 11.5 	Produzido	0	0
+Indicador 11.6.1 	Proporção de resíduos sólidos urbanos coletados e gerenciados em instalações controladas pelo total de resíduos urbanos gerados, por cidades	Meta 11.6 	Produzido	0	0
+Indicador 11.6.1.1					0
+Indicador 11.6.2 	Nível médio anual de partículas inaláveis (ex: com diâmetro inferior a 2,5 µm e 10 µm) nas cidades (população ponderada)	Meta 11.6 	Sem dados	0	0
+Indicador 11.7.1 	Proporção da área construída cidades que é espaço público aberto para uso de todos, por sexo, idade e pessoas com deficiência	Meta 11.7 	Sem dados	0	0
+Indicador 11.7.2 	Proporção da população vítima de assédio físico ou sexual, por sexo, grupo etário, pessoas com deficiência e local da ocorrência, nos últimos 12 meses	Meta 11.7 	Sem dados	0	0
+Indicador 11.a.1 	"Número de países que possuem políticas urbanas nacionais ou planos de desenvolvimento regional que (a) respondem à dinâmica populacional; (b) garantem um desenvolvimento territorial equilibrado; e (c) possuem responsabilidade fiscal"	Meta 11.a 	Produzido	0	0
+Indicador 11.b.1 	Número de países que adotam e implementam estratégias nacionais de redução de risco de desastres em linha com o Marco de Sendai para a Redução de Risco de Desastres 2015-2030	Meta 11.b 	Produzido	0	0
+Indicador 11.b.2 	Proporção de governos locais que adotam e implementam estratégias locais de redução de risco de desastres em linha com as estratégias nacionais de redução de risco de desastres	Meta 11.b 	Produzido	1	0
+Indicador 11.c	Apoiar os países menos desenvolvidos, inclusive por meio de assistência técnica e financeira, para construções sustentáveis e resilientes, utilizando materiais locais	Meta 11.c 		0	0
+Indicador 12.1.1 	Número de países que incorporam o consumo e a produção sustentáveis em planos de ação nacionais ou como uma prioridade ou uma meta nas políticas nacionais	Meta 12.1 	Produzido	0	0
+Indicador 12.2.1 	Pegada material, pegada material per capita e pegada material em percentagem do PIB	Meta 12.2 	Sem dados	0	0
+Indicador 12.2.2 	Consumo interno de materiais, consumo interno de materiais per capita e consumo interno de materiais por unidade do PIB	Meta 12.2 	Sem dados	0	0
+Indicador 12.3.1 	(a) Índice de perdas alimentares e (b) Índice de desperdício alimentar	Meta 12.3 	Sem dados	0	0
+Indicador 12.4.1 	Número de Partes em acordos multilaterais internacionais sobre resíduos perigosos e outros produtos químicos, no domínio do ambiente, que cumpram os seus compromissos e obrigações na transmissão de informações, conforme exigido por cada acordo relevante	Meta 12.4 	Produzido	0	0
+Indicador 12.4.2 	Quantidade de resíduos perigosos gerados per capita e proporção de resíduos perigosos tratados, por tipo de tratamento	Meta 12.4 	Sem dados	0	0
+Indicador 12.5.1 	Taxa de reciclagem nacional por toneladas de material reciclado	Meta 12.5 	Produzido	0	0
+Indicador 12.6.1 	Número de empresas que publicam relatórios de sustentabilidade	Meta 12.6 	Produzido	0	0
+Indicador 12.7.1 	Grau de implementação de políticas e planos de ação para compras públicas sustentáveis	Meta 12.7 	Em análise/construção	0	0
+Indicador 12.8.1 	"Grau em que a (i) a educação para a cidadania global e (ii) a educação para o desenvolvimento sustentável são integradas nas (a) políticas nacionais de educação; (b) currículos escolares; (c) formação de professores; e (d) avaliação de estudantes"	Meta 12.8 	Sem dados	0	0
+Indicador 12.a.1 	Capacidade instalada de geração de energia renovável nos países em desenvolvimento (em watts per capita)	Meta 12.a 	Produzido	0	0
+Indicador 12.b.1 	Aplicação de instrumentos contábeis padronizados para monitorar os aspectos econômicos e ambientais da sustentabilidade do turismo	Meta 12.b 	Sem dados	0	0
+Indicador 12.c.1 	Montante de subsídios aos combustíveis fósseis por unidade do PIB (produção e consumo)	Meta 12.c 	Sem dados	0	0
+Indicador 13.1.1 	Número de mortes, pessoas desaparecidas e pessoas diretamente afetadas atribuído a desastres por 100 mil habitantes	Meta 13.1 	Produzido	1	0
+Indicador 13.1.2 	Número de países que adotam e implementam estratégias nacionais de redução de risco de desastres em linha com o Quadro de Sendai para a Redução de Risco de Desastres 2015-2030	Meta 13.1 	Produzido	0	0
+Indicador 13.1.3 	Proporção de governos locais que adotam e implementam estratégias locais de redução de risco de desastres em linha com as estratégias nacionais de redução de risco de desastres	Meta 13.1 	Produzido	1	0
+Indicador 13.2.1 	Número de países com Contribuições Nacionalmente Determinadas, estratégias de longo prazo, planos nacionais de adaptação, estratégias como reportadas nas comunicações nacionais e de adaptação	Meta 13.2 	Produzido	0	0
+Indicador 13.2.2	Emissões de gases do efeito estufa diretos, por fonte de emissão de gases de efeito estufa	Meta 13.2 	Produzido	1	0
+Indicador 13.2.2 	Emissões totais de gases de efeito estufa por ano	Meta 13.2 	Produzido	0	0
+Indicador 13.3.1 	"Grau em que a (i) a educação para a cidadania global e (ii) a educação para o desenvolvimento sustentável são integradas nas (a) políticas nacionais de educação; (b) currículos escolares; (c) formação de professores; e (d) avaliação de estudantes"	Meta 13.3 	Sem dados	0	0
+Indicador 13.a.1 	Quantidades fornecidas e mobilizadas em dólares dos Estados Unidos por ano em relação à meta continuada de mobilização coletiva existente do compromisso de US$100 bilhões até 2025	Meta 13.a 	Não se aplica ao Brasil	0	0
+Indicador 13.b.1 	Número de países menos desenvolvidos e pequenos Estados insulares em desenvolvimento com Contribuições Nacionalmente Determinadas, estratégias de longo prazo, planos nacionais de adaptação, estratégias como reportadas nas comunicações nacionais e de adaptação	Meta 13.b 	Não se aplica ao Brasil	0	0
+Indicador 14.1.1 	"a) Índice de eutrofização costeira; e (b) densidade de detritos plásticos"	Meta 14.1 	Sem dados	0	0
+Indicador 14.2.1 	Número de países que utilizam abordagens baseadas em ecossistemas para gerenciar áreas marinhas	Meta 14.2 	Sem dados	0	0
+Indicador 14.3.1 	Acidez média marinha (pH) medida num conjunto representativo de estações de coleta	Meta 14.3 	Sem dados	0	0
+Indicador 14.4.1 	Proporção da população de peixes (fish stocks) dentro de níveis biologicamente sustentáveis	Meta 14.4 	Sem dados	0	0
+Indicador 14.5.1 	Cobertura de áreas marinhas protegidas em relação às áreas marinhas	Meta 14.5 	Produzido	0	0
+Indicador 14.6.1 	Progresso dos países, relativamente ao grau de implementação dos instrumentos internacionais visando o combate da pesca ilegal, não registrada (declarada) e não regulamentada (IUU fishing)	Meta 14.6 	Produzido	0	0
+Indicador 14.7.1 	Pesca sustentável como uma proporção do Produto Interno Bruto (PIB) de pequenos Estados insulares em desenvolvimento, (Small Islands Developing States), de países menos desenvolvidos e todos os países	Meta 14.7 	Sem dados	0	0
+Indicador 14.a.1 	Proporção do total do orçamento de pesquisas alocado para pesquisas na área da tecnologia marinha	Meta 14.a 	Em análise/construção	0	0
+Indicador 14.b.1 	Progresso dos países relativamente ao grau de aplicação de uma estrutura (enquadramento) legal/ regulamentar/político e institucional que reconheça e proteja os direitos de acesso dos pescadores de pequena escala	Meta 14.b 	Produzido	0	0
+Indicador 14.c.1 	Número de países com progressos na ratificação, aceitação e implementação, através de quadros legais, políticos e institucionais, de instrumentos relacionados com o oceano que implementam o direito internacional, tal como refletido na Convenção das Nações Unidas sobre o Direito do Mar, para a conservação e uso sustentável dos oceanos e seus recursos	Meta 14.c 	Em análise/construção	0	0
+Indicador 15.1.1 	Área florestal como proporção da área total do território	Meta 15.1 	Produzido	0	0
+Indicador 15.1.2 	Proporção de sítios importantes para a biodiversidade terrestre e de água doce cobertos por áreas protegidas, por tipo de ecossistema	Meta 15.1 	Produzido	0	0
+Indicador C15.1.c 	Cobertura das áreas terrestres protegidas em relação à área terrestre total	Meta 15.1 	Produzido	0	0
+Indicador 15.2.1 	Progressos na gestão florestal sustentável	Meta 15.2 	Produzido	0	0
+Indicador 15.3.1 	Proporção do território com solos degradados	Meta 15.3 	Em análise/construção	0	0
+Indicador 15.4.1 	Cobertura de áreas protegidas de sitios importantes para a biodiversidade das montanhas	Meta 15.4 	Produzido	0	0
+Indicador 15.4.2 	Índice de cobertura vegetal nas regiões de montanha	Meta 15.4 	Produzido	0	0
+Indicador 15.5.1 	Índice das listas vermelhas	Meta 15.5 	Em análise/construção	0	0
+Indicador 15.6.1 	Número de países que adotaram quadros legislativos, administrativos e políticos para assegurar a partilha justa e equitativa de benefícios	Meta 15.6 	Produzido	0	0
+Indicador 15.7.1 	Proporção da vida silvestre comercializada que foi objeto de caça furtiva ou de tráfico ilícito	Meta 15.7 	Sem dados	0	0
+Indicador 15.8.1 	Proporção de países que adotam legislação nacional relevante e recursos adequados para a prevenção ou o controle de espécies exóticas invasoras	Meta 15.8 	Em análise/construção	0	0
+Indicador 15.9.1 	"(a) Número de países que estabeleceram metas nacionais em conformidade com a Meta 2 de Aichi do Plano Estratégico para a Biodiversidade 2011–2020 ou metas similares em suas estratégias e planos de ação nacionais para a biodiversidade e o progresso relatado no alcance dessas metas; e (b) integração da biodiversidade nas contas nacionais e sistemas de relatoria, definidos como implementação do Sistema de Contas Econômicas Ambientais"	Meta 15.9 	Produzido	0	0
+Indicador 15.a.1 	"(a) Assistência oficial ao desenvolvimento em conservação e uso sustentável da biodiversidade; e (b) Receita gerada e financiamento mobilizado a partir de instrumentos econômicos relevantes para a biodiversidade"	Meta 15.a 	Em análise/construção	0	0
+Indicador 15.b.1 	"(a) Assistência Oficial ao Desenvolvimento em conservação e uso sustentável da biodiversidade; e (b) Receita gerada e financiamento mobilizado a partir de instrumentos econômicos relevantes para a biodiversidade"	Meta 15.b 	Em análise/construção	0	0
+Indicador 15.c.1 	Proporção da vida silvestre comercializada que foi objeto de caça furtiva ou de tráfico ilícito	Meta 15.c 	Sem dados	0	0
+Indicador 16.1.1 	Número de vítimas de homicídios intencionais por 100 mil habitantes, por ano	Meta 16.1 	Produzido	1	0
+Indicador 16.1.1.2	Número de vítimas de homicídios intencionais por 100 mil habitantes, por grupo de idade	Meta 16.1 	Produzido	1	0
+Indicador 16.1.1.3	Número de vítimas de homicídios intencionais por 100 mil habitantes, por sexo e grupo de idade	Meta 16.1 	Produzido	1	0
+Indicador 16.1.1.4	Número de vítimas de homicídios intencionais por 100 mil habitantes, por sexo	Meta 16.1 	Produzido	1	0
+Indicador 16.1.2 	Óbitos relacionados com conflitos por 100.000 habitantes, por sexo, idade e causa	Meta 16.1 	Não se aplica ao Brasil	0	0
+Indicador 16.1.3 	Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses, por sexo e situação de domicílio	Meta 16.1 	Produzido	1	0
+Indicador 16.1.3.1	Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses, por grupo de idade e situação de domicílio	Meta 16.1 	Produzido	1	0
+Indicador 16.1.3.2	Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses, por nível de instrução e situação de domicílio	Meta 16.1 	Produzido	1	0
+Indicador 16.1.3.3	Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses, por cor ou raça e situação de domicílio	Meta 16.1 	Produzido	1	0
+Indicador 16.1.3.4	Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses, por rendimento mensal domiciliar per capita e situação de domicílio	Meta 16.1 	Produzido	1	0
+Indicador 16.1.4 	Proporção da população que se sente segura quando caminha sozinha na área onde vive	Meta 16.1 	Produzido	0	0
+Indicador 16.2.1 	Proporção de crianças com idade entre 1 e 17 anos que sofreram qualquer punição física e/ou e/ou agressão psicológica por parte de cuidadores no último mês	Meta 16.2 	Sem dados	0	0
+Indicador 16.2.2 	Número de vítimas de tráfico de pessoas por 100.000 habitantes, por sexo, idade e forma de exploração	Meta 16.2 	Sem dados	0	0
+Indicador 16.2.3 	Proporção de mulheres e homens jovens com idade entre 18 e 29 anos que foram vítimas de violência sexual até a idade de 18 anos	Meta 16.2 	Em análise/construção	0	0
+Indicador 16.3.1 	Proporção de vítimas de violência nos últimos 12 meses que reportaram às autoridades competentes ou a outros organismos de resolução de conflitos oficialmente reconhecidos	Meta 16.3 	Produzido	0	0
+Indicador 16.3.2 	Proporção de presos sem sentença em relação à população prisional em geral	Meta 16.3 	Produzido	0	0
+Indicador 16.3.3 	Proporção da população que teve alguma disputa nos últimos dois anos, e que acessou um mecanismo formal ou informal de resolução de disputas, por tipo de mecanismo	Meta 16.3 	Sem dados	0	0
+Indicador 16.4.1 	Valor total de entradas e saídas de fluxos financeiros ilícitos (em dólares americanos correntes)	Meta 16.4 	Sem dados	0	0
+Indicador 16.4.2 	Proporção de armas apreendidas, encontradas ou entregues, cuja origem ou contexto ilícito tenha sido detectado ou estabelecido por uma autoridade competente, em linha com instrumentos internacionais	Meta 16.4 	Sem dados	0	0
+Indicador 16.5.1 	Proporção de pessoas que tiveram pelo menos um contato com um funcionário público e que pagaram um suborno ou a quem foi pedido um suborno por funcionários públicos, nos últimos 12 meses	Meta 16.5 	Sem dados	0	0
+Indicador 16.5.2 	Proporção de empresas que tiveram pelo menos um contato com um funcionário público e que pagaram um suborno ou a quem foi pedido um suborno por funcionários públicos, nos últimos 12 meses	Meta 16.5 	Sem dados	0	0
+Indicador 16.6.1 	Despesas públicas primárias como proporção do orçamento original aprovado, por setor (ou por códigos de orçamento ou similares)	Meta 16.6 	Produzido	0	0
+Indicador 16.6.2 	Proporção da população satisfeita com a última experiência com serviços públicos	Meta 16.6 	Sem dados	0	0
+Indicador 16.7.1 	Proporções de cargos (por sexo, idade, pessoas com deficiência e grupos populacionais) em instituições públicas (legislativo nacional e locais, administração pública e tribunais) em relação às distribuições nacionais	Meta 16.7 	Produzido	0	0
+Indicador 16.7.2 	Proporção da população que considera que os processos de tomada de decisão são inclusivos e adequados, por sexo, idade, deficiência e grupo populacional	Meta 16.7 	Sem dados	0	0
+Indicador 16.8.1 	Proporção de membros e direito de voto dos países em desenvolvimento em organizações internacionais	Meta 16.8 	Não se aplica ao Brasil	0	0
+Indicador 16.9.1 	Proporção de crianças com menos de 5 anos cujos nascimentos foram registrados por uma autoridade civil, por idade	Meta 16.9 	Produzido	1	0
+Indicador 16.10.1 	Número de casos verificados de homicídio, sequestro, desaparecimento forçado, detenção arbitrária e tortura de jornalistas, pessoal de mídia, sindicalistas e defensores dos direitos humanos nos últimos 12 meses	Meta 16.10 	Sem dados	0	0
+Indicador 16.10.2 	Número de países que adotam e implementam garantias constitucionais, estatutárias e/ou políticas para acesso público à informação	Meta 16.10 	Produzido	0	0
+Indicador 16.a.1 	Existência de instituições nacionais independentes de direitos humanos, de acordo com os Princípios de Paris	Meta 16.a 	Em análise/construção	0	0
+Indicador 16.b.1 	Proporção da população que reportou ter-se sentido pessoalmente discriminada ou assediada nos últimos 12 meses por motivos de discriminação proibidos no âmbito da legislação internacional dos direitos humanos	Meta 16.b 	Sem dados	0	0
+Indicador 17.1.1 	Total das receitas do Governo em percentagem do PIB, por fonte	Meta 17.1 	Produzido	0	0
+Indicador 17.1.2 	Percentagem do orçamento do Governo financiada por impostos cobrados internamente	Meta 17.1 	Produzido	0	0
+Indicador 17.2.1 	Assistência oficial ao desenvolvimento líquida, total e para os países menos desenvolvidos, como proporção do Rendimento Nacional Bruto (RNB) dos doadores do Comitê de Ajuda ao Desenvolvimento da Organização para a Cooperação e Desenvolvimento Econômico (OCDE)	Meta 17.2 	Não se aplica ao Brasil	0	0
+Indicador 17.3.1 	Recursos financeiros adicionais mobilizados para países em desenvolvimento de múltiplas fontes	Meta 17.3 	Em análise/construção	0	0
+Indicador 17.3.2 	Volume de remessas (em dólares dos Estados Unidos) como proporção do PIB total	Meta 17.3 	Produzido	0	0
+Indicador 17.4.1 	Serviço da dívida como proporção das exportações de bens e serviços	Meta 17.4 	Produzido	0	0
+Indicador 17.5.1 	Número de países que adotam e implementam regimes de promoção de investimentos para os países em desenvolvimento, incluindo os países menos desenvolvidos	Meta 17.5 	Em análise/construção	0	0
+Indicador 17.6.1 	Subscrições de Internet por banda larga de rede fixa por 100 habitantes, por velocidade de ligação	Meta 17.6 	Produzido	0	0
+Indicador 17.7.1 	Montante total de financiamento para países em desenvolvimento para promover o desenvolvimento, transferência, disseminação e difusão de tecnologias ambientalmente seguras e racionais	Meta 17.7 	Em análise/construção	0	0
+Indicador 17.8.1 	Proporção de indivíduos que utilizam a Internet	Meta 17.8 	Produzido	0	0
+Indicador 17.9.1 	Valor, em dólares, da assistência técnica e financeira (incluindo cooperação Norte-Sul, Sul-Sul e triangular) destinada a países em desenvolvimento	Meta 17.9 	Em análise/construção	0	0
+Indicador 17.10.1 	Média ponderada das tarifas aduaneiras à escala mundial	Meta 17.10 	Não se aplica ao Brasil	0	0
+Indicador 17.11.1 	Participação das exportações provenientes dos países em vias de desenvolvimento e dos países menos desenvolvidos nas exportações globais	Meta 17.11 	Não se aplica ao Brasil	0	0
+Indicador 17.12.1 	Média ponderada de tarifas aduaneiras aplicadas aos países em desenvolvimento, países menos desenvolvidos e pequenos Estados insulares em desenvolvimento	Meta 17.12 	Não se aplica ao Brasil	0	0
+Indicador 17.13.1 	Painel de indicadores macroeconômicos	Meta 17.13 	Em análise/construção	0	0
+Indicador 17.14.1 	Número de países com mecanismos em vigor para reforçar a coerência política do desenvolvimento sustentável	Meta 17.14 	Sem dados	0	0
+Indicador 17.15.1 	Extensão do recurso a quadros de resultados e instrumentos de planejamento delineados pelos beneficiários [country ownership], por parte dos países fornecedores de cooperação para o desenvolvimento	Meta 17.15 	Em análise/construção	0	0
+Indicador 17.16.1 	Número de países que reportam progressos na eficácia dos quadros de monitoramento de múltiplos atores que apoiam o cumprimento dos objetivos de desenvolvimento sustentável	Meta 17.16 	Em análise/construção	0	0
+Indicador 17.17.1 	Montante de dólares nos Estados Unidos destinados a parcerias público-privadas para infraestrutura	Meta 17.17 	Em análise/construção	0	0
+Indicador 17.18.1 	Indicador de capacidade estatística para monitoramento dos Objetivos do Desenvolvimento Sustentável	Meta 17.18 	Em análise/construção	0	0
+Indicador 17.18.2 	Número de países que possuem legislação estatística nacional que cumpre os Princípios Fundamentais das Estatísticas Oficiais	Meta 17.18 	Em análise/construção	0	0
+Indicador 17.18.3 	Número de países com um plano estatístico nacional totalmente financiado e em execução, por fonte de financiamento	Meta 17.18 	Em análise/construção	0	0
+Indicador 17.19.1 	Valor em dólares de todos os recursos disponibilizados para fortalecer a capacidade estatística nos países em desenvolvimento	Meta 17.19 	Em análise/construção	0	0
+Indicador 17.19.2 	"Proporção de países que (a) realizaram pelo menos um Recenseamento da População e da Habitação nos últimos 10 anos; e (b) atingiram 100% de registros de nascimento e 80% de registros de óbitos"	Meta 17.19 	Em análise/construção	0	0
