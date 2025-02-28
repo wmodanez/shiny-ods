@@ -7,6 +7,7 @@ import openpyxl
 import pandas as pd
 import requests
 from openpyxl.utils.dataframe import dataframe_to_rows
+from pandas import DataFrame
 
 
 def df_to_excel(df, ws, name_sheet, header=False, index=False, startrow=0, startcol=0):
@@ -75,12 +76,100 @@ def get_sidra_data(indicador):
 
 
 @lru_cache(maxsize=1)
-def load_indicadores():
-    df_indicadores: pd.DataFrame = pd.read_csv(
+def load_indicadores() -> pd:
+    df: pd.DataFrame = pd.read_csv(
         Path(__file__).parent / 'db/indicadores.csv', sep=';'
     )
-    df_indicadores = df_indicadores[df_indicadores['RBC'] == True]
-    return df_indicadores
+    df = df[df['RBC'] == True]
+    return df
+
+
+@lru_cache(maxsize=1)
+def remove_duplicates_from_csv(file_path: str) -> pd.DataFrame:
+    """
+    Reads a CSV file, removes duplicate items, and returns the resulting DataFrame.
+
+    Parameters:
+    file_path (str): The path to the CSV file.
+
+    Returns:
+    pd.DataFrame: The DataFrame with duplicates removed.
+    """
+    df: DataFrame = pd.read_csv(file_path, sep=';', na_filter=False)
+    df = df.drop_duplicates()
+    df.columns = df.columns.str.replace('"', '').str.replace("'", '')
+    return df
+
+
+# Filtrar a lista de indicadores
+def filter_indicadores(list_indicadores, indicadores_ids):
+    return {
+        objetivo: {
+            meta: {
+                indicador: url
+                for indicador, url in metas.items()
+                if indicador in indicadores_ids
+            }
+            for meta, metas in metas_objetivo.items()
+        }
+        for objetivo, metas_objetivo in list_indicadores.items()
+    }
+
+
+# Processar apenas os indicadores filtrados
+def process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_und_med, df_filtro, df_indicadores):
+    for objetivo in filtered_list_indicadores.keys():
+        workbook = openpyxl.Workbook()
+        workbook.remove(workbook.active)
+        for meta in filtered_list_indicadores[objetivo].keys():
+            for indicador in filtered_list_indicadores[objetivo][meta].keys():
+                link = URL_BASE + str(filtered_list_indicadores[objetivo][meta].get(indicador))
+                try:
+                    df_temp = pd.DataFrame(get_sidra_data(link))
+                    df_temp.columns = df_temp.iloc[0]
+                    df_temp = df_temp[1:]
+                    df_temp = df_temp.rename(columns=list_colunas)
+                    df_temp.insert(0, 'ID_INDICADOR', f'Indicador {indicador.split("Indicador")[1]}')
+                    df_und_med = pd.concat([df_und_med, df_temp[['CODG_UND_MED', 'DESC_UND_MED']]])
+                    df_filtro = pd.concat([df_filtro, df_temp[['CODG_VAR', 'DESC_VAR']]])
+                    try:
+                        df_temp = df_temp.drop(
+                            columns=['CODG_NIV_TER', 'DESC_NIV_TER', 'DESC_UND_MED', 'DESC_VAR', 'DESC_ANO'])
+                    except KeyError as e:
+                        print(f'Erro ao remover colunas do indicador: {indicador}')
+                    list_var = list(df_temp['CODG_VAR'].value_counts().to_dict().keys())
+                    if len(list_var) > 1:
+                        df_combined = pd.DataFrame()
+                        for cod_var in list_var:
+                            df_temp_var = df_temp[df_temp['CODG_VAR'] == cod_var].copy()
+                            df_temp_var['SUB_INDICADOR'] = cod_var
+                            df_combined = pd.concat([df_combined, df_temp_var], ignore_index=True)
+                        workbook = df_to_excel(df_combined, workbook, indicador, header=True)
+                        # Update the VARIAVEIS column based on the presence of variables
+                        df_indicadores.loc[df_indicadores['ID_INDICADOR'] == indicador, 'VARIAVEIS'] = 1
+
+                        # Save the updated DataFrame back to indicadores.csv
+                        df_indicadores.to_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';', index=False)
+                    else:
+                        workbook = df_to_excel(df_temp, workbook, indicador, header=True)
+                    try:
+                        df_other_columns = df_temp.drop(columns=LIST_COL_PADRAO)
+                    except KeyError as e:
+                        print(f'Erro ao remover colunas do indicador: {indicador}')
+                    if len(df_other_columns.columns) > 1:
+                        for coluna in df_other_columns:
+                            if 'CODG' in coluna:
+                                df_other_columns['TIPO_CAMPO'] = coluna
+                except json.decoder.JSONDecodeError as e:
+                    print(f'Erro ao processar o arquivo {indicador}.csv: {e}')
+
+                print(f'Planilha {indicador}.csv criada.')
+                objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo.replace(" ", "")}.xlsx'
+                workbook.save(objetivo_xlx)
+
+                df_und_med.to_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv', index=False)
+                df_filtro.to_csv(str(Path(__file__).parent) + f'/db/filtro.csv', index=False)
+        print(f'{objetivo} finalizado!')
 
 
 URL_BASE = 'https://apisidra.ibge.gov.br/values'
@@ -549,69 +638,11 @@ df_filtro = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
 df_indicadores = load_indicadores()
 indicadores_ids = df_indicadores['ID_INDICADOR'].tolist()
 
-# Filtrar a lista de indicadores
-filtered_list_indicadores = {
-    objetivo: {
-        meta: {
-            indicador: url
-            for indicador, url in metas.items()
-            if indicador in indicadores_ids
-        }
-        for meta, metas in metas_objetivo.items()
-    }
-    for objetivo, metas_objetivo in list_indicadores.items()
-}
+filtered_list_indicadores = filter_indicadores(list_indicadores, indicadores_ids)
 
-# Processar apenas os indicadores filtrados
-for objetivo in filtered_list_indicadores.keys():
-    workbook = openpyxl.Workbook()
-    workbook.remove(workbook.active)
-    for meta in filtered_list_indicadores[objetivo].keys():
-        for indicador in filtered_list_indicadores[objetivo][meta].keys():
-            link = URL_BASE + str(filtered_list_indicadores[objetivo][meta].get(indicador))
-            try:
-                df_temp = pd.DataFrame(get_sidra_data(link))
-                df_temp.columns = df_temp.iloc[0]
-                df_temp = df_temp[1:]
-                df_temp = df_temp.rename(columns=list_colunas)
-                df_temp.insert(0, 'ID_INDICADOR', f'Indicador {indicador.split("Indicador")[1]}')
-                df_und_med = pd.concat([df_und_med, df_temp[['CODG_UND_MED', 'DESC_UND_MED']]])
-                df_filtro = pd.concat([df_filtro, df_temp[['CODG_VAR', 'DESC_VAR']]])
-                try:
-                    df_temp = df_temp.drop(
-                        columns=['CODG_NIV_TER', 'DESC_NIV_TER', 'DESC_UND_MED', 'DESC_VAR', 'DESC_ANO'])
-                except KeyError as e:
-                    print(f'Erro ao remover colunas do indicador: {indicador}')
-                list_var: list = list(df_temp['CODG_VAR'].value_counts().to_dict().keys())
-                if len(list_var) > 1:
-                    df_combined = pd.DataFrame()
-                    for cod_var in list_var:
-                        df_temp_var = df_temp[df_temp['CODG_VAR'] == cod_var].copy()
-                        df_temp_var['SUB_INDICADOR'] = cod_var
-                        df_combined = pd.concat([df_combined, df_temp_var], ignore_index=True)
-                    workbook = df_to_excel(df_combined, workbook, indicador, header=True)
-                    # Update the VARIAVEIS column based on the presence of variables
-                    df_indicadores.loc[df_indicadores['ID_INDICADOR'] == indicador, 'VARIAVEIS'] = 1
+process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_und_med, df_filtro, df_indicadores)
 
-                    # Save the updated DataFrame back to indicadores.csv
-                    df_indicadores.to_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';', index=False)
-                else:
-                    workbook = df_to_excel(df_temp, workbook, indicador, header=True)
-                try:
-                    df_other_columns = df_temp.drop(columns=LIST_COL_PADRAO)
-                except KeyError as e:
-                    print(f'Erro ao remover colunas do indicador: {indicador}')
-                if len(df_other_columns.columns) > 1:
-                    for coluna in df_other_columns:
-                        if 'CODG' in coluna:
-                            df_other_columns['TIPO_CAMPO'] = coluna
-            except json.decoder.JSONDecodeError as e:
-                print(f'Erro ao processar o arquivo {indicador}.csv: {e}')
-
-            print(f'Planilha {indicador}.csv criada.')
-            objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo.replace(' ', '')}.xlsx'
-            workbook.save(objetivo_xlx)
-
-            df_und_med.to_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv', index=False)
-            df_filtro.to_csv(str(Path(__file__).parent) + f'/db/filtro.csv', index=False)
-    print(f'{objetivo} finalizado!')
+remove_duplicates_from_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv').to_csv(
+    str(Path(__file__).parent) + f'/db/unidade_medida.csv', header=True, index=False, sep=';')
+remove_duplicates_from_csv(str(Path(__file__).parent) + f'/db/filtro.csv').to_csv(
+    str(Path(__file__).parent) + f'/db/filtro.csv', header=True, index=False, sep=';')
