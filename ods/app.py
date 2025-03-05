@@ -65,10 +65,12 @@ cards = [
             )
         ),
         ui.card_body(
-            ui.tags.p(row['DESC_OBJETIVO']),
-            ui.tags.h4('Metas' if row['ID_OBJETIVO'] != 'Objetivo 0' else None),
-            create_tabset_for_objetivo(row['ID_OBJETIVO']),
-        ),
+            ui.div(
+                ui.tags.p(row['DESC_OBJETIVO']),
+                ui.tags.h4('Metas') if row['ID_OBJETIVO'] != 'Objetivo 0' else None,
+                create_tabset_for_objetivo(row['ID_OBJETIVO']),
+            ) if row['INDICADOR_RBC'] else ui.tags.h4(f'O {row["ID_OBJETIVO"]} não possui Indicadores que atendam os requisitos deste estudo.'),
+        ) ,
         id=f"card_objetivo{index}",
         style='display: block; width: 100%; height: 60vh; margin-top: -15px'
         if index == 0 else 'display: none; width: 100%; height: 60vh; margin-top: -15px',
