@@ -69,6 +69,7 @@ cards = [
                 ui.tags.p(row['DESC_OBJETIVO']),
                 ui.tags.h4('Metas') if row['ID_OBJETIVO'] != 'Objetivo 0' else None,
                 create_tabset_for_objetivo(row['ID_OBJETIVO']),
+                # Para o Objetivo 0, não há metas nem indicadores porém o campo INDICADOR_RBC é True visando a exibição do card e sua descrição
             ) if row['INDICADOR_RBC'] else ui.tags.h4(f'O {row["ID_OBJETIVO"]} não possui Indicadores que atendam os requisitos deste estudo.'),
         ) ,
         id=f"card_objetivo{index}",
