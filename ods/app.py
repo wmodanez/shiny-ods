@@ -32,16 +32,14 @@ def load_indicadores():
 @lru_cache(maxsize=None)
 def load_resultados(indicador_id: str) -> pd.DataFrame:
     try:
-        excel_path = Path(__file__).parent / f'db/resultados/indicador{indicador_id}.csv'
-        print(f"Tentando carregar arquivo: {excel_path}")
-        print(f"Tamanho do arquivo: {excel_path.stat().st_size / 1024:.2f} KB")
+        parquet_path = Path(__file__).parent / f'db/resultados/indicador{indicador_id}.parquet'
         
-        if not excel_path.exists():
-            print(f"Arquivo não encontrado: {excel_path}")
+        if not parquet_path.exists():
+            print(f"Arquivo não encontrado: {parquet_path}")
             return pd.DataFrame()
         
-        # Lê o arquivo CSV com encoding UTF-8
-        df_resultado = pd.read_csv(excel_path, sep=';', encoding='utf-8')
+        # Lê o arquivo Parquet
+        df_resultado = pd.read_parquet(parquet_path)
         
         # Remove espaços extras dos nomes das colunas
         df_resultado.columns = df_resultado.columns.str.strip()
@@ -51,11 +49,10 @@ def load_resultados(indicador_id: str) -> pd.DataFrame:
             if df_resultado[col].dtype == 'object':
                 df_resultado[col] = df_resultado[col].str.strip()
         
-        print(f"Arquivo carregado com sucesso. Colunas: {df_resultado.columns.tolist()}")
-        print(f"Primeiras linhas:\n{df_resultado.head()}")
         return df_resultado
+        
     except Exception as e:
-        print(f"Erro ao carregar arquivo {indicador_id}: {str(e)}")
+        print(f"Erro ao carregar arquivo Parquet: {e}")
         return pd.DataFrame()
 
 
@@ -1050,857 +1047,430 @@ app_ui.head_content = ui.tags.head(
 def server(input, output, session):
     @render.data_frame
     def indicador_1_1_1():
-        try:
-            print("Tentando carregar dados para indicador 1.1.1")
-            df = load_resultados("1.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 1.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 1.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 1.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("1.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_1_2_1():
-        try:
-            print("Tentando carregar dados para indicador 1.2.1")
-            df = load_resultados("1.2.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 1.2.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 1.2.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 1.2.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("1.2.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_1_5_1():
-        try:
-            print("Tentando carregar dados para indicador 1.5.1")
-            df = load_resultados("1.5.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 1.5.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 1.5.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 1.5.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("1.5.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_1_5_4():
-        try:
-            print("Tentando carregar dados para indicador 1.5.4")
-            df = load_resultados("1.5.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 1.5.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 1.5.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 1.5.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("1.5.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_2_1_2():
-        try:
-            print("Tentando carregar dados para indicador 2.1.2")
-            df = load_resultados("2.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 2.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 2.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 2.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("2.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_1_1():
-        try:
-            print("Tentando carregar dados para indicador 3.1.1")
-            df = load_resultados("3.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_1_2():
-        try:
-            print("Tentando carregar dados para indicador 3.1.2")
-            df = load_resultados("3.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_2_1():
-        try:
-            print("Tentando carregar dados para indicador 3.2.1")
-            df = load_resultados("3.2.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.2.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.2.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.2.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.2.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_2_2():
-        try:
-            print("Tentando carregar dados para indicador 3.2.2")
-            df = load_resultados("3.2.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.2.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.2.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.2.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.2.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_3_2():
-        try:
-            print("Tentando carregar dados para indicador 3.3.2")
-            df = load_resultados("3.3.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.3.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.3.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.3.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.3.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_3_3():
-        try:
-            print("Tentando carregar dados para indicador 3.3.3")
-            df = load_resultados("3.3.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.3.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.3.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.3.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.3.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_3_4():
-        try:
-            print("Tentando carregar dados para indicador 3.3.4")
-            df = load_resultados("3.3.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.3.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.3.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.3.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.3.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_4_1():
-        try:
-            print("Tentando carregar dados para indicador 3.4.1")
-            df = load_resultados("3.4.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.4.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.4.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.4.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.4.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_4_2():
-        try:
-            print("Tentando carregar dados para indicador 3.4.2")
-            df = load_resultados("3.4.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.4.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.4.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.4.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.4.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_3_6_1():
-        try:
-            print("Tentando carregar dados para indicador 3.6.1")
-            df = load_resultados("3.6.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 3.6.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 3.6.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 3.6.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("3.6.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_1_2():
-        try:
-            print("Tentando carregar dados para indicador 4.1.2")
-            df = load_resultados("4.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_2_1():
-        try:
-            print("Tentando carregar dados para indicador 4.2.1")
-            df = load_resultados("4.2.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.2.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.2.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.2.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.2.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_2_1_2():
-        try:
-            print("Tentando carregar dados para indicador 4.2.1.2")
-            df = load_resultados("4.2.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.2.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.2.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.2.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.2.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_2_1_3():
-        try:
-            print("Tentando carregar dados para indicador 4.2.1.3")
-            df = load_resultados("4.2.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.2.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.2.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.2.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.2.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_2_1_4():
-        try:
-            print("Tentando carregar dados para indicador 4.2.1.4")
-            df = load_resultados("4.2.1.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.2.1.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.2.1.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.2.1.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.2.1.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_2_2():
-        try:
-            print("Tentando carregar dados para indicador 4.2.2")
-            df = load_resultados("4.2.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.2.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.2.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.2.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.2.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_4_5_1():
-        try:
-            print("Tentando carregar dados para indicador 4.5.1")
-            df = load_resultados("4.5.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 4.5.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 4.5.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 4.5.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("4.5.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_5_4_1():
-        try:
-            print("Tentando carregar dados para indicador 5.4.1")
-            df = load_resultados("5.4.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 5.4.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 5.4.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 5.4.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("5.4.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_5_4_1_2():
-        try:
-            print("Tentando carregar dados para indicador 5.4.1.2")
-            df = load_resultados("5.4.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 5.4.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 5.4.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 5.4.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("5.4.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_5_4_1_3():
-        try:
-            print("Tentando carregar dados para indicador 5.4.1.3")
-            df = load_resultados("5.4.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 5.4.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 5.4.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 5.4.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("5.4.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_6_1_1():
-        try:
-            print("Tentando carregar dados para indicador 6.1.1")
-            df = load_resultados("6.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 6.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 6.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 6.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("6.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_6_2_1():
-        try:
-            print("Tentando carregar dados para indicador 6.2.1")
-            df = load_resultados("6.2.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 6.2.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 6.2.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 6.2.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("6.2.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_6_4_1():
-        try:
-            print("Tentando carregar dados para indicador 6.4.1")
-            df = load_resultados("6.4.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 6.4.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 6.4.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 6.4.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("6.4.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_6_6_1():
-        try:
-            print("Tentando carregar dados para indicador 6.6.1")
-            df = load_resultados("6.6.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 6.6.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 6.6.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 6.6.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("6.6.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_7_1_1():
-        try:
-            print("Tentando carregar dados para indicador 7.1.1")
-            df = load_resultados("7.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 7.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 7.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 7.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("7.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_7_1_2():
-        try:
-            print("Tentando carregar dados para indicador 7.1.2")
-            df = load_resultados("7.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 7.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 7.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 7.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("7.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_3_1():
-        try:
-            print("Tentando carregar dados para indicador 8.3.1")
-            df = load_resultados("8.3.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.3.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.3.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.3.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.3.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_3_1_2():
-        try:
-            print("Tentando carregar dados para indicador 8.3.1.2")
-            df = load_resultados("8.3.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.3.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.3.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.3.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.3.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_3_1_3():
-        try:
-            print("Tentando carregar dados para indicador 8.3.1.3")
-            df = load_resultados("8.3.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.3.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.3.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.3.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.3.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_1():
-        try:
-            print("Tentando carregar dados para indicador 8.5.1")
-            df = load_resultados("8.5.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_1_2():
-        try:
-            print("Tentando carregar dados para indicador 8.5.1.2")
-            df = load_resultados("8.5.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_1_3():
-        try:
-            print("Tentando carregar dados para indicador 8.5.1.3")
-            df = load_resultados("8.5.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_1_4():
-        try:
-            print("Tentando carregar dados para indicador 8.5.1.4")
-            df = load_resultados("8.5.1.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.1.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.1.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.1.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.1.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_2():
-        try:
-            print("Tentando carregar dados para indicador 8.5.2")
-            df = load_resultados("8.5.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_2_2():
-        try:
-            print("Tentando carregar dados para indicador 8.5.2.2")
-            df = load_resultados("8.5.2.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.2.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.2.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.2.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.2.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_5_2_3():
-        try:
-            print("Tentando carregar dados para indicador 8.5.2.3")
-            df = load_resultados("8.5.2.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.5.2.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.5.2.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.5.2.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.5.2.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_8_6_1():
-        try:
-            print("Tentando carregar dados para indicador 8.6.1")
-            df = load_resultados("8.6.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 8.6.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 8.6.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 8.6.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("8.6.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_9_2_1():
-        try:
-            print("Tentando carregar dados para indicador 9.2.1")
-            df = load_resultados("9.2.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 9.2.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 9.2.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 9.2.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("9.2.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_9_2_2():
-        try:
-            print("Tentando carregar dados para indicador 9.2.2")
-            df = load_resultados("9.2.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 9.2.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 9.2.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 9.2.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("9.2.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_9_b_1():
-        try:
-            print("Tentando carregar dados para indicador 9.b.1")
-            df = load_resultados("9.b.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 9.b.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 9.b.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 9.b.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("9.b.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_11_3_2():
-        try:
-            print("Tentando carregar dados para indicador 11.3.2")
-            df = load_resultados("11.3.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 11.3.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 11.3.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 11.3.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("11.3.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_11_5_1():
-        try:
-            print("Tentando carregar dados para indicador 11.5.1")
-            df = load_resultados("11.5.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 11.5.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 11.5.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 11.5.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("11.5.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_11_b_2():
-        try:
-            print("Tentando carregar dados para indicador 11.b.2")
-            df = load_resultados("11.b.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 11.b.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 11.b.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 11.b.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("11.b.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_13_1_1():
-        try:
-            print("Tentando carregar dados para indicador 13.1.1")
-            df = load_resultados("13.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 13.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 13.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 13.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("13.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_13_1_3():
-        try:
-            print("Tentando carregar dados para indicador 13.1.3")
-            df = load_resultados("13.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 13.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 13.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 13.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("13.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_13_2_2():
-        try:
-            print("Tentando carregar dados para indicador 13.2.2")
-            df = load_resultados("13.2.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 13.2.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 13.2.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 13.2.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("13.2.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_1():
-        try:
-            print("Tentando carregar dados para indicador 16.1.1")
-            df = load_resultados("16.1.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_1_2():
-        try:
-            print("Tentando carregar dados para indicador 16.1.1.2")
-            df = load_resultados("16.1.1.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.1.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.1.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.1.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.1.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_1_3():
-        try:
-            print("Tentando carregar dados para indicador 16.1.1.3")
-            df = load_resultados("16.1.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_1_4():
-        try:
-            print("Tentando carregar dados para indicador 16.1.1.4")
-            df = load_resultados("16.1.1.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.1.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.1.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.1.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.1.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_3():
-        try:
-            print("Tentando carregar dados para indicador 16.1.3")
-            df = load_resultados("16.1.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_3_1():
-        try:
-            print("Tentando carregar dados para indicador 16.1.3.1")
-            df = load_resultados("16.1.3.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.3.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.3.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.3.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.3.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_3_2():
-        try:
-            print("Tentando carregar dados para indicador 16.1.3.2")
-            df = load_resultados("16.1.3.2")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.3.2")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.3.2")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.3.2: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.3.2")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_3_3():
-        try:
-            print("Tentando carregar dados para indicador 16.1.3.3")
-            df = load_resultados("16.1.3.3")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.3.3")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.3.3")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.3.3: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.3.3")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_1_3_4():
-        try:
-            print("Tentando carregar dados para indicador 16.1.3.4")
-            df = load_resultados("16.1.3.4")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.1.3.4")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.1.3.4")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.1.3.4: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.1.3.4")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     @render.data_frame
     def indicador_16_9_1():
-        try:
-            print("Tentando carregar dados para indicador 16.9.1")
-            df = load_resultados("16.9.1")
-            if df.empty:
-                print("Nenhum dado encontrado para indicador 16.9.1")
-                return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
-            print("Dados carregados com sucesso para indicador 16.9.1")
-            return render.DataGrid(df, editable=True)
-        except Exception as e:
-            print(f"Erro ao renderizar dados para indicador 16.9.1: {str(e)}")
-            return render.DataGrid(pd.DataFrame({'Erro': [f'Erro ao carregar dados: {str(e)}']}))
+        df = load_resultados("16.9.1")
+        if df.empty:
+            return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
+        return render.DataGrid(df)
 
     # Registrar os outputs
     output.indicador_1_1_1 = indicador_1_1_1
@@ -1957,8 +1527,6 @@ def server(input, output, session):
     output.indicador_16_1_1_4 = indicador_16_1_1_4
     output.indicador_16_1_3 = indicador_16_1_3
     output.indicador_16_9_1 = indicador_16_9_1
-
-    print("Outputs foram registrados com sucesso")
 
 
 app = App(app_ui, server, static_assets=www_dir)
