@@ -76,11 +76,11 @@ def get_sidra_data(indicador):
 
 
 @lru_cache(maxsize=1)
-def load_indicadores() -> pd:
+def load_indicadores() -> pd.DataFrame:
     df: pd.DataFrame = pd.read_csv(
         Path(__file__).parent / 'db/indicadores.csv', sep=';'
     )
-    df = df[df['RBC'] == True]
+    # df = df[df['RBC'] == True]
     return df
 
 
@@ -144,14 +144,15 @@ def process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_un
                             df_temp_var = df_temp[df_temp['CODG_VAR'] == cod_var].copy()
                             df_temp_var['SUB_INDICADOR'] = cod_var
                             df_combined = pd.concat([df_combined, df_temp_var], ignore_index=True)
-                        workbook = df_to_excel(df_combined, workbook, indicador, header=True)
+                        df_combined.to_csv(str(Path(__file__).parent) + f'/db/resultados/{indicador.lower().replace(' ', '')}.csv', index=False, sep=';', header=True)
                         # Update the VARIAVEIS column based on the presence of variables
                         df_indicadores.loc[df_indicadores['ID_INDICADOR'] == indicador, 'VARIAVEIS'] = 1
 
                         # Save the updated DataFrame back to indicadores.csv
                         df_indicadores.to_csv(Path(__file__).parent / 'db/indicadores.csv', sep=';', index=False)
                     else:
-                        workbook = df_to_excel(df_temp, workbook, indicador, header=True)
+                        df_temp.to_csv(str(Path(__file__).parent) + f'/db/resultados/{indicador.lower().replace(' ', '')}.csv', index=False, sep=';', header=True)
+                        # workbook = df_to_excel(df_temp, workbook, indicador, header=True)
                     try:
                         df_other_columns = df_temp.drop(columns=LIST_COL_PADRAO)
                     except KeyError as e:
@@ -164,8 +165,8 @@ def process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_un
                     print(f'Erro ao processar o arquivo {indicador}.csv: {e}')
 
                 print(f'Planilha {indicador}.csv criada.')
-                objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo.replace(" ", "")}.xlsx'
-                workbook.save(objetivo_xlx)
+                # objetivo_xlx = str(Path(__file__).parent) + f'/db/resultados/{objetivo.replace(" ", "")}.xlsx'
+                # workbook.save(objetivo_xlx)
 
                 df_und_med.to_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv', index=False)
                 df_filtro.to_csv(str(Path(__file__).parent) + f'/db/filtro.csv', index=False)
@@ -174,7 +175,7 @@ def process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_un
 
 URL_BASE = 'https://apisidra.ibge.gov.br/values'
 
-list_indicadores = {
+LIST_INDICADORES = {
     'Objetivo 1': {
         'Meta 1.1': {
             'Indicador 1.1.1': '/t/5817/n1/all/n3/all/v/all/p/all/d/v9617%201'
@@ -212,27 +213,27 @@ list_indicadores = {
             'Indicador 3.2.2': '/t/6696/n1/all/n3/all/v/all/p/all/d/v9732%201'
         },
         'Meta 3.3': {
-            'Indicador 3.3.2': '/t/8417/n1/all/n3/all/v/all/p/last%2014/c2/all/c58/all/d/v9733%201',
+            'Indicador 3.3.2': '/t/8417/n1/all/n3/all/v/all/p/last%205/c2/all/c58/all/d/v9733%201',
             'Indicador 3.3.3': '/t/9040/n3/all/n1103/all/v/12763,12764/p/all/d/v12763%201',
-            'Indicador 3.3.4': '/t/8414/n1/all/n3/all/v/9613,12381/p/all/c58/all/c2/all/d/v12381%201',
+            'Indicador 3.3.4': '/t/8414/n1/all/n3/all/v/9613,12381/p/last%205/c58/all/c2/all/d/v12381%201',
             'Indicador 3.3.5': '/t/9043/n1/all/n3/all/v/all/p/all/c2/all/c58/all/c12963/all'
         },
         'Meta 3.4': {
-            'Indicador 3.4.1': '/t/4277/n1/all/n3/all/v/11754,12948/p/all/c2/all/c58/all/d/v11754%202',
-            'Indicador 3.4.2': '/t/8183/n1/all/n3/all/v/11704,11705/p/last%2014/c2/all/c58/all/d/v11704%201'
+            'Indicador 3.4.1': '/t/4277/n1/all/n3/all/v/11754,12948/p/last%205/c2/all/c58/all/d/v11754%202',
+            'Indicador 3.4.2': '/t/8183/n1/all/n3/all/v/11704,11705/p/last%205/c2/all/c58/all/d/v11704%201'
         },
         'Meta 3.5': {
             'Indicador 3.5.2': '/t/5878/n1/all/v/all/p/all/d/v7068%201'
         },
         'Meta3.6': {
-            'Indicador 3.6.1': '/t/4408/n1/all/n3/all/v/9734,11728/p/last%2014/c2/all/c58/all/d/v9734%201'
+            'Indicador 3.6.1': '/t/4408/n1/all/n3/all/v/9734,11728/p/last%205/c2/all/c58/all/d/v9734%201'
         },
         'Meta 3.7': {
             'Indicador 3.7.2': '/t/8174/n1/all/n3/all/v/9433,11687/p/all/c58/all/d/v11687%201'
         },
         'Meta 3.9': {
-            'Indicador 3.9.2': '/t/8191/n1/all/n3/all/v/9737,11725/p/last%2014/c2/all/c58/all/d/v9737%201',
-            'Indicador 3.9.3': '/t/8192/n1/all/n3/all/v/11726,11727/p/last%2014/c2/all/c58/all/d/v11726%202'
+            'Indicador 3.9.2': '/t/8191/n1/all/n3/all/v/9737,11725/p/last%205/c2/all/c58/all/d/v9737%201',
+            'Indicador 3.9.3': '/t/8192/n1/all/n3/all/v/11726,11727/p/last%205/c2/all/c58/all/d/v11726%202'
         },
         'Meta 3.a': {
             'Indicador 3.a.1': '/t/8416/n1/all/n3/all/v/all/p/all/c2/all/d/v12360%201,v12361%201,v12382%201'
@@ -252,7 +253,7 @@ list_indicadores = {
             'Indicador 4.5.1': '/t/6674/n1/all/n3/all/v/all/p/all/d/v9601%202,v9603%202,v12746%202'
         },
         'Meta 4.a': {
-            'Indicador 4.a.1': '/t/7783/n1/all/n3/all/v/all/p/all/c812/all/d/v11084%201,v11085%201,v11086%201'
+            'Indicador 4.a.1': '/t/7783/n1/all/n3/all/v/all/p/last%205/c812/all/d/v11084%201,v11085%201,v11086%201'
         },
         'Meta 4.c': {
             'Indicador 4.c.1': '/t/7981/n3/all/n1/all/v/all/p/all/c813/all/d/v9610%201'
@@ -479,7 +480,7 @@ list_indicadores = {
         'Meta 16.1': {
             'Indicador 16.1.1': '/t/6606/n1/all/n3/all/v/all/p/all/d/v9502%202',
             'Indicador 16.1.1.2': '/t/7877/n1/all/n3/all/v/all/p/all/c58/all/d/v9502%202',
-            'Indicador 16.1.1.3': '/t/7876/n1/all/n3/all/v/all/p/all/c2/all/c58/all/d/v9502%202',
+            'Indicador 16.1.1.3': '/t/7876/n1/all/n3/all/v/all/p/last%205/c2/all/c58/all/d/v9502%202',
             'Indicador 16.1.1.4': '/t/7875/n1/all/n3/all/v/all/p/all/c2/all/d/v9502%202'
         },
         'Meta 16.1.3': {
@@ -524,7 +525,7 @@ list_indicadores = {
 }
 
 # Lista de colunas
-list_colunas: list = {
+LIST_COLUNAS: list = {
     'Nível Territorial (Código)': 'CODG_NIV_TER',
     'Nível Territorial': 'DESC_NIV_TER',
     'Brasil e Unidade da Federação (Código)': 'CODG_UND_FED',
@@ -636,11 +637,12 @@ df_filtro = pd.DataFrame(columns=['CODG_VAR', 'DESC_VAR'])
 
 # Carregar os indicadores
 df_indicadores = load_indicadores()
+df_indicadores = df_indicadores[df_indicadores['RBC'] == True]
 indicadores_ids = df_indicadores['ID_INDICADOR'].tolist()
 
-filtered_list_indicadores = filter_indicadores(list_indicadores, indicadores_ids)
+filtered_list_indicadores = filter_indicadores(LIST_INDICADORES, indicadores_ids)
 
-process_indicadores(filtered_list_indicadores, URL_BASE, list_colunas, df_und_med, df_filtro, df_indicadores)
+process_indicadores(filtered_list_indicadores, URL_BASE, LIST_COLUNAS, df_und_med, df_filtro, df_indicadores)
 
 remove_duplicates_from_csv(str(Path(__file__).parent) + f'/db/unidade_medida.csv').to_csv(
     str(Path(__file__).parent) + f'/db/unidade_medida.csv', header=True, index=False, sep=';')
