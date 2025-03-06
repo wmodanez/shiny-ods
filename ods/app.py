@@ -3,7 +3,9 @@ from pathlib import Path
 from shiny import App, ui, render
 from shinyswatch import theme
 from functools import lru_cache
-
+import asyncio
+import aiofiles
+import io
 
 @lru_cache(maxsize=1)
 def load_objetivos():
@@ -29,8 +31,7 @@ def load_indicadores():
     return df_indicadores
 
 
-@lru_cache(maxsize=None)
-def load_resultados(indicador_id: str) -> pd.DataFrame:
+async def load_resultados(indicador_id: str) -> pd.DataFrame:
     try:
         parquet_path = Path(__file__).parent / f'db/resultados/indicador{indicador_id}.parquet'
         
@@ -38,8 +39,10 @@ def load_resultados(indicador_id: str) -> pd.DataFrame:
             print(f"Arquivo não encontrado: {parquet_path}")
             return pd.DataFrame()
         
-        # Lê o arquivo Parquet
-        df_resultado = pd.read_parquet(parquet_path)
+        # Lê o arquivo Parquet de forma assíncrona
+        async with aiofiles.open(parquet_path, 'rb') as f:
+            content = await f.read()
+            df_resultado = pd.read_parquet(io.BytesIO(content))
         
         # Remove espaços extras dos nomes das colunas
         df_resultado.columns = df_resultado.columns.str.strip()
@@ -1046,428 +1049,428 @@ app_ui.head_content = ui.tags.head(
 
 def server(input, output, session):
     @render.data_frame
-    def indicador_1_1_1():
-        df = load_resultados("1.1.1")
+    async def indicador_1_1_1():
+        df = await load_resultados("1.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_1_2_1():
-        df = load_resultados("1.2.1")
+    async def indicador_1_2_1():
+        df = await load_resultados("1.2.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_1_5_1():
-        df = load_resultados("1.5.1")
+    async def indicador_1_5_1():
+        df = await load_resultados("1.5.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_1_5_4():
-        df = load_resultados("1.5.4")
+    async def indicador_1_5_4():
+        df = await load_resultados("1.5.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_2_1_2():
-        df = load_resultados("2.1.2")
+    async def indicador_2_1_2():
+        df = await load_resultados("2.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_1_1():
-        df = load_resultados("3.1.1")
+    async def indicador_3_1_1():
+        df = await load_resultados("3.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_1_2():
-        df = load_resultados("3.1.2")
+    async def indicador_3_1_2():
+        df = await load_resultados("3.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_2_1():
-        df = load_resultados("3.2.1")
+    async def indicador_3_2_1():
+        df = await load_resultados("3.2.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_2_2():
-        df = load_resultados("3.2.2")
+    async def indicador_3_2_2():
+        df = await load_resultados("3.2.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_3_2():
-        df = load_resultados("3.3.2")
+    async def indicador_3_3_2():
+        df = await load_resultados("3.3.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_3_3():
-        df = load_resultados("3.3.3")
+    async def indicador_3_3_3():
+        df = await load_resultados("3.3.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_3_4():
-        df = load_resultados("3.3.4")
+    async def indicador_3_3_4():
+        df = await load_resultados("3.3.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_4_1():
-        df = load_resultados("3.4.1")
+    async def indicador_3_4_1():
+        df = await load_resultados("3.4.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_4_2():
-        df = load_resultados("3.4.2")
+    async def indicador_3_4_2():
+        df = await load_resultados("3.4.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_3_6_1():
-        df = load_resultados("3.6.1")
+    async def indicador_3_6_1():
+        df = await load_resultados("3.6.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_1_2():
-        df = load_resultados("4.1.2")
+    async def indicador_4_1_2():
+        df = await load_resultados("4.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_2_1():
-        df = load_resultados("4.2.1")
+    async def indicador_4_2_1():
+        df = await load_resultados("4.2.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_2_1_2():
-        df = load_resultados("4.2.1.2")
+    async def indicador_4_2_1_2():
+        df = await load_resultados("4.2.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_2_1_3():
-        df = load_resultados("4.2.1.3")
+    async def indicador_4_2_1_3():
+        df = await load_resultados("4.2.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_2_1_4():
-        df = load_resultados("4.2.1.4")
+    async def indicador_4_2_1_4():
+        df = await load_resultados("4.2.1.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_2_2():
-        df = load_resultados("4.2.2")
+    async def indicador_4_2_2():
+        df = await load_resultados("4.2.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_4_5_1():
-        df = load_resultados("4.5.1")
+    async def indicador_4_5_1():
+        df = await load_resultados("4.5.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_5_4_1():
-        df = load_resultados("5.4.1")
+    async def indicador_5_4_1():
+        df = await load_resultados("5.4.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_5_4_1_2():
-        df = load_resultados("5.4.1.2")
+    async def indicador_5_4_1_2():
+        df = await load_resultados("5.4.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_5_4_1_3():
-        df = load_resultados("5.4.1.3")
+    async def indicador_5_4_1_3():
+        df = await load_resultados("5.4.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_6_1_1():
-        df = load_resultados("6.1.1")
+    async def indicador_6_1_1():
+        df = await load_resultados("6.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_6_2_1():
-        df = load_resultados("6.2.1")
+    async def indicador_6_2_1():
+        df = await load_resultados("6.2.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_6_4_1():
-        df = load_resultados("6.4.1")
+    async def indicador_6_4_1():
+        df = await load_resultados("6.4.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_6_6_1():
-        df = load_resultados("6.6.1")
+    async def indicador_6_6_1():
+        df = await load_resultados("6.6.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_7_1_1():
-        df = load_resultados("7.1.1")
+    async def indicador_7_1_1():
+        df = await load_resultados("7.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_7_1_2():
-        df = load_resultados("7.1.2")
+    async def indicador_7_1_2():
+        df = await load_resultados("7.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_3_1():
-        df = load_resultados("8.3.1")
+    async def indicador_8_3_1():
+        df = await load_resultados("8.3.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_3_1_2():
-        df = load_resultados("8.3.1.2")
+    async def indicador_8_3_1_2():
+        df = await load_resultados("8.3.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_3_1_3():
-        df = load_resultados("8.3.1.3")
+    async def indicador_8_3_1_3():
+        df = await load_resultados("8.3.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_1():
-        df = load_resultados("8.5.1")
+    async def indicador_8_5_1():
+        df = await load_resultados("8.5.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_1_2():
-        df = load_resultados("8.5.1.2")
+    async def indicador_8_5_1_2():
+        df = await load_resultados("8.5.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_1_3():
-        df = load_resultados("8.5.1.3")
+    async def indicador_8_5_1_3():
+        df = await load_resultados("8.5.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_1_4():
-        df = load_resultados("8.5.1.4")
+    async def indicador_8_5_1_4():
+        df = await load_resultados("8.5.1.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_2():
-        df = load_resultados("8.5.2")
+    async def indicador_8_5_2():
+        df = await load_resultados("8.5.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_2_2():
-        df = load_resultados("8.5.2.2")
+    async def indicador_8_5_2_2():
+        df = await load_resultados("8.5.2.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_5_2_3():
-        df = load_resultados("8.5.2.3")
+    async def indicador_8_5_2_3():
+        df = await load_resultados("8.5.2.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_8_6_1():
-        df = load_resultados("8.6.1")
+    async def indicador_8_6_1():
+        df = await load_resultados("8.6.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_9_2_1():
-        df = load_resultados("9.2.1")
+    async def indicador_9_2_1():
+        df = await load_resultados("9.2.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_9_2_2():
-        df = load_resultados("9.2.2")
+    async def indicador_9_2_2():
+        df = await load_resultados("9.2.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_9_b_1():
-        df = load_resultados("9.b.1")
+    async def indicador_9_b_1():
+        df = await load_resultados("9.b.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_11_3_2():
-        df = load_resultados("11.3.2")
+    async def indicador_11_3_2():
+        df = await load_resultados("11.3.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_11_5_1():
-        df = load_resultados("11.5.1")
+    async def indicador_11_5_1():
+        df = await load_resultados("11.5.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_11_b_2():
-        df = load_resultados("11.b.2")
+    async def indicador_11_b_2():
+        df = await load_resultados("11.b.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_13_1_1():
-        df = load_resultados("13.1.1")
+    async def indicador_13_1_1():
+        df = await load_resultados("13.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_13_1_3():
-        df = load_resultados("13.1.3")
+    async def indicador_13_1_3():
+        df = await load_resultados("13.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_13_2_2():
-        df = load_resultados("13.2.2")
+    async def indicador_13_2_2():
+        df = await load_resultados("13.2.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_1():
-        df = load_resultados("16.1.1")
+    async def indicador_16_1_1():
+        df = await load_resultados("16.1.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_1_2():
-        df = load_resultados("16.1.1.2")
+    async def indicador_16_1_1_2():
+        df = await load_resultados("16.1.1.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_1_3():
-        df = load_resultados("16.1.1.3")
+    async def indicador_16_1_1_3():
+        df = await load_resultados("16.1.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_1_4():
-        df = load_resultados("16.1.1.4")
+    async def indicador_16_1_1_4():
+        df = await load_resultados("16.1.1.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_3():
-        df = load_resultados("16.1.3")
+    async def indicador_16_1_3():
+        df = await load_resultados("16.1.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_3_1():
-        df = load_resultados("16.1.3.1")
+    async def indicador_16_1_3_1():
+        df = await load_resultados("16.1.3.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_3_2():
-        df = load_resultados("16.1.3.2")
+    async def indicador_16_1_3_2():
+        df = await load_resultados("16.1.3.2")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_3_3():
-        df = load_resultados("16.1.3.3")
+    async def indicador_16_1_3_3():
+        df = await load_resultados("16.1.3.3")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_1_3_4():
-        df = load_resultados("16.1.3.4")
+    async def indicador_16_1_3_4():
+        df = await load_resultados("16.1.3.4")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
 
     @render.data_frame
-    def indicador_16_9_1():
-        df = load_resultados("16.9.1")
+    async def indicador_16_9_1():
+        df = await load_resultados("16.9.1")
         if df.empty:
             return render.DataGrid(pd.DataFrame({'Mensagem': ['Nenhum dado disponível para este indicador.']}))
         return render.DataGrid(df)
@@ -1527,6 +1530,5 @@ def server(input, output, session):
     output.indicador_16_1_1_4 = indicador_16_1_1_4
     output.indicador_16_1_3 = indicador_16_1_3
     output.indicador_16_9_1 = indicador_16_9_1
-
 
 app = App(app_ui, server, static_assets=www_dir)
