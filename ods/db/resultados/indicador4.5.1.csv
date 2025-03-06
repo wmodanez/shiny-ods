@@ -1,0 +1,673 @@
+ID_INDICADOR;CODG_UND_MED;VLR_VAR;CODG_UND_FED;DESC_UND_FED;CODG_VAR;CODG_ANO;SUB_INDICADOR
+Indicador  4.5.1;50;1.01;1;Brasil;9601;2012;9601
+Indicador  4.5.1;50;1.03;1;Brasil;9601;2013;9601
+Indicador  4.5.1;50;1.00;1;Brasil;9601;2014;9601
+Indicador  4.5.1;50;0.99;1;Brasil;9601;2015;9601
+Indicador  4.5.1;50;1.01;1;Brasil;9601;2016;9601
+Indicador  4.5.1;50;1.01;1;Brasil;9601;2017;9601
+Indicador  4.5.1;50;1.00;1;Brasil;9601;2018;9601
+Indicador  4.5.1;50;1.01;1;Brasil;9601;2019;9601
+Indicador  4.5.1;50;1.03;11;Rondônia;9601;2012;9601
+Indicador  4.5.1;50;0.97;11;Rondônia;9601;2013;9601
+Indicador  4.5.1;50;0.87;11;Rondônia;9601;2014;9601
+Indicador  4.5.1;50;0.92;11;Rondônia;9601;2015;9601
+Indicador  4.5.1;50;0.90;11;Rondônia;9601;2016;9601
+Indicador  4.5.1;50;0.98;11;Rondônia;9601;2017;9601
+Indicador  4.5.1;50;0.99;11;Rondônia;9601;2018;9601
+Indicador  4.5.1;50;1.02;11;Rondônia;9601;2019;9601
+Indicador  4.5.1;50;0.95;12;Acre;9601;2012;9601
+Indicador  4.5.1;50;1.00;12;Acre;9601;2013;9601
+Indicador  4.5.1;50;1.03;12;Acre;9601;2014;9601
+Indicador  4.5.1;50;1.06;12;Acre;9601;2015;9601
+Indicador  4.5.1;50;0.87;12;Acre;9601;2016;9601
+Indicador  4.5.1;50;0.95;12;Acre;9601;2017;9601
+Indicador  4.5.1;50;1.04;12;Acre;9601;2018;9601
+Indicador  4.5.1;50;1.09;12;Acre;9601;2019;9601
+Indicador  4.5.1;50;1.10;13;Amazonas;9601;2012;9601
+Indicador  4.5.1;50;1.10;13;Amazonas;9601;2013;9601
+Indicador  4.5.1;50;1.05;13;Amazonas;9601;2014;9601
+Indicador  4.5.1;50;1.00;13;Amazonas;9601;2015;9601
+Indicador  4.5.1;50;1.00;13;Amazonas;9601;2016;9601
+Indicador  4.5.1;50;1.03;13;Amazonas;9601;2017;9601
+Indicador  4.5.1;50;1.00;13;Amazonas;9601;2018;9601
+Indicador  4.5.1;50;1.01;13;Amazonas;9601;2019;9601
+Indicador  4.5.1;50;1.41;14;Roraima;9601;2012;9601
+Indicador  4.5.1;50;1.03;14;Roraima;9601;2013;9601
+Indicador  4.5.1;50;1.00;14;Roraima;9601;2014;9601
+Indicador  4.5.1;50;1.00;14;Roraima;9601;2015;9601
+Indicador  4.5.1;50;1.10;14;Roraima;9601;2016;9601
+Indicador  4.5.1;50;1.16;14;Roraima;9601;2017;9601
+Indicador  4.5.1;50;0.98;14;Roraima;9601;2018;9601
+Indicador  4.5.1;50;1.07;14;Roraima;9601;2019;9601
+Indicador  4.5.1;50;0.96;15;Pará;9601;2012;9601
+Indicador  4.5.1;50;1.04;15;Pará;9601;2013;9601
+Indicador  4.5.1;50;1.08;15;Pará;9601;2014;9601
+Indicador  4.5.1;50;0.99;15;Pará;9601;2015;9601
+Indicador  4.5.1;50;1.01;15;Pará;9601;2016;9601
+Indicador  4.5.1;50;1.05;15;Pará;9601;2017;9601
+Indicador  4.5.1;50;0.98;15;Pará;9601;2018;9601
+Indicador  4.5.1;50;0.98;15;Pará;9601;2019;9601
+Indicador  4.5.1;50;1.24;16;Amapá;9601;2012;9601
+Indicador  4.5.1;50;1.37;16;Amapá;9601;2013;9601
+Indicador  4.5.1;50;0.96;16;Amapá;9601;2014;9601
+Indicador  4.5.1;50;1.29;16;Amapá;9601;2015;9601
+Indicador  4.5.1;50;0.98;16;Amapá;9601;2016;9601
+Indicador  4.5.1;50;1.28;16;Amapá;9601;2017;9601
+Indicador  4.5.1;50;1.03;16;Amapá;9601;2018;9601
+Indicador  4.5.1;50;1.02;16;Amapá;9601;2019;9601
+Indicador  4.5.1;50;0.98;17;Tocantins;9601;2012;9601
+Indicador  4.5.1;50;1.12;17;Tocantins;9601;2013;9601
+Indicador  4.5.1;50;1.02;17;Tocantins;9601;2014;9601
+Indicador  4.5.1;50;1.00;17;Tocantins;9601;2015;9601
+Indicador  4.5.1;50;1.04;17;Tocantins;9601;2016;9601
+Indicador  4.5.1;50;1.04;17;Tocantins;9601;2017;9601
+Indicador  4.5.1;50;1.00;17;Tocantins;9601;2018;9601
+Indicador  4.5.1;50;0.96;17;Tocantins;9601;2019;9601
+Indicador  4.5.1;50;1.02;21;Maranhão;9601;2012;9601
+Indicador  4.5.1;50;1.00;21;Maranhão;9601;2013;9601
+Indicador  4.5.1;50;1.01;21;Maranhão;9601;2014;9601
+Indicador  4.5.1;50;1.01;21;Maranhão;9601;2015;9601
+Indicador  4.5.1;50;0.98;21;Maranhão;9601;2016;9601
+Indicador  4.5.1;50;1.00;21;Maranhão;9601;2017;9601
+Indicador  4.5.1;50;1.00;21;Maranhão;9601;2018;9601
+Indicador  4.5.1;50;0.98;21;Maranhão;9601;2019;9601
+Indicador  4.5.1;50;1.00;22;Piauí;9601;2012;9601
+Indicador  4.5.1;50;1.03;22;Piauí;9601;2013;9601
+Indicador  4.5.1;50;1.04;22;Piauí;9601;2014;9601
+Indicador  4.5.1;50;0.98;22;Piauí;9601;2015;9601
+Indicador  4.5.1;50;0.99;22;Piauí;9601;2016;9601
+Indicador  4.5.1;50;1.01;22;Piauí;9601;2017;9601
+Indicador  4.5.1;50;1.01;22;Piauí;9601;2018;9601
+Indicador  4.5.1;50;1.00;22;Piauí;9601;2019;9601
+Indicador  4.5.1;50;1.01;23;Ceará;9601;2012;9601
+Indicador  4.5.1;50;1.00;23;Ceará;9601;2013;9601
+Indicador  4.5.1;50;1.01;23;Ceará;9601;2014;9601
+Indicador  4.5.1;50;1.01;23;Ceará;9601;2015;9601
+Indicador  4.5.1;50;1.02;23;Ceará;9601;2016;9601
+Indicador  4.5.1;50;1.01;23;Ceará;9601;2017;9601
+Indicador  4.5.1;50;1.00;23;Ceará;9601;2018;9601
+Indicador  4.5.1;50;0.99;23;Ceará;9601;2019;9601
+Indicador  4.5.1;50;1.02;24;Rio Grande do Norte;9601;2012;9601
+Indicador  4.5.1;50;0.98;24;Rio Grande do Norte;9601;2013;9601
+Indicador  4.5.1;50;0.98;24;Rio Grande do Norte;9601;2014;9601
+Indicador  4.5.1;50;1.01;24;Rio Grande do Norte;9601;2015;9601
+Indicador  4.5.1;50;0.99;24;Rio Grande do Norte;9601;2016;9601
+Indicador  4.5.1;50;1.02;24;Rio Grande do Norte;9601;2017;9601
+Indicador  4.5.1;50;0.96;24;Rio Grande do Norte;9601;2018;9601
+Indicador  4.5.1;50;0.99;24;Rio Grande do Norte;9601;2019;9601
+Indicador  4.5.1;50;1.01;25;Paraíba;9601;2012;9601
+Indicador  4.5.1;50;0.97;25;Paraíba;9601;2013;9601
+Indicador  4.5.1;50;0.98;25;Paraíba;9601;2014;9601
+Indicador  4.5.1;50;0.98;25;Paraíba;9601;2015;9601
+Indicador  4.5.1;50;1.01;25;Paraíba;9601;2016;9601
+Indicador  4.5.1;50;0.98;25;Paraíba;9601;2017;9601
+Indicador  4.5.1;50;1.00;25;Paraíba;9601;2018;9601
+Indicador  4.5.1;50;1.02;25;Paraíba;9601;2019;9601
+Indicador  4.5.1;50;0.98;26;Pernambuco;9601;2012;9601
+Indicador  4.5.1;50;0.94;26;Pernambuco;9601;2013;9601
+Indicador  4.5.1;50;1.00;26;Pernambuco;9601;2014;9601
+Indicador  4.5.1;50;0.98;26;Pernambuco;9601;2015;9601
+Indicador  4.5.1;50;1.02;26;Pernambuco;9601;2016;9601
+Indicador  4.5.1;50;1.01;26;Pernambuco;9601;2017;9601
+Indicador  4.5.1;50;0.99;26;Pernambuco;9601;2018;9601
+Indicador  4.5.1;50;1.02;26;Pernambuco;9601;2019;9601
+Indicador  4.5.1;50;0.99;27;Alagoas;9601;2012;9601
+Indicador  4.5.1;50;0.97;27;Alagoas;9601;2013;9601
+Indicador  4.5.1;50;0.97;27;Alagoas;9601;2014;9601
+Indicador  4.5.1;50;1.01;27;Alagoas;9601;2015;9601
+Indicador  4.5.1;50;0.98;27;Alagoas;9601;2016;9601
+Indicador  4.5.1;50;0.99;27;Alagoas;9601;2017;9601
+Indicador  4.5.1;50;0.99;27;Alagoas;9601;2018;9601
+Indicador  4.5.1;50;1.01;27;Alagoas;9601;2019;9601
+Indicador  4.5.1;50;0.99;28;Sergipe;9601;2012;9601
+Indicador  4.5.1;50;1.04;28;Sergipe;9601;2013;9601
+Indicador  4.5.1;50;0.99;28;Sergipe;9601;2014;9601
+Indicador  4.5.1;50;1.01;28;Sergipe;9601;2015;9601
+Indicador  4.5.1;50;1.01;28;Sergipe;9601;2016;9601
+Indicador  4.5.1;50;0.99;28;Sergipe;9601;2017;9601
+Indicador  4.5.1;50;1.00;28;Sergipe;9601;2018;9601
+Indicador  4.5.1;50;1.00;28;Sergipe;9601;2019;9601
+Indicador  4.5.1;50;1.01;29;Bahia;9601;2012;9601
+Indicador  4.5.1;50;1.00;29;Bahia;9601;2013;9601
+Indicador  4.5.1;50;1.01;29;Bahia;9601;2014;9601
+Indicador  4.5.1;50;0.95;29;Bahia;9601;2015;9601
+Indicador  4.5.1;50;1.05;29;Bahia;9601;2016;9601
+Indicador  4.5.1;50;1.01;29;Bahia;9601;2017;9601
+Indicador  4.5.1;50;1.00;29;Bahia;9601;2018;9601
+Indicador  4.5.1;50;1.01;29;Bahia;9601;2019;9601
+Indicador  4.5.1;50;1.00;31;Minas Gerais;9601;2012;9601
+Indicador  4.5.1;50;1.03;31;Minas Gerais;9601;2013;9601
+Indicador  4.5.1;50;0.98;31;Minas Gerais;9601;2014;9601
+Indicador  4.5.1;50;1.00;31;Minas Gerais;9601;2015;9601
+Indicador  4.5.1;50;0.99;31;Minas Gerais;9601;2016;9601
+Indicador  4.5.1;50;1.01;31;Minas Gerais;9601;2017;9601
+Indicador  4.5.1;50;1.00;31;Minas Gerais;9601;2018;9601
+Indicador  4.5.1;50;1.00;31;Minas Gerais;9601;2019;9601
+Indicador  4.5.1;50;0.93;32;Espírito Santo;9601;2012;9601
+Indicador  4.5.1;50;1.08;32;Espírito Santo;9601;2013;9601
+Indicador  4.5.1;50;1.04;32;Espírito Santo;9601;2014;9601
+Indicador  4.5.1;50;1.02;32;Espírito Santo;9601;2015;9601
+Indicador  4.5.1;50;1.02;32;Espírito Santo;9601;2016;9601
+Indicador  4.5.1;50;1.00;32;Espírito Santo;9601;2017;9601
+Indicador  4.5.1;50;0.99;32;Espírito Santo;9601;2018;9601
+Indicador  4.5.1;50;0.98;32;Espírito Santo;9601;2019;9601
+Indicador  4.5.1;50;0.98;33;Rio de Janeiro;9601;2012;9601
+Indicador  4.5.1;50;0.98;33;Rio de Janeiro;9601;2013;9601
+Indicador  4.5.1;50;1.03;33;Rio de Janeiro;9601;2014;9601
+Indicador  4.5.1;50;1.00;33;Rio de Janeiro;9601;2015;9601
+Indicador  4.5.1;50;1.00;33;Rio de Janeiro;9601;2016;9601
+Indicador  4.5.1;50;1.00;33;Rio de Janeiro;9601;2017;9601
+Indicador  4.5.1;50;1.02;33;Rio de Janeiro;9601;2018;9601
+Indicador  4.5.1;50;1.06;33;Rio de Janeiro;9601;2019;9601
+Indicador  4.5.1;50;1.05;35;São Paulo;9601;2012;9601
+Indicador  4.5.1;50;1.09;35;São Paulo;9601;2013;9601
+Indicador  4.5.1;50;0.98;35;São Paulo;9601;2014;9601
+Indicador  4.5.1;50;0.97;35;São Paulo;9601;2015;9601
+Indicador  4.5.1;50;1.03;35;São Paulo;9601;2016;9601
+Indicador  4.5.1;50;1.01;35;São Paulo;9601;2017;9601
+Indicador  4.5.1;50;0.99;35;São Paulo;9601;2018;9601
+Indicador  4.5.1;50;1.01;35;São Paulo;9601;2019;9601
+Indicador  4.5.1;50;1.00;41;Paraná;9601;2012;9601
+Indicador  4.5.1;50;1.01;41;Paraná;9601;2013;9601
+Indicador  4.5.1;50;1.00;41;Paraná;9601;2014;9601
+Indicador  4.5.1;50;1.05;41;Paraná;9601;2015;9601
+Indicador  4.5.1;50;0.98;41;Paraná;9601;2016;9601
+Indicador  4.5.1;50;0.98;41;Paraná;9601;2017;9601
+Indicador  4.5.1;50;0.99;41;Paraná;9601;2018;9601
+Indicador  4.5.1;50;0.99;41;Paraná;9601;2019;9601
+Indicador  4.5.1;50;0.99;42;Santa Catarina;9601;2012;9601
+Indicador  4.5.1;50;0.99;42;Santa Catarina;9601;2013;9601
+Indicador  4.5.1;50;1.02;42;Santa Catarina;9601;2014;9601
+Indicador  4.5.1;50;0.96;42;Santa Catarina;9601;2015;9601
+Indicador  4.5.1;50;1.02;42;Santa Catarina;9601;2016;9601
+Indicador  4.5.1;50;1.01;42;Santa Catarina;9601;2017;9601
+Indicador  4.5.1;50;1.01;42;Santa Catarina;9601;2018;9601
+Indicador  4.5.1;50;1.01;42;Santa Catarina;9601;2019;9601
+Indicador  4.5.1;50;0.91;43;Rio Grande do Sul;9601;2012;9601
+Indicador  4.5.1;50;1.07;43;Rio Grande do Sul;9601;2013;9601
+Indicador  4.5.1;50;1.07;43;Rio Grande do Sul;9601;2014;9601
+Indicador  4.5.1;50;1.03;43;Rio Grande do Sul;9601;2015;9601
+Indicador  4.5.1;50;0.98;43;Rio Grande do Sul;9601;2016;9601
+Indicador  4.5.1;50;1.09;43;Rio Grande do Sul;9601;2017;9601
+Indicador  4.5.1;50;0.97;43;Rio Grande do Sul;9601;2018;9601
+Indicador  4.5.1;50;1.03;43;Rio Grande do Sul;9601;2019;9601
+Indicador  4.5.1;50;1.08;50;Mato Grosso do Sul;9601;2012;9601
+Indicador  4.5.1;50;1.03;50;Mato Grosso do Sul;9601;2013;9601
+Indicador  4.5.1;50;1.01;50;Mato Grosso do Sul;9601;2014;9601
+Indicador  4.5.1;50;1.01;50;Mato Grosso do Sul;9601;2015;9601
+Indicador  4.5.1;50;0.96;50;Mato Grosso do Sul;9601;2016;9601
+Indicador  4.5.1;50;0.95;50;Mato Grosso do Sul;9601;2017;9601
+Indicador  4.5.1;50;0.97;50;Mato Grosso do Sul;9601;2018;9601
+Indicador  4.5.1;50;1.02;50;Mato Grosso do Sul;9601;2019;9601
+Indicador  4.5.1;50;1.06;51;Mato Grosso;9601;2012;9601
+Indicador  4.5.1;50;1.10;51;Mato Grosso;9601;2013;9601
+Indicador  4.5.1;50;1.04;51;Mato Grosso;9601;2014;9601
+Indicador  4.5.1;50;1.05;51;Mato Grosso;9601;2015;9601
+Indicador  4.5.1;50;1.01;51;Mato Grosso;9601;2016;9601
+Indicador  4.5.1;50;1.02;51;Mato Grosso;9601;2017;9601
+Indicador  4.5.1;50;1.02;51;Mato Grosso;9601;2018;9601
+Indicador  4.5.1;50;1.04;51;Mato Grosso;9601;2019;9601
+Indicador  4.5.1;50;0.97;52;Goiás;9601;2012;9601
+Indicador  4.5.1;50;0.96;52;Goiás;9601;2013;9601
+Indicador  4.5.1;50;0.93;52;Goiás;9601;2014;9601
+Indicador  4.5.1;50;1.02;52;Goiás;9601;2015;9601
+Indicador  4.5.1;50;1.05;52;Goiás;9601;2016;9601
+Indicador  4.5.1;50;1.02;52;Goiás;9601;2017;9601
+Indicador  4.5.1;50;1.03;52;Goiás;9601;2018;9601
+Indicador  4.5.1;50;1.12;52;Goiás;9601;2019;9601
+Indicador  4.5.1;50;0.92;53;Distrito Federal;9601;2012;9601
+Indicador  4.5.1;50;0.90;53;Distrito Federal;9601;2013;9601
+Indicador  4.5.1;50;1.01;53;Distrito Federal;9601;2014;9601
+Indicador  4.5.1;50;1.04;53;Distrito Federal;9601;2015;9601
+Indicador  4.5.1;50;1.01;53;Distrito Federal;9601;2016;9601
+Indicador  4.5.1;50;0.94;53;Distrito Federal;9601;2017;9601
+Indicador  4.5.1;50;1.07;53;Distrito Federal;9601;2018;9601
+Indicador  4.5.1;50;1.00;53;Distrito Federal;9601;2019;9601
+Indicador  4.5.1;50;0.95;1;Brasil;9603;2012;9603
+Indicador  4.5.1;50;0.94;1;Brasil;9603;2013;9603
+Indicador  4.5.1;50;0.96;1;Brasil;9603;2014;9603
+Indicador  4.5.1;50;0.96;1;Brasil;9603;2015;9603
+Indicador  4.5.1;50;0.99;1;Brasil;9603;2016;9603
+Indicador  4.5.1;50;0.97;1;Brasil;9603;2017;9603
+Indicador  4.5.1;50;0.99;1;Brasil;9603;2018;9603
+Indicador  4.5.1;50;0.99;1;Brasil;9603;2019;9603
+Indicador  4.5.1;50;0.73;11;Rondônia;9603;2012;9603
+Indicador  4.5.1;50;0.69;11;Rondônia;9603;2013;9603
+Indicador  4.5.1;50;0.72;11;Rondônia;9603;2014;9603
+Indicador  4.5.1;50;0.88;11;Rondônia;9603;2015;9603
+Indicador  4.5.1;50;0.90;11;Rondônia;9603;2016;9603
+Indicador  4.5.1;50;0.91;11;Rondônia;9603;2017;9603
+Indicador  4.5.1;50;0.98;11;Rondônia;9603;2018;9603
+Indicador  4.5.1;50;0.85;11;Rondônia;9603;2019;9603
+Indicador  4.5.1;50;0.62;12;Acre;9603;2012;9603
+Indicador  4.5.1;50;0.62;12;Acre;9603;2013;9603
+Indicador  4.5.1;50;0.72;12;Acre;9603;2014;9603
+Indicador  4.5.1;50;0.58;12;Acre;9603;2015;9603
+Indicador  4.5.1;50;0.57;12;Acre;9603;2016;9603
+Indicador  4.5.1;50;0.65;12;Acre;9603;2017;9603
+Indicador  4.5.1;50;0.53;12;Acre;9603;2018;9603
+Indicador  4.5.1;50;0.56;12;Acre;9603;2019;9603
+Indicador  4.5.1;50;0.77;13;Amazonas;9603;2012;9603
+Indicador  4.5.1;50;0.87;13;Amazonas;9603;2013;9603
+Indicador  4.5.1;50;0.86;13;Amazonas;9603;2014;9603
+Indicador  4.5.1;50;0.84;13;Amazonas;9603;2015;9603
+Indicador  4.5.1;50;0.96;13;Amazonas;9603;2016;9603
+Indicador  4.5.1;50;0.94;13;Amazonas;9603;2017;9603
+Indicador  4.5.1;50;0.92;13;Amazonas;9603;2018;9603
+Indicador  4.5.1;50;0.90;13;Amazonas;9603;2019;9603
+Indicador  4.5.1;50;0.99;14;Roraima;9603;2012;9603
+Indicador  4.5.1;50;0.99;14;Roraima;9603;2013;9603
+Indicador  4.5.1;50;0.95;14;Roraima;9603;2014;9603
+Indicador  4.5.1;50;1.01;14;Roraima;9603;2015;9603
+Indicador  4.5.1;50;1.03;14;Roraima;9603;2016;9603
+Indicador  4.5.1;50;1.02;14;Roraima;9603;2017;9603
+Indicador  4.5.1;50;0.96;14;Roraima;9603;2018;9603
+Indicador  4.5.1;50;1.12;14;Roraima;9603;2019;9603
+Indicador  4.5.1;50;0.88;15;Pará;9603;2012;9603
+Indicador  4.5.1;50;0.88;15;Pará;9603;2013;9603
+Indicador  4.5.1;50;0.88;15;Pará;9603;2014;9603
+Indicador  4.5.1;50;0.94;15;Pará;9603;2015;9603
+Indicador  4.5.1;50;0.92;15;Pará;9603;2016;9603
+Indicador  4.5.1;50;0.91;15;Pará;9603;2017;9603
+Indicador  4.5.1;50;0.89;15;Pará;9603;2018;9603
+Indicador  4.5.1;50;0.99;15;Pará;9603;2019;9603
+Indicador  4.5.1;50;1.32;16;Amapá;9603;2012;9603
+Indicador  4.5.1;50;1.11;16;Amapá;9603;2013;9603
+Indicador  4.5.1;50;1.06;16;Amapá;9603;2014;9603
+Indicador  4.5.1;50;0.58;16;Amapá;9603;2015;9603
+Indicador  4.5.1;50;1.07;16;Amapá;9603;2016;9603
+Indicador  4.5.1;50;0.56;16;Amapá;9603;2017;9603
+Indicador  4.5.1;50;1.32;16;Amapá;9603;2018;9603
+Indicador  4.5.1;50;1.07;16;Amapá;9603;2019;9603
+Indicador  4.5.1;50;0.92;17;Tocantins;9603;2012;9603
+Indicador  4.5.1;50;0.91;17;Tocantins;9603;2013;9603
+Indicador  4.5.1;50;0.83;17;Tocantins;9603;2014;9603
+Indicador  4.5.1;50;0.99;17;Tocantins;9603;2015;9603
+Indicador  4.5.1;50;1.00;17;Tocantins;9603;2016;9603
+Indicador  4.5.1;50;0.99;17;Tocantins;9603;2017;9603
+Indicador  4.5.1;50;0.95;17;Tocantins;9603;2018;9603
+Indicador  4.5.1;50;0.89;17;Tocantins;9603;2019;9603
+Indicador  4.5.1;50;0.99;21;Maranhão;9603;2012;9603
+Indicador  4.5.1;50;0.96;21;Maranhão;9603;2013;9603
+Indicador  4.5.1;50;1.04;21;Maranhão;9603;2014;9603
+Indicador  4.5.1;50;1.00;21;Maranhão;9603;2015;9603
+Indicador  4.5.1;50;1.01;21;Maranhão;9603;2016;9603
+Indicador  4.5.1;50;0.98;21;Maranhão;9603;2017;9603
+Indicador  4.5.1;50;1.00;21;Maranhão;9603;2018;9603
+Indicador  4.5.1;50;1.01;21;Maranhão;9603;2019;9603
+Indicador  4.5.1;50;0.97;22;Piauí;9603;2012;9603
+Indicador  4.5.1;50;0.95;22;Piauí;9603;2013;9603
+Indicador  4.5.1;50;0.99;22;Piauí;9603;2014;9603
+Indicador  4.5.1;50;0.98;22;Piauí;9603;2015;9603
+Indicador  4.5.1;50;0.99;22;Piauí;9603;2016;9603
+Indicador  4.5.1;50;1.01;22;Piauí;9603;2017;9603
+Indicador  4.5.1;50;0.99;22;Piauí;9603;2018;9603
+Indicador  4.5.1;50;1.00;22;Piauí;9603;2019;9603
+Indicador  4.5.1;50;1.01;23;Ceará;9603;2012;9603
+Indicador  4.5.1;50;1.01;23;Ceará;9603;2013;9603
+Indicador  4.5.1;50;1.01;23;Ceará;9603;2014;9603
+Indicador  4.5.1;50;1.01;23;Ceará;9603;2015;9603
+Indicador  4.5.1;50;1.00;23;Ceará;9603;2016;9603
+Indicador  4.5.1;50;1.01;23;Ceará;9603;2017;9603
+Indicador  4.5.1;50;0.99;23;Ceará;9603;2018;9603
+Indicador  4.5.1;50;1.02;23;Ceará;9603;2019;9603
+Indicador  4.5.1;50;1.01;24;Rio Grande do Norte;9603;2012;9603
+Indicador  4.5.1;50;0.97;24;Rio Grande do Norte;9603;2013;9603
+Indicador  4.5.1;50;1.02;24;Rio Grande do Norte;9603;2014;9603
+Indicador  4.5.1;50;0.99;24;Rio Grande do Norte;9603;2015;9603
+Indicador  4.5.1;50;0.92;24;Rio Grande do Norte;9603;2016;9603
+Indicador  4.5.1;50;1.00;24;Rio Grande do Norte;9603;2017;9603
+Indicador  4.5.1;50;1.00;24;Rio Grande do Norte;9603;2018;9603
+Indicador  4.5.1;50;1.01;24;Rio Grande do Norte;9603;2019;9603
+Indicador  4.5.1;50;1.01;25;Paraíba;9603;2012;9603
+Indicador  4.5.1;50;0.98;25;Paraíba;9603;2013;9603
+Indicador  4.5.1;50;1.01;25;Paraíba;9603;2014;9603
+Indicador  4.5.1;50;0.98;25;Paraíba;9603;2015;9603
+Indicador  4.5.1;50;1.04;25;Paraíba;9603;2016;9603
+Indicador  4.5.1;50;1.03;25;Paraíba;9603;2017;9603
+Indicador  4.5.1;50;1.02;25;Paraíba;9603;2018;9603
+Indicador  4.5.1;50;1.00;25;Paraíba;9603;2019;9603
+Indicador  4.5.1;50;0.96;26;Pernambuco;9603;2012;9603
+Indicador  4.5.1;50;0.93;26;Pernambuco;9603;2013;9603
+Indicador  4.5.1;50;0.91;26;Pernambuco;9603;2014;9603
+Indicador  4.5.1;50;0.99;26;Pernambuco;9603;2015;9603
+Indicador  4.5.1;50;1.01;26;Pernambuco;9603;2016;9603
+Indicador  4.5.1;50;0.99;26;Pernambuco;9603;2017;9603
+Indicador  4.5.1;50;1.02;26;Pernambuco;9603;2018;9603
+Indicador  4.5.1;50;0.99;26;Pernambuco;9603;2019;9603
+Indicador  4.5.1;50;0.96;27;Alagoas;9603;2012;9603
+Indicador  4.5.1;50;0.96;27;Alagoas;9603;2013;9603
+Indicador  4.5.1;50;1.01;27;Alagoas;9603;2014;9603
+Indicador  4.5.1;50;0.97;27;Alagoas;9603;2015;9603
+Indicador  4.5.1;50;1.08;27;Alagoas;9603;2016;9603
+Indicador  4.5.1;50;1.06;27;Alagoas;9603;2017;9603
+Indicador  4.5.1;50;1.04;27;Alagoas;9603;2018;9603
+Indicador  4.5.1;50;1.03;27;Alagoas;9603;2019;9603
+Indicador  4.5.1;50;1.03;28;Sergipe;9603;2012;9603
+Indicador  4.5.1;50;0.99;28;Sergipe;9603;2013;9603
+Indicador  4.5.1;50;1.01;28;Sergipe;9603;2014;9603
+Indicador  4.5.1;50;1.00;28;Sergipe;9603;2015;9603
+Indicador  4.5.1;50;1.00;28;Sergipe;9603;2016;9603
+Indicador  4.5.1;50;0.98;28;Sergipe;9603;2017;9603
+Indicador  4.5.1;50;1.04;28;Sergipe;9603;2018;9603
+Indicador  4.5.1;50;1.02;28;Sergipe;9603;2019;9603
+Indicador  4.5.1;50;0.98;29;Bahia;9603;2012;9603
+Indicador  4.5.1;50;0.89;29;Bahia;9603;2013;9603
+Indicador  4.5.1;50;0.99;29;Bahia;9603;2014;9603
+Indicador  4.5.1;50;0.97;29;Bahia;9603;2015;9603
+Indicador  4.5.1;50;1.01;29;Bahia;9603;2016;9603
+Indicador  4.5.1;50;0.98;29;Bahia;9603;2017;9603
+Indicador  4.5.1;50;0.99;29;Bahia;9603;2018;9603
+Indicador  4.5.1;50;0.98;29;Bahia;9603;2019;9603
+Indicador  4.5.1;50;0.86;31;Minas Gerais;9603;2012;9603
+Indicador  4.5.1;50;0.77;31;Minas Gerais;9603;2013;9603
+Indicador  4.5.1;50;0.88;31;Minas Gerais;9603;2014;9603
+Indicador  4.5.1;50;0.93;31;Minas Gerais;9603;2015;9603
+Indicador  4.5.1;50;0.95;31;Minas Gerais;9603;2016;9603
+Indicador  4.5.1;50;0.91;31;Minas Gerais;9603;2017;9603
+Indicador  4.5.1;50;1.00;31;Minas Gerais;9603;2018;9603
+Indicador  4.5.1;50;0.97;31;Minas Gerais;9603;2019;9603
+Indicador  4.5.1;50;0.84;32;Espírito Santo;9603;2012;9603
+Indicador  4.5.1;50;0.93;32;Espírito Santo;9603;2013;9603
+Indicador  4.5.1;50;0.85;32;Espírito Santo;9603;2014;9603
+Indicador  4.5.1;50;0.92;32;Espírito Santo;9603;2015;9603
+Indicador  4.5.1;50;1.01;32;Espírito Santo;9603;2016;9603
+Indicador  4.5.1;50;0.93;32;Espírito Santo;9603;2017;9603
+Indicador  4.5.1;50;0.99;32;Espírito Santo;9603;2018;9603
+Indicador  4.5.1;50;0.94;32;Espírito Santo;9603;2019;9603
+Indicador  4.5.1;50;1.02;33;Rio de Janeiro;9603;2012;9603
+Indicador  4.5.1;50;0.92;33;Rio de Janeiro;9603;2013;9603
+Indicador  4.5.1;50;0.94;33;Rio de Janeiro;9603;2014;9603
+Indicador  4.5.1;50;0.76;33;Rio de Janeiro;9603;2015;9603
+Indicador  4.5.1;50;1.05;33;Rio de Janeiro;9603;2016;9603
+Indicador  4.5.1;50;1.02;33;Rio de Janeiro;9603;2017;9603
+Indicador  4.5.1;50;0.97;33;Rio de Janeiro;9603;2018;9603
+Indicador  4.5.1;50;0.98;33;Rio de Janeiro;9603;2019;9603
+Indicador  4.5.1;50;0.94;35;São Paulo;9603;2012;9603
+Indicador  4.5.1;50;1.00;35;São Paulo;9603;2013;9603
+Indicador  4.5.1;50;1.03;35;São Paulo;9603;2014;9603
+Indicador  4.5.1;50;1.03;35;São Paulo;9603;2015;9603
+Indicador  4.5.1;50;1.03;35;São Paulo;9603;2016;9603
+Indicador  4.5.1;50;0.99;35;São Paulo;9603;2017;9603
+Indicador  4.5.1;50;1.01;35;São Paulo;9603;2018;9603
+Indicador  4.5.1;50;1.02;35;São Paulo;9603;2019;9603
+Indicador  4.5.1;50;0.82;41;Paraná;9603;2012;9603
+Indicador  4.5.1;50;0.92;41;Paraná;9603;2013;9603
+Indicador  4.5.1;50;0.93;41;Paraná;9603;2014;9603
+Indicador  4.5.1;50;0.96;41;Paraná;9603;2015;9603
+Indicador  4.5.1;50;0.93;41;Paraná;9603;2016;9603
+Indicador  4.5.1;50;0.90;41;Paraná;9603;2017;9603
+Indicador  4.5.1;50;1.01;41;Paraná;9603;2018;9603
+Indicador  4.5.1;50;0.96;41;Paraná;9603;2019;9603
+Indicador  4.5.1;50;1.09;42;Santa Catarina;9603;2012;9603
+Indicador  4.5.1;50;0.92;42;Santa Catarina;9603;2013;9603
+Indicador  4.5.1;50;1.03;42;Santa Catarina;9603;2014;9603
+Indicador  4.5.1;50;1.02;42;Santa Catarina;9603;2015;9603
+Indicador  4.5.1;50;0.96;42;Santa Catarina;9603;2016;9603
+Indicador  4.5.1;50;0.97;42;Santa Catarina;9603;2017;9603
+Indicador  4.5.1;50;0.94;42;Santa Catarina;9603;2018;9603
+Indicador  4.5.1;50;1.01;42;Santa Catarina;9603;2019;9603
+Indicador  4.5.1;50;0.94;43;Rio Grande do Sul;9603;2012;9603
+Indicador  4.5.1;50;1.10;43;Rio Grande do Sul;9603;2013;9603
+Indicador  4.5.1;50;1.02;43;Rio Grande do Sul;9603;2014;9603
+Indicador  4.5.1;50;0.92;43;Rio Grande do Sul;9603;2015;9603
+Indicador  4.5.1;50;1.08;43;Rio Grande do Sul;9603;2016;9603
+Indicador  4.5.1;50;1.10;43;Rio Grande do Sul;9603;2017;9603
+Indicador  4.5.1;50;1.12;43;Rio Grande do Sul;9603;2018;9603
+Indicador  4.5.1;50;1.03;43;Rio Grande do Sul;9603;2019;9603
+Indicador  4.5.1;50;0.79;50;Mato Grosso do Sul;9603;2012;9603
+Indicador  4.5.1;50;0.78;50;Mato Grosso do Sul;9603;2013;9603
+Indicador  4.5.1;50;0.80;50;Mato Grosso do Sul;9603;2014;9603
+Indicador  4.5.1;50;0.84;50;Mato Grosso do Sul;9603;2015;9603
+Indicador  4.5.1;50;0.95;50;Mato Grosso do Sul;9603;2016;9603
+Indicador  4.5.1;50;0.94;50;Mato Grosso do Sul;9603;2017;9603
+Indicador  4.5.1;50;0.90;50;Mato Grosso do Sul;9603;2018;9603
+Indicador  4.5.1;50;0.94;50;Mato Grosso do Sul;9603;2019;9603
+Indicador  4.5.1;50;0.87;51;Mato Grosso;9603;2012;9603
+Indicador  4.5.1;50;0.90;51;Mato Grosso;9603;2013;9603
+Indicador  4.5.1;50;0.95;51;Mato Grosso;9603;2014;9603
+Indicador  4.5.1;50;0.89;51;Mato Grosso;9603;2015;9603
+Indicador  4.5.1;50;0.91;51;Mato Grosso;9603;2016;9603
+Indicador  4.5.1;50;0.94;51;Mato Grosso;9603;2017;9603
+Indicador  4.5.1;50;0.96;51;Mato Grosso;9603;2018;9603
+Indicador  4.5.1;50;0.99;51;Mato Grosso;9603;2019;9603
+Indicador  4.5.1;50;1.01;52;Goiás;9603;2012;9603
+Indicador  4.5.1;50;0.93;52;Goiás;9603;2013;9603
+Indicador  4.5.1;50;0.93;52;Goiás;9603;2014;9603
+Indicador  4.5.1;50;0.88;52;Goiás;9603;2015;9603
+Indicador  4.5.1;50;1.00;52;Goiás;9603;2016;9603
+Indicador  4.5.1;50;1.06;52;Goiás;9603;2017;9603
+Indicador  4.5.1;50;0.87;52;Goiás;9603;2018;9603
+Indicador  4.5.1;50;0.95;52;Goiás;9603;2019;9603
+Indicador  4.5.1;50;0.83;53;Distrito Federal;9603;2012;9603
+Indicador  4.5.1;50;0.66;53;Distrito Federal;9603;2013;9603
+Indicador  4.5.1;50;1.02;53;Distrito Federal;9603;2014;9603
+Indicador  4.5.1;50;1.00;53;Distrito Federal;9603;2015;9603
+Indicador  4.5.1;50;0.71;53;Distrito Federal;9603;2016;9603
+Indicador  4.5.1;50;0.95;53;Distrito Federal;9603;2017;9603
+Indicador  4.5.1;50;0.96;53;Distrito Federal;9603;2018;9603
+Indicador  4.5.1;50;1.00;53;Distrito Federal;9603;2019;9603
+Indicador  4.5.1;;...;1;Brasil;12746;2012;12746
+Indicador  4.5.1;;...;1;Brasil;12746;2013;12746
+Indicador  4.5.1;;...;1;Brasil;12746;2014;12746
+Indicador  4.5.1;;...;1;Brasil;12746;2015;12746
+Indicador  4.5.1;50;0.94;1;Brasil;12746;2016;12746
+Indicador  4.5.1;50;0.96;1;Brasil;12746;2017;12746
+Indicador  4.5.1;50;0.95;1;Brasil;12746;2018;12746
+Indicador  4.5.1;50;0.97;1;Brasil;12746;2019;12746
+Indicador  4.5.1;;...;11;Rondônia;12746;2012;12746
+Indicador  4.5.1;;...;11;Rondônia;12746;2013;12746
+Indicador  4.5.1;;...;11;Rondônia;12746;2014;12746
+Indicador  4.5.1;;...;11;Rondônia;12746;2015;12746
+Indicador  4.5.1;50;0.99;11;Rondônia;12746;2016;12746
+Indicador  4.5.1;50;0.99;11;Rondônia;12746;2017;12746
+Indicador  4.5.1;50;0.99;11;Rondônia;12746;2018;12746
+Indicador  4.5.1;50;0.96;11;Rondônia;12746;2019;12746
+Indicador  4.5.1;;...;12;Acre;12746;2012;12746
+Indicador  4.5.1;;...;12;Acre;12746;2013;12746
+Indicador  4.5.1;;...;12;Acre;12746;2014;12746
+Indicador  4.5.1;;...;12;Acre;12746;2015;12746
+Indicador  4.5.1;50;0.54;12;Acre;12746;2016;12746
+Indicador  4.5.1;50;0.81;12;Acre;12746;2017;12746
+Indicador  4.5.1;50;0.67;12;Acre;12746;2018;12746
+Indicador  4.5.1;50;0.70;12;Acre;12746;2019;12746
+Indicador  4.5.1;;...;13;Amazonas;12746;2012;12746
+Indicador  4.5.1;;...;13;Amazonas;12746;2013;12746
+Indicador  4.5.1;;...;13;Amazonas;12746;2014;12746
+Indicador  4.5.1;;...;13;Amazonas;12746;2015;12746
+Indicador  4.5.1;50;0.87;13;Amazonas;12746;2016;12746
+Indicador  4.5.1;50;0.84;13;Amazonas;12746;2017;12746
+Indicador  4.5.1;50;0.92;13;Amazonas;12746;2018;12746
+Indicador  4.5.1;50;0.99;13;Amazonas;12746;2019;12746
+Indicador  4.5.1;;...;14;Roraima;12746;2012;12746
+Indicador  4.5.1;;...;14;Roraima;12746;2013;12746
+Indicador  4.5.1;;...;14;Roraima;12746;2014;12746
+Indicador  4.5.1;;...;14;Roraima;12746;2015;12746
+Indicador  4.5.1;50;0.90;14;Roraima;12746;2016;12746
+Indicador  4.5.1;50;0.86;14;Roraima;12746;2017;12746
+Indicador  4.5.1;50;0.93;14;Roraima;12746;2018;12746
+Indicador  4.5.1;50;0.80;14;Roraima;12746;2019;12746
+Indicador  4.5.1;;...;15;Pará;12746;2012;12746
+Indicador  4.5.1;;...;15;Pará;12746;2013;12746
+Indicador  4.5.1;;...;15;Pará;12746;2014;12746
+Indicador  4.5.1;;...;15;Pará;12746;2015;12746
+Indicador  4.5.1;50;0.98;15;Pará;12746;2016;12746
+Indicador  4.5.1;50;0.90;15;Pará;12746;2017;12746
+Indicador  4.5.1;50;0.92;15;Pará;12746;2018;12746
+Indicador  4.5.1;50;0.89;15;Pará;12746;2019;12746
+Indicador  4.5.1;;...;16;Amapá;12746;2012;12746
+Indicador  4.5.1;;...;16;Amapá;12746;2013;12746
+Indicador  4.5.1;;...;16;Amapá;12746;2014;12746
+Indicador  4.5.1;;...;16;Amapá;12746;2015;12746
+Indicador  4.5.1;50;0.74;16;Amapá;12746;2016;12746
+Indicador  4.5.1;50;0.66;16;Amapá;12746;2017;12746
+Indicador  4.5.1;50;1.32;16;Amapá;12746;2018;12746
+Indicador  4.5.1;50;0.79;16;Amapá;12746;2019;12746
+Indicador  4.5.1;;...;17;Tocantins;12746;2012;12746
+Indicador  4.5.1;;...;17;Tocantins;12746;2013;12746
+Indicador  4.5.1;;...;17;Tocantins;12746;2014;12746
+Indicador  4.5.1;;...;17;Tocantins;12746;2015;12746
+Indicador  4.5.1;50;0.97;17;Tocantins;12746;2016;12746
+Indicador  4.5.1;50;0.96;17;Tocantins;12746;2017;12746
+Indicador  4.5.1;50;0.97;17;Tocantins;12746;2018;12746
+Indicador  4.5.1;50;0.97;17;Tocantins;12746;2019;12746
+Indicador  4.5.1;;...;21;Maranhão;12746;2012;12746
+Indicador  4.5.1;;...;21;Maranhão;12746;2013;12746
+Indicador  4.5.1;;...;21;Maranhão;12746;2014;12746
+Indicador  4.5.1;;...;21;Maranhão;12746;2015;12746
+Indicador  4.5.1;50;1.05;21;Maranhão;12746;2016;12746
+Indicador  4.5.1;50;0.98;21;Maranhão;12746;2017;12746
+Indicador  4.5.1;50;0.98;21;Maranhão;12746;2018;12746
+Indicador  4.5.1;50;0.98;21;Maranhão;12746;2019;12746
+Indicador  4.5.1;;...;22;Piauí;12746;2012;12746
+Indicador  4.5.1;;...;22;Piauí;12746;2013;12746
+Indicador  4.5.1;;...;22;Piauí;12746;2014;12746
+Indicador  4.5.1;;...;22;Piauí;12746;2015;12746
+Indicador  4.5.1;50;1.00;22;Piauí;12746;2016;12746
+Indicador  4.5.1;50;1.00;22;Piauí;12746;2017;12746
+Indicador  4.5.1;50;0.98;22;Piauí;12746;2018;12746
+Indicador  4.5.1;50;1.00;22;Piauí;12746;2019;12746
+Indicador  4.5.1;;...;23;Ceará;12746;2012;12746
+Indicador  4.5.1;;...;23;Ceará;12746;2013;12746
+Indicador  4.5.1;;...;23;Ceará;12746;2014;12746
+Indicador  4.5.1;;...;23;Ceará;12746;2015;12746
+Indicador  4.5.1;50;0.98;23;Ceará;12746;2016;12746
+Indicador  4.5.1;50;0.98;23;Ceará;12746;2017;12746
+Indicador  4.5.1;50;1.00;23;Ceará;12746;2018;12746
+Indicador  4.5.1;50;0.98;23;Ceará;12746;2019;12746
+Indicador  4.5.1;;...;24;Rio Grande do Norte;12746;2012;12746
+Indicador  4.5.1;;...;24;Rio Grande do Norte;12746;2013;12746
+Indicador  4.5.1;;...;24;Rio Grande do Norte;12746;2014;12746
+Indicador  4.5.1;;...;24;Rio Grande do Norte;12746;2015;12746
+Indicador  4.5.1;50;0.92;24;Rio Grande do Norte;12746;2016;12746
+Indicador  4.5.1;50;0.98;24;Rio Grande do Norte;12746;2017;12746
+Indicador  4.5.1;50;0.94;24;Rio Grande do Norte;12746;2018;12746
+Indicador  4.5.1;50;0.98;24;Rio Grande do Norte;12746;2019;12746
+Indicador  4.5.1;;...;25;Paraíba;12746;2012;12746
+Indicador  4.5.1;;...;25;Paraíba;12746;2013;12746
+Indicador  4.5.1;;...;25;Paraíba;12746;2014;12746
+Indicador  4.5.1;;...;25;Paraíba;12746;2015;12746
+Indicador  4.5.1;50;0.92;25;Paraíba;12746;2016;12746
+Indicador  4.5.1;50;0.98;25;Paraíba;12746;2017;12746
+Indicador  4.5.1;50;0.96;25;Paraíba;12746;2018;12746
+Indicador  4.5.1;50;0.99;25;Paraíba;12746;2019;12746
+Indicador  4.5.1;;...;26;Pernambuco;12746;2012;12746
+Indicador  4.5.1;;...;26;Pernambuco;12746;2013;12746
+Indicador  4.5.1;;...;26;Pernambuco;12746;2014;12746
+Indicador  4.5.1;;...;26;Pernambuco;12746;2015;12746
+Indicador  4.5.1;50;0.95;26;Pernambuco;12746;2016;12746
+Indicador  4.5.1;50;0.98;26;Pernambuco;12746;2017;12746
+Indicador  4.5.1;50;0.93;26;Pernambuco;12746;2018;12746
+Indicador  4.5.1;50;0.98;26;Pernambuco;12746;2019;12746
+Indicador  4.5.1;;...;27;Alagoas;12746;2012;12746
+Indicador  4.5.1;;...;27;Alagoas;12746;2013;12746
+Indicador  4.5.1;;...;27;Alagoas;12746;2014;12746
+Indicador  4.5.1;;...;27;Alagoas;12746;2015;12746
+Indicador  4.5.1;50;0.89;27;Alagoas;12746;2016;12746
+Indicador  4.5.1;50;0.94;27;Alagoas;12746;2017;12746
+Indicador  4.5.1;50;0.95;27;Alagoas;12746;2018;12746
+Indicador  4.5.1;50;0.96;27;Alagoas;12746;2019;12746
+Indicador  4.5.1;;...;28;Sergipe;12746;2012;12746
+Indicador  4.5.1;;...;28;Sergipe;12746;2013;12746
+Indicador  4.5.1;;...;28;Sergipe;12746;2014;12746
+Indicador  4.5.1;;...;28;Sergipe;12746;2015;12746
+Indicador  4.5.1;50;0.89;28;Sergipe;12746;2016;12746
+Indicador  4.5.1;50;0.94;28;Sergipe;12746;2017;12746
+Indicador  4.5.1;50;0.94;28;Sergipe;12746;2018;12746
+Indicador  4.5.1;50;0.97;28;Sergipe;12746;2019;12746
+Indicador  4.5.1;;...;29;Bahia;12746;2012;12746
+Indicador  4.5.1;;...;29;Bahia;12746;2013;12746
+Indicador  4.5.1;;...;29;Bahia;12746;2014;12746
+Indicador  4.5.1;;...;29;Bahia;12746;2015;12746
+Indicador  4.5.1;50;0.93;29;Bahia;12746;2016;12746
+Indicador  4.5.1;50;0.96;29;Bahia;12746;2017;12746
+Indicador  4.5.1;50;0.99;29;Bahia;12746;2018;12746
+Indicador  4.5.1;50;1.00;29;Bahia;12746;2019;12746
+Indicador  4.5.1;;...;31;Minas Gerais;12746;2012;12746
+Indicador  4.5.1;;...;31;Minas Gerais;12746;2013;12746
+Indicador  4.5.1;;...;31;Minas Gerais;12746;2014;12746
+Indicador  4.5.1;;...;31;Minas Gerais;12746;2015;12746
+Indicador  4.5.1;50;1.00;31;Minas Gerais;12746;2016;12746
+Indicador  4.5.1;50;0.95;31;Minas Gerais;12746;2017;12746
+Indicador  4.5.1;50;0.99;31;Minas Gerais;12746;2018;12746
+Indicador  4.5.1;50;0.97;31;Minas Gerais;12746;2019;12746
+Indicador  4.5.1;;...;32;Espírito Santo;12746;2012;12746
+Indicador  4.5.1;;...;32;Espírito Santo;12746;2013;12746
+Indicador  4.5.1;;...;32;Espírito Santo;12746;2014;12746
+Indicador  4.5.1;;...;32;Espírito Santo;12746;2015;12746
+Indicador  4.5.1;50;1.05;32;Espírito Santo;12746;2016;12746
+Indicador  4.5.1;50;0.97;32;Espírito Santo;12746;2017;12746
+Indicador  4.5.1;50;1.02;32;Espírito Santo;12746;2018;12746
+Indicador  4.5.1;50;1.03;32;Espírito Santo;12746;2019;12746
+Indicador  4.5.1;;...;33;Rio de Janeiro;12746;2012;12746
+Indicador  4.5.1;;...;33;Rio de Janeiro;12746;2013;12746
+Indicador  4.5.1;;...;33;Rio de Janeiro;12746;2014;12746
+Indicador  4.5.1;;...;33;Rio de Janeiro;12746;2015;12746
+Indicador  4.5.1;50;0.96;33;Rio de Janeiro;12746;2016;12746
+Indicador  4.5.1;50;0.95;33;Rio de Janeiro;12746;2017;12746
+Indicador  4.5.1;50;0.90;33;Rio de Janeiro;12746;2018;12746
+Indicador  4.5.1;50;0.93;33;Rio de Janeiro;12746;2019;12746
+Indicador  4.5.1;;...;35;São Paulo;12746;2012;12746
+Indicador  4.5.1;;...;35;São Paulo;12746;2013;12746
+Indicador  4.5.1;;...;35;São Paulo;12746;2014;12746
+Indicador  4.5.1;;...;35;São Paulo;12746;2015;12746
+Indicador  4.5.1;50;0.93;35;São Paulo;12746;2016;12746
+Indicador  4.5.1;50;1.03;35;São Paulo;12746;2017;12746
+Indicador  4.5.1;50;0.96;35;São Paulo;12746;2018;12746
+Indicador  4.5.1;50;0.98;35;São Paulo;12746;2019;12746
+Indicador  4.5.1;;...;41;Paraná;12746;2012;12746
+Indicador  4.5.1;;...;41;Paraná;12746;2013;12746
+Indicador  4.5.1;;...;41;Paraná;12746;2014;12746
+Indicador  4.5.1;;...;41;Paraná;12746;2015;12746
+Indicador  4.5.1;50;0.95;41;Paraná;12746;2016;12746
+Indicador  4.5.1;50;1.02;41;Paraná;12746;2017;12746
+Indicador  4.5.1;50;0.95;41;Paraná;12746;2018;12746
+Indicador  4.5.1;50;0.97;41;Paraná;12746;2019;12746
+Indicador  4.5.1;;...;42;Santa Catarina;12746;2012;12746
+Indicador  4.5.1;;...;42;Santa Catarina;12746;2013;12746
+Indicador  4.5.1;;...;42;Santa Catarina;12746;2014;12746
+Indicador  4.5.1;;...;42;Santa Catarina;12746;2015;12746
+Indicador  4.5.1;50;0.96;42;Santa Catarina;12746;2016;12746
+Indicador  4.5.1;50;0.96;42;Santa Catarina;12746;2017;12746
+Indicador  4.5.1;50;0.98;42;Santa Catarina;12746;2018;12746
+Indicador  4.5.1;50;0.98;42;Santa Catarina;12746;2019;12746
+Indicador  4.5.1;;...;43;Rio Grande do Sul;12746;2012;12746
+Indicador  4.5.1;;...;43;Rio Grande do Sul;12746;2013;12746
+Indicador  4.5.1;;...;43;Rio Grande do Sul;12746;2014;12746
+Indicador  4.5.1;;...;43;Rio Grande do Sul;12746;2015;12746
+Indicador  4.5.1;50;0.85;43;Rio Grande do Sul;12746;2016;12746
+Indicador  4.5.1;50;0.82;43;Rio Grande do Sul;12746;2017;12746
+Indicador  4.5.1;50;0.81;43;Rio Grande do Sul;12746;2018;12746
+Indicador  4.5.1;50;0.95;43;Rio Grande do Sul;12746;2019;12746
+Indicador  4.5.1;;...;50;Mato Grosso do Sul;12746;2012;12746
+Indicador  4.5.1;;...;50;Mato Grosso do Sul;12746;2013;12746
+Indicador  4.5.1;;...;50;Mato Grosso do Sul;12746;2014;12746
+Indicador  4.5.1;;...;50;Mato Grosso do Sul;12746;2015;12746
+Indicador  4.5.1;50;0.95;50;Mato Grosso do Sul;12746;2016;12746
+Indicador  4.5.1;50;0.99;50;Mato Grosso do Sul;12746;2017;12746
+Indicador  4.5.1;50;0.91;50;Mato Grosso do Sul;12746;2018;12746
+Indicador  4.5.1;50;0.89;50;Mato Grosso do Sul;12746;2019;12746
+Indicador  4.5.1;;...;51;Mato Grosso;12746;2012;12746
+Indicador  4.5.1;;...;51;Mato Grosso;12746;2013;12746
+Indicador  4.5.1;;...;51;Mato Grosso;12746;2014;12746
+Indicador  4.5.1;;...;51;Mato Grosso;12746;2015;12746
+Indicador  4.5.1;50;0.87;51;Mato Grosso;12746;2016;12746
+Indicador  4.5.1;50;1.05;51;Mato Grosso;12746;2017;12746
+Indicador  4.5.1;50;0.94;51;Mato Grosso;12746;2018;12746
+Indicador  4.5.1;50;0.95;51;Mato Grosso;12746;2019;12746
+Indicador  4.5.1;;...;52;Goiás;12746;2012;12746
+Indicador  4.5.1;;...;52;Goiás;12746;2013;12746
+Indicador  4.5.1;;...;52;Goiás;12746;2014;12746
+Indicador  4.5.1;;...;52;Goiás;12746;2015;12746
+Indicador  4.5.1;50;0.91;52;Goiás;12746;2016;12746
+Indicador  4.5.1;50;0.91;52;Goiás;12746;2017;12746
+Indicador  4.5.1;50;0.95;52;Goiás;12746;2018;12746
+Indicador  4.5.1;50;0.98;52;Goiás;12746;2019;12746
+Indicador  4.5.1;;...;53;Distrito Federal;12746;2012;12746
+Indicador  4.5.1;;...;53;Distrito Federal;12746;2013;12746
+Indicador  4.5.1;;...;53;Distrito Federal;12746;2014;12746
+Indicador  4.5.1;;...;53;Distrito Federal;12746;2015;12746
+Indicador  4.5.1;50;0.88;53;Distrito Federal;12746;2016;12746
+Indicador  4.5.1;50;0.91;53;Distrito Federal;12746;2017;12746
+Indicador  4.5.1;50;0.95;53;Distrito Federal;12746;2018;12746
+Indicador  4.5.1;50;1.00;53;Distrito Federal;12746;2019;12746

@@ -1,0 +1,85 @@
+ID_INDICADOR;CODG_UND_MED;VLR_VAR;CODG_UND_FED;DESC_UND_FED;CODG_VAR;CODG_ANO;CODG_DEF;DESC_DEF
+Indicador  8.5.1.4;1769;15.7;1;Brasil;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;11.7;1;Brasil;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;15.9;1;Brasil;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.8;11;Rondônia;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.4;11;Rondônia;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.9;11;Rondônia;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;14.0;12;Acre;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.1;12;Acre;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;14.1;12;Acre;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;12.4;13;Amazonas;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;9.1;13;Amazonas;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;12.5;13;Amazonas;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.4;14;Roraima;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;10.7;14;Roraima;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.5;14;Roraima;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;12.1;15;Pará;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;7.9;15;Pará;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;12.3;15;Pará;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.9;16;Amapá;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;14.1;16;Amapá;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.9;16;Amapá;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;14.6;17;Tocantins;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;10.8;17;Tocantins;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;14.8;17;Tocantins;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;10.6;21;Maranhão;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;9.2;21;Maranhão;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;10.7;21;Maranhão;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.3;22;Piauí;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;10.4;22;Piauí;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.4;22;Piauí;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;11.7;23;Ceará;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;8.0;23;Ceará;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;11.9;23;Ceará;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;12.1;24;Rio Grande do Norte;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;9.1;24;Rio Grande do Norte;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;12.2;24;Rio Grande do Norte;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.2;25;Paraíba;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;6.8;25;Paraíba;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.5;25;Paraíba;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;10.7;26;Pernambuco;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;8.3;26;Pernambuco;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;10.9;26;Pernambuco;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;11.0;27;Alagoas;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;9.0;27;Alagoas;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;11.2;27;Alagoas;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;11.8;28;Sergipe;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;10.2;28;Sergipe;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;11.9;28;Sergipe;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;10.5;29;Bahia;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;8.7;29;Bahia;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;10.6;29;Bahia;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;13.8;31;Minas Gerais;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;10.4;31;Minas Gerais;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;13.9;31;Minas Gerais;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;15.4;32;Espírito Santo;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;11.7;32;Espírito Santo;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;15.5;32;Espírito Santo;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;18.8;33;Rio de Janeiro;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.2;33;Rio de Janeiro;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;19.0;33;Rio de Janeiro;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;18.6;35;São Paulo;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.4;35;São Paulo;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;18.8;35;São Paulo;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;16.8;41;Paraná;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.6;41;Paraná;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;16.9;41;Paraná;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;17.7;42;Santa Catarina;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;16.2;42;Santa Catarina;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;17.7;42;Santa Catarina;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;17.4;43;Rio Grande do Sul;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.6;43;Rio Grande do Sul;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;17.6;43;Rio Grande do Sul;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;16.9;50;Mato Grosso do Sul;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.6;50;Mato Grosso do Sul;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;17.1;50;Mato Grosso do Sul;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;16.9;51;Mato Grosso;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;14.7;51;Mato Grosso;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;17.0;51;Mato Grosso;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;15.0;52;Goiás;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;13.0;52;Goiás;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;15.1;52;Goiás;8828;2022;58766;Pessoa sem deficiência
+Indicador  8.5.1.4;1769;27.2;53;Distrito Federal;8828;2022;46583;Total
+Indicador  8.5.1.4;1769;17.8;53;Distrito Federal;8828;2022;58765;Pessoa com deficiência
+Indicador  8.5.1.4;1769;27.7;53;Distrito Federal;8828;2022;58766;Pessoa sem deficiência

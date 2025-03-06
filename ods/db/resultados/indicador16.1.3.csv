@@ -1,0 +1,1765 @@
+ID_INDICADOR;CODG_UND_MED;VLR_VAR;CODG_UND_FED;DESC_UND_FED;CODG_VAR;CODG_ANO;CODG_SEXO;DESC_SEXO;CODG_SIT_DOM;DESC_SIT_DOM;SUB_INDICADOR
+Indicador  16.1.3;1572;29080.176;1;Brasil;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;25955.035;1;Brasil;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;3125.140;1;Brasil;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;12682.298;1;Brasil;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;11215.690;1;Brasil;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;1466.607;1;Brasil;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;16397.878;1;Brasil;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;14739.345;1;Brasil;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;1658.533;1;Brasil;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;195.160;11;Rondônia;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;102.958;11;Rondônia;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;92.202;11;Rondônia;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;11;Rondônia;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;73.650;12;Acre;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;30.905;12;Acre;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;42.745;12;Acre;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;12;Acre;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;488.613;13;Amazonas;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;224.486;13;Amazonas;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;264.126;13;Amazonas;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;13;Amazonas;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;80.060;14;Roraima;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;34.219;14;Roraima;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;45.841;14;Roraima;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;14;Roraima;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;1136.994;15;Pará;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;490.173;15;Pará;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;646.821;15;Pará;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;15;Pará;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;105.099;16;Amapá;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;45.979;16;Amapá;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;59.120;16;Amapá;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;16;Amapá;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;186.029;17;Tocantins;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;81.230;17;Tocantins;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;104.799;17;Tocantins;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;17;Tocantins;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;897.076;21;Maranhão;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;407.814;21;Maranhão;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;489.262;21;Maranhão;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;21;Maranhão;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;438.814;22;Piauí;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;181.277;22;Piauí;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;257.536;22;Piauí;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;22;Piauí;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;1243.673;23;Ceará;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;530.592;23;Ceará;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;713.081;23;Ceará;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;23;Ceará;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;478.193;24;Rio Grande do Norte;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;200.791;24;Rio Grande do Norte;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;277.402;24;Rio Grande do Norte;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;469.372;25;Paraíba;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;208.703;25;Paraíba;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;260.669;25;Paraíba;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;25;Paraíba;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;1120.465;26;Pernambuco;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;444.014;26;Pernambuco;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;676.450;26;Pernambuco;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;26;Pernambuco;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;377.093;27;Alagoas;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;162.358;27;Alagoas;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;214.735;27;Alagoas;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;27;Alagoas;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;424.931;28;Sergipe;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;179.350;28;Sergipe;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;245.581;28;Sergipe;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;28;Sergipe;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;2430.770;29;Bahia;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;1055.262;29;Bahia;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;1375.508;29;Bahia;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;29;Bahia;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;3077.380;31;Minas Gerais;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;1322.027;31;Minas Gerais;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;1755.353;31;Minas Gerais;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;31;Minas Gerais;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;574.364;32;Espírito Santo;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;242.789;32;Espírito Santo;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;331.574;32;Espírito Santo;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;32;Espírito Santo;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;2142.316;33;Rio de Janeiro;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;914.269;33;Rio de Janeiro;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;1228.047;33;Rio de Janeiro;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;7098.117;35;São Paulo;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;3173.603;35;São Paulo;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;3924.514;35;São Paulo;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;35;São Paulo;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;1634.131;41;Paraná;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;745.716;41;Paraná;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;888.415;41;Paraná;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;41;Paraná;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;752.243;42;Santa Catarina;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;339.873;42;Santa Catarina;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;412.370;42;Santa Catarina;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;42;Santa Catarina;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;1505.798;43;Rio Grande do Sul;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;612.613;43;Rio Grande do Sul;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;893.184;43;Rio Grande do Sul;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;409.524;50;Mato Grosso do Sul;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;169.753;50;Mato Grosso do Sul;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;239.770;50;Mato Grosso do Sul;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;370.419;51;Mato Grosso;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;177.506;51;Mato Grosso;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;192.913;51;Mato Grosso;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;51;Mato Grosso;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;928.006;52;Goiás;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;396.774;52;Goiás;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;531.232;52;Goiás;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;52;Goiás;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;441.888;53;Distrito Federal;11392;2019;6794;Total;6795;Total;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;6794;Total;1;Urbana;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;6794;Total;2;Rural;11392
+Indicador  16.1.3;1572;207.259;53;Distrito Federal;11392;2019;110095;Masculino;6795;Total;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;110095;Masculino;1;Urbana;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;110095;Masculino;2;Rural;11392
+Indicador  16.1.3;1572;234.629;53;Distrito Federal;11392;2019;110096;Feminino;6795;Total;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;110096;Feminino;1;Urbana;11392
+Indicador  16.1.3;1572;-;53;Distrito Federal;11392;2019;110096;Feminino;2;Rural;11392
+Indicador  16.1.3;1572;28258.715;1;Brasil;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;25142.747;1;Brasil;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;2902.550;1;Brasil;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;12145.623;1;Brasil;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;10688.018;1;Brasil;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;1324.564;1;Brasil;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;15842.900;1;Brasil;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;14189.558;1;Brasil;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;1505.434;1;Brasil;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;168.065;11;Rondônia;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;84.370;11;Rondônia;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;73.953;11;Rondônia;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;11;Rondônia;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;63.734;12;Acre;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;24.838;12;Acre;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;35.248;12;Acre;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;12;Acre;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;435.878;13;Amazonas;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;190.630;13;Amazonas;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;227.007;13;Amazonas;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;13;Amazonas;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;71.019;14;Roraima;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;27.383;14;Roraima;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;39.561;14;Roraima;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;14;Roraima;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1013.293;15;Pará;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;409.369;15;Pará;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;556.739;15;Pará;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;15;Pará;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;88.256;16;Amapá;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;34.059;16;Amapá;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;49.448;16;Amapá;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;16;Amapá;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;157.703;17;Tocantins;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;63.200;17;Tocantins;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;87.344;17;Tocantins;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;17;Tocantins;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;825.257;21;Maranhão;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;363.207;21;Maranhão;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;441.298;21;Maranhão;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;21;Maranhão;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;386.031;22;Piauí;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;152.701;22;Piauí;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;215.337;22;Piauí;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;22;Piauí;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1138.557;23;Ceará;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;465.914;23;Ceará;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;637.772;23;Ceará;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;23;Ceará;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;425.939;24;Rio Grande do Norte;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;167.186;24;Rio Grande do Norte;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;240.222;24;Rio Grande do Norte;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;418.954;25;Paraíba;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;173.777;25;Paraíba;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;223.953;25;Paraíba;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;25;Paraíba;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1014.293;26;Pernambuco;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;377.023;26;Pernambuco;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;603.571;26;Pernambuco;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;26;Pernambuco;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;324.532;27;Alagoas;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;133.262;27;Alagoas;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;175.134;27;Alagoas;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;27;Alagoas;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;382.773;28;Sergipe;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;153.641;28;Sergipe;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;214.587;28;Sergipe;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;28;Sergipe;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;2192.625;29;Bahia;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;901.561;29;Bahia;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;1215.498;29;Bahia;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;29;Bahia;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;2753.715;31;Minas Gerais;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;1117.126;31;Minas Gerais;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;1542.540;31;Minas Gerais;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;31;Minas Gerais;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;503.005;32;Espírito Santo;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;208.234;32;Espírito Santo;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;283.906;32;Espírito Santo;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;32;Espírito Santo;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1944.979;33;Rio de Janeiro;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;788.524;33;Rio de Janeiro;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;1082.982;33;Rio de Janeiro;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;6525.494;35;São Paulo;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;2788.745;35;São Paulo;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;3544.402;35;São Paulo;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;35;São Paulo;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1459.402;41;Paraná;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;623.568;41;Paraná;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;777.791;41;Paraná;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;41;Paraná;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;660.495;42;Santa Catarina;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;288.436;42;Santa Catarina;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;348.676;42;Santa Catarina;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;42;Santa Catarina;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;1359.206;43;Rio Grande do Sul;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;522.010;43;Rio Grande do Sul;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;784.590;43;Rio Grande do Sul;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;376.095;50;Mato Grosso do Sul;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;146.173;50;Mato Grosso do Sul;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;214.477;50;Mato Grosso do Sul;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;311.777;51;Mato Grosso;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;142.512;51;Mato Grosso;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;149.255;51;Mato Grosso;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;51;Mato Grosso;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;813.254;52;Goiás;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;330.339;52;Goiás;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;449.309;52;Goiás;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;52;Goiás;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;386.458;53;Distrito Federal;11393;2019;6794;Total;6795;Total;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;6794;Total;1;Urbana;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;6794;Total;2;Rural;11393
+Indicador  16.1.3;1572;169.658;53;Distrito Federal;11393;2019;110095;Masculino;6795;Total;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;110095;Masculino;1;Urbana;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;110095;Masculino;2;Rural;11393
+Indicador  16.1.3;1572;198.308;53;Distrito Federal;11393;2019;110096;Feminino;6795;Total;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;110096;Feminino;1;Urbana;11393
+Indicador  16.1.3;1572;-;53;Distrito Federal;11393;2019;110096;Feminino;2;Rural;11393
+Indicador  16.1.3;1572;29901.636;1;Brasil;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;26767.323;1;Brasil;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;3347.731;1;Brasil;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;13218.973;1;Brasil;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;11743.362;1;Brasil;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;1608.650;1;Brasil;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;16952.856;1;Brasil;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;15289.132;1;Brasil;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;1811.633;1;Brasil;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;222.255;11;Rondônia;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;121.545;11;Rondônia;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;110.452;11;Rondônia;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;11;Rondônia;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;83.566;12;Acre;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;36.972;12;Acre;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;50.242;12;Acre;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;12;Acre;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;541.347;13;Amazonas;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;258.343;13;Amazonas;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;301.245;13;Amazonas;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;13;Amazonas;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;89.101;14;Roraima;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;41.056;14;Roraima;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;52.121;14;Roraima;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;14;Roraima;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1260.696;15;Pará;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;570.977;15;Pará;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;736.904;15;Pará;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;15;Pará;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;121.941;16;Amapá;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;57.899;16;Amapá;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;68.792;16;Amapá;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;16;Amapá;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;214.354;17;Tocantins;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;99.260;17;Tocantins;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;122.254;17;Tocantins;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;17;Tocantins;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;968.896;21;Maranhão;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;452.421;21;Maranhão;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;537.226;21;Maranhão;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;21;Maranhão;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;491.596;22;Piauí;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;209.854;22;Piauí;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;299.736;22;Piauí;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;22;Piauí;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1348.790;23;Ceará;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;595.270;23;Ceará;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;788.391;23;Ceará;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;23;Ceará;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;530.447;24;Rio Grande do Norte;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;234.396;24;Rio Grande do Norte;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;314.582;24;Rio Grande do Norte;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;24;Rio Grande do Norte;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;519.789;25;Paraíba;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;243.629;25;Paraíba;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;297.384;25;Paraíba;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;25;Paraíba;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1226.636;26;Pernambuco;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;511.006;26;Pernambuco;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;749.329;26;Pernambuco;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;26;Pernambuco;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;429.654;27;Alagoas;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;191.455;27;Alagoas;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;254.336;27;Alagoas;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;27;Alagoas;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;467.089;28;Sergipe;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;205.059;28;Sergipe;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;276.575;28;Sergipe;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;28;Sergipe;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;2668.914;29;Bahia;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;1208.964;29;Bahia;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;1535.517;29;Bahia;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;29;Bahia;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;3401.045;31;Minas Gerais;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;1526.929;31;Minas Gerais;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;1968.166;31;Minas Gerais;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;31;Minas Gerais;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;645.722;32;Espírito Santo;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;277.345;32;Espírito Santo;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;379.243;32;Espírito Santo;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;32;Espírito Santo;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;2339.652;33;Rio de Janeiro;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;1040.014;33;Rio de Janeiro;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;1373.112;33;Rio de Janeiro;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;33;Rio de Janeiro;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;7670.741;35;São Paulo;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;3558.462;35;São Paulo;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;4304.626;35;São Paulo;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;35;São Paulo;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1808.860;41;Paraná;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;867.865;41;Paraná;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;999.039;41;Paraná;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;41;Paraná;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;843.991;42;Santa Catarina;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;391.310;42;Santa Catarina;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;476.065;42;Santa Catarina;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;42;Santa Catarina;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1652.389;43;Rio Grande do Sul;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;703.217;43;Rio Grande do Sul;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;1001.778;43;Rio Grande do Sul;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;43;Rio Grande do Sul;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;442.952;50;Mato Grosso do Sul;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;193.334;50;Mato Grosso do Sul;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;265.063;50;Mato Grosso do Sul;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;50;Mato Grosso do Sul;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;429.060;51;Mato Grosso;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;212.500;51;Mato Grosso;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;236.571;51;Mato Grosso;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;51;Mato Grosso;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;1042.758;52;Goiás;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;463.209;52;Goiás;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;613.154;52;Goiás;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;52;Goiás;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;1572;497.317;53;Distrito Federal;11394;2019;6794;Total;6795;Total;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;6794;Total;1;Urbana;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;6794;Total;2;Rural;11394
+Indicador  16.1.3;1572;244.860;53;Distrito Federal;11394;2019;110095;Masculino;6795;Total;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;110095;Masculino;1;Urbana;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;110095;Masculino;2;Rural;11394
+Indicador  16.1.3;1572;270.950;53;Distrito Federal;11394;2019;110096;Feminino;6795;Total;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;110096;Feminino;1;Urbana;11394
+Indicador  16.1.3;1572;-;53;Distrito Federal;11394;2019;110096;Feminino;2;Rural;11394
+Indicador  16.1.3;2;18.3;1;Brasil;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;18.9;1;Brasil;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;14.2;1;Brasil;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;17.0;1;Brasil;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;17.9;1;Brasil;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;12.5;1;Brasil;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.4;1;Brasil;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;19.8;1;Brasil;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;16.2;1;Brasil;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;15.5;11;Rondônia;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;16.8;11;Rondônia;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;14.3;11;Rondônia;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;11;Rondônia;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;12.4;12;Acre;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;10.8;12;Acre;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;14.0;12;Acre;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;12;Acre;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.4;13;Amazonas;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;17.4;13;Amazonas;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.3;13;Amazonas;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;13;Amazonas;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;22.3;14;Roraima;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;19.4;14;Roraima;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;25.2;14;Roraima;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;14;Roraima;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;19.1;15;Pará;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;17.2;15;Pará;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.8;15;Pará;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;15;Pará;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.9;16;Amapá;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;17.1;16;Amapá;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.5;16;Amapá;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;16;Amapá;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;16.6;17;Tocantins;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.8;17;Tocantins;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;18.4;17;Tocantins;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;17;Tocantins;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.5;21;Maranhão;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;17.7;21;Maranhão;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.2;21;Maranhão;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;21;Maranhão;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;17.9;22;Piauí;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;15.6;22;Piauí;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.0;22;Piauí;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;22;Piauí;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.2;23;Ceará;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;16.7;23;Ceará;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.5;23;Ceará;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;23;Ceará;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.3;24;Rio Grande do Norte;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;16.6;24;Rio Grande do Norte;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.7;24;Rio Grande do Norte;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;15.7;25;Paraíba;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;15.0;25;Paraíba;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;16.3;25;Paraíba;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;25;Paraíba;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;15.8;26;Pernambuco;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.0;26;Pernambuco;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;17.2;26;Pernambuco;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;26;Pernambuco;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;15.7;27;Alagoas;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.8;27;Alagoas;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;16.4;27;Alagoas;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;27;Alagoas;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;24.9;28;Sergipe;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;22.4;28;Sergipe;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;27.2;28;Sergipe;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;28;Sergipe;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;21.8;29;Bahia;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;20.1;29;Bahia;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;23.3;29;Bahia;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;29;Bahia;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.6;31;Minas Gerais;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;16.9;31;Minas Gerais;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.0;31;Minas Gerais;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;31;Minas Gerais;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.9;32;Espírito Santo;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;16.9;32;Espírito Santo;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.8;32;Espírito Santo;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;32;Espírito Santo;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;15.6;33;Rio de Janeiro;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.9;33;Rio de Janeiro;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;16.2;33;Rio de Janeiro;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;19.8;35;São Paulo;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;18.9;35;São Paulo;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;20.6;35;São Paulo;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;35;São Paulo;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;18.6;41;Paraná;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;18.0;41;Paraná;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.1;41;Paraná;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;41;Paraná;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;13.3;42;Santa Catarina;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;12.5;42;Santa Catarina;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;14.2;42;Santa Catarina;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;42;Santa Catarina;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;16.9;43;Rio Grande do Sul;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.6;43;Rio Grande do Sul;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;18.9;43;Rio Grande do Sul;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;20.6;50;Mato Grosso do Sul;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;18.3;50;Mato Grosso do Sul;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;22.7;50;Mato Grosso do Sul;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;14.8;51;Mato Grosso;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;14.7;51;Mato Grosso;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;14.8;51;Mato Grosso;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;51;Mato Grosso;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;17.7;52;Goiás;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;15.8;52;Goiás;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;19.4;52;Goiás;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;52;Goiás;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;19.1;53;Distrito Federal;11396;2019;6794;Total;6795;Total;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;6794;Total;1;Urbana;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;6794;Total;2;Rural;11396
+Indicador  16.1.3;2;19.5;53;Distrito Federal;11396;2019;110095;Masculino;6795;Total;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;110095;Masculino;1;Urbana;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;110095;Masculino;2;Rural;11396
+Indicador  16.1.3;2;18.8;53;Distrito Federal;11396;2019;110096;Feminino;6795;Total;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;110096;Feminino;1;Urbana;11396
+Indicador  16.1.3;2;-;53;Distrito Federal;11396;2019;110096;Feminino;2;Rural;11396
+Indicador  16.1.3;2;17.8;1;Brasil;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;18.3;1;Brasil;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;13.3;1;Brasil;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;16.3;1;Brasil;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;17.0;1;Brasil;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;11.4;1;Brasil;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;18.7;1;Brasil;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;19.1;1;Brasil;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;14.9;1;Brasil;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;13.5;11;Rondônia;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.0;11;Rondônia;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;11.7;11;Rondônia;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;11;Rondônia;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;10.9;12;Acre;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;8.8;12;Acre;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;11.7;12;Acre;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;12;Acre;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.5;13;Amazonas;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.9;13;Amazonas;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.7;13;Amazonas;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;13;Amazonas;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;19.9;14;Roraima;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;15.8;14;Roraima;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;21.9;14;Roraima;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;14;Roraima;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;17.1;15;Pará;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.6;15;Pará;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;18.1;15;Pará;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;15;Pará;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.0;16;Amapá;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;13.1;16;Amapá;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.4;16;Amapá;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;16;Amapá;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;14.3;17;Tocantins;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;11.8;17;Tocantins;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;15.6;17;Tocantins;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;17;Tocantins;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;17.1;21;Maranhão;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;15.9;21;Maranhão;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.4;21;Maranhão;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;21;Maranhão;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;15.9;22;Piauí;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;13.3;22;Piauí;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.9;22;Piauí;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;22;Piauí;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.7;23;Ceará;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.7;23;Ceará;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.5;23;Ceará;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;23;Ceará;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.3;24;Rio Grande do Norte;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.0;24;Rio Grande do Norte;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.2;24;Rio Grande do Norte;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;14.1;25;Paraíba;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;12.7;25;Paraíba;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;14.1;25;Paraíba;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;25;Paraíba;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;14.3;26;Pernambuco;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;12.0;26;Pernambuco;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;15.5;26;Pernambuco;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;26;Pernambuco;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;13.6;27;Alagoas;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;12.3;27;Alagoas;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;13.6;27;Alagoas;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;27;Alagoas;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;22.6;28;Sergipe;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;19.4;28;Sergipe;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;23.9;28;Sergipe;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;28;Sergipe;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;19.7;29;Bahia;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;17.3;29;Bahia;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;20.7;29;Bahia;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;29;Bahia;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.7;31;Minas Gerais;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.5;31;Minas Gerais;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.7;31;Minas Gerais;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;31;Minas Gerais;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.7;32;Espírito Santo;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;14.7;32;Espírito Santo;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;17.9;32;Espírito Santo;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;32;Espírito Santo;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;14.2;33;Rio de Janeiro;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;13.0;33;Rio de Janeiro;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;14.4;33;Rio de Janeiro;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;18.3;35;São Paulo;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;16.7;35;São Paulo;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;18.7;35;São Paulo;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;35;São Paulo;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.7;41;Paraná;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;15.2;41;Paraná;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.8;41;Paraná;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;41;Paraná;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;11.8;42;Santa Catarina;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;10.7;42;Santa Catarina;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;12.1;42;Santa Catarina;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;42;Santa Catarina;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;15.3;43;Rio Grande do Sul;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;12.6;43;Rio Grande do Sul;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.7;43;Rio Grande do Sul;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;19.0;50;Mato Grosso do Sul;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;15.9;50;Mato Grosso do Sul;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;20.4;50;Mato Grosso do Sul;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;12.6;51;Mato Grosso;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;12.0;51;Mato Grosso;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;11.8;51;Mato Grosso;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;51;Mato Grosso;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;15.6;52;Goiás;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;13.3;52;Goiás;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.6;52;Goiás;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;52;Goiás;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;16.9;53;Distrito Federal;11397;2019;6794;Total;6795;Total;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;6794;Total;1;Urbana;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;6794;Total;2;Rural;11397
+Indicador  16.1.3;2;16.2;53;Distrito Federal;11397;2019;110095;Masculino;6795;Total;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;110095;Masculino;1;Urbana;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;110095;Masculino;2;Rural;11397
+Indicador  16.1.3;2;16.1;53;Distrito Federal;11397;2019;110096;Feminino;6795;Total;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;110096;Feminino;1;Urbana;11397
+Indicador  16.1.3;2;-;53;Distrito Federal;11397;2019;110096;Feminino;2;Rural;11397
+Indicador  16.1.3;2;18.8;1;Brasil;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;19.5;1;Brasil;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;15.1;1;Brasil;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;17.7;1;Brasil;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;18.7;1;Brasil;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;13.6;1;Brasil;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;20.0;1;Brasil;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;20.6;1;Brasil;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;17.5;1;Brasil;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;17.8;11;Rondônia;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;20.1;11;Rondônia;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;17.4;11;Rondônia;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;11;Rondônia;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;14.2;12;Acre;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;13.1;12;Acre;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;16.7;12;Acre;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;12;Acre;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.4;13;Amazonas;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;20.2;13;Amazonas;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;22.2;13;Amazonas;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;13;Amazonas;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;24.9;14;Roraima;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;23.5;14;Roraima;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;28.8;14;Roraima;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;14;Roraima;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;21.3;15;Pará;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;20.2;15;Pará;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;23.9;15;Pará;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;15;Pará;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;22.1;16;Amapá;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;22.0;16;Amapá;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;24.1;16;Amapá;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;16;Amapá;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;19.3;17;Tocantins;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;18.4;17;Tocantins;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.7;17;Tocantins;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;17;Tocantins;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.0;21;Maranhão;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;19.7;21;Maranhão;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.1;21;Maranhão;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;21;Maranhão;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.2;22;Piauí;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;18.2;22;Piauí;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;23.5;22;Piauí;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;22;Piauí;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;19.8;23;Ceará;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;18.8;23;Ceará;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.6;23;Ceará;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;23;Ceará;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.3;24;Rio Grande do Norte;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;19.6;24;Rio Grande do Norte;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;22.4;24;Rio Grande do Norte;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;17.5;25;Paraíba;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;17.7;25;Paraíba;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;18.7;25;Paraíba;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;25;Paraíba;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;17.3;26;Pernambuco;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;16.2;26;Pernambuco;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;19.2;26;Pernambuco;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;26;Pernambuco;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;18.0;27;Alagoas;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;17.7;27;Alagoas;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;19.7;27;Alagoas;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;27;Alagoas;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;27.5;28;Sergipe;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;25.8;28;Sergipe;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;30.7;28;Sergipe;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;28;Sergipe;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;24.0;29;Bahia;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;23.2;29;Bahia;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;26.1;29;Bahia;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;29;Bahia;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.6;31;Minas Gerais;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;19.7;31;Minas Gerais;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;22.5;31;Minas Gerais;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;31;Minas Gerais;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;21.4;32;Espírito Santo;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;19.5;32;Espírito Santo;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;23.9;32;Espírito Santo;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;32;Espírito Santo;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;17.1;33;Rio de Janeiro;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;17.1;33;Rio de Janeiro;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;18.2;33;Rio de Janeiro;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;21.5;35;São Paulo;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;21.3;35;São Paulo;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;22.7;35;São Paulo;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;35;São Paulo;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.6;41;Paraná;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;21.1;41;Paraná;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.6;41;Paraná;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;41;Paraná;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;15.0;42;Santa Catarina;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;14.5;42;Santa Catarina;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;16.5;42;Santa Catarina;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;42;Santa Catarina;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;18.6;43;Rio Grande do Sul;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;16.9;43;Rio Grande do Sul;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.3;43;Rio Grande do Sul;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;22.4;50;Mato Grosso do Sul;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;20.9;50;Mato Grosso do Sul;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;25.2;50;Mato Grosso do Sul;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;17.2;51;Mato Grosso;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;17.8;51;Mato Grosso;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;18.5;51;Mato Grosso;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;51;Mato Grosso;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;20.0;52;Goiás;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;18.6;52;Goiás;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;22.6;52;Goiás;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;52;Goiás;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;21.7;53;Distrito Federal;11398;2019;6794;Total;6795;Total;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;6794;Total;1;Urbana;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;6794;Total;2;Rural;11398
+Indicador  16.1.3;2;23.3;53;Distrito Federal;11398;2019;110095;Masculino;6795;Total;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;110095;Masculino;1;Urbana;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;110095;Masculino;2;Rural;11398
+Indicador  16.1.3;2;21.9;53;Distrito Federal;11398;2019;110096;Feminino;6795;Total;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;110096;Feminino;1;Urbana;11398
+Indicador  16.1.3;2;-;53;Distrito Federal;11398;2019;110096;Feminino;2;Rural;11398
+Indicador  16.1.3;2;1.4;1;Brasil;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;1.6;1;Brasil;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;3.2;1;Brasil;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;2.2;1;Brasil;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;2.4;1;Brasil;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;4.5;1;Brasil;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;1.7;1;Brasil;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;1.9;1;Brasil;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;4.1;1;Brasil;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;7.1;11;Rondônia;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;9.2;11;Rondônia;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;10.1;11;Rondônia;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;11;Rondônia;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.9;12;Acre;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;10.0;12;Acre;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;8.9;12;Acre;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;12;Acre;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.5;13;Amazonas;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.7;13;Amazonas;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.2;13;Amazonas;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;13;Amazonas;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.8;14;Roraima;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;10.2;14;Roraima;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.0;14;Roraima;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;14;Roraima;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.6;15;Pará;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.4;15;Pará;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.1;15;Pará;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;15;Pará;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;8.2;16;Amapá;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;13.2;16;Amapá;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;8.3;16;Amapá;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;16;Amapá;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;7.8;17;Tocantins;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;11.3;17;Tocantins;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;8.5;17;Tocantins;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;17;Tocantins;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.1;21;Maranhão;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;5.6;21;Maranhão;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;5.0;21;Maranhão;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;21;Maranhão;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.1;22;Piauí;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.0;22;Piauí;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;8.4;22;Piauí;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;22;Piauí;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.3;23;Ceará;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;6.2;23;Ceará;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;5.4;23;Ceará;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;23;Ceará;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.6;24;Rio Grande do Norte;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.5;24;Rio Grande do Norte;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.8;24;Rio Grande do Norte;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;24;Rio Grande do Norte;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.5;25;Paraíba;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.5;25;Paraíba;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.2;25;Paraíba;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;25;Paraíba;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.8;26;Pernambuco;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.7;26;Pernambuco;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;5.5;26;Pernambuco;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;26;Pernambuco;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;7.1;27;Alagoas;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;9.1;27;Alagoas;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;9.4;27;Alagoas;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;27;Alagoas;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.1;28;Sergipe;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.3;28;Sergipe;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.4;28;Sergipe;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;28;Sergipe;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.0;29;Bahia;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.4;29;Bahia;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;5.9;29;Bahia;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;29;Bahia;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.4;31;Minas Gerais;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.9;31;Minas Gerais;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.2;31;Minas Gerais;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;31;Minas Gerais;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.3;32;Espírito Santo;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.3;32;Espírito Santo;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.3;32;Espírito Santo;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;32;Espírito Santo;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.7;33;Rio de Janeiro;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.0;33;Rio de Janeiro;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.0;33;Rio de Janeiro;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;33;Rio de Janeiro;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.1;35;São Paulo;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;6.2;35;São Paulo;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;4.9;35;São Paulo;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;35;São Paulo;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.5;41;Paraná;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.4;41;Paraná;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.4;41;Paraná;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;41;Paraná;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.2;42;Santa Catarina;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.7;42;Santa Catarina;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.9;42;Santa Catarina;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;42;Santa Catarina;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;5.0;43;Rio Grande do Sul;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.5;43;Rio Grande do Sul;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;6.2;43;Rio Grande do Sul;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;43;Rio Grande do Sul;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;4.2;50;Mato Grosso do Sul;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;7.1;50;Mato Grosso do Sul;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;5.4;50;Mato Grosso do Sul;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;50;Mato Grosso do Sul;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;8.1;51;Mato Grosso;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;10.1;51;Mato Grosso;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;11.5;51;Mato Grosso;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;51;Mato Grosso;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.3;52;Goiás;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;8.5;52;Goiás;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.9;52;Goiás;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;52;Goiás;11399;2019;110096;Feminino;2;Rural;11399
+Indicador  16.1.3;2;6.4;53;Distrito Federal;11399;2019;6794;Total;6795;Total;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;6794;Total;1;Urbana;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;6794;Total;2;Rural;11399
+Indicador  16.1.3;2;9.3;53;Distrito Federal;11399;2019;110095;Masculino;6795;Total;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;110095;Masculino;1;Urbana;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;110095;Masculino;2;Rural;11399
+Indicador  16.1.3;2;7.9;53;Distrito Federal;11399;2019;110096;Feminino;6795;Total;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;110096;Feminino;1;Urbana;11399
+Indicador  16.1.3;2;-;53;Distrito Federal;11399;2019;110096;Feminino;2;Rural;11399
